@@ -1,0 +1,8905 @@
+[
+  {
+    "profileId": 1,
+    "profileName": "Sklep Andrzeja",
+    "ordersData": {
+      "returned": 50,
+      "notsent": 23,
+      "unpaid": 5
+    },
+    "salesQualityData": {
+      "percentLevel": 0.89,
+      "category": "Złoty Sprzedawca",
+      "worstAspects": [
+        {
+          "name": "Wysyłka",
+          "level": 0.75
+        },
+        {
+          "name": "Zadowolenie kupującego",
+          "level": 0.9
+        },
+        {
+          "name": "Zgodność z opisem",
+          "level": 0.95
+        }
+      ]
+    },
+    "offerRankingData": [
+      {
+        "id": 1,
+        "img": "https://a.allegroimg.com/s128/11f57f/8b4917ac4f58a3f91787b38f66c7/Kolowrotek-QUICK-2-2000-FD-5-1BB-V2-GRATIS",
+        "name": "Kołowrotek ABC-111",
+        "soldUnits": 100,
+        "turnover": 5243.92,
+        "viewsCount": 1000
+      },
+      {
+        "id": 2,
+        "img": "https://a.allegroimg.com/s128/11f57f/8b4917ac4f58a3f91787b38f66c7/Kolowrotek-QUICK-2-2000-FD-5-1BB-V2-GRATIS",
+        "name": "Kołowrotek ABC-222",
+        "soldUnits": 20,
+        "turnover": 1000.0,
+        "viewsCount": 50
+      },
+      {
+        "id": 3,
+        "img": "https://a.allegroimg.com/s128/11f57f/8b4917ac4f58a3f91787b38f66c7/Kolowrotek-QUICK-2-2000-FD-5-1BB-V2-GRATIS",
+        "name": "Kołowrotek ABC-3333",
+        "soldUnits": 1,
+        "turnover": 80.24,
+        "viewsCount": 80
+      },
+      {
+        "id": 4,
+        "img": "https://a.allegroimg.com/s128/11f57f/8b4917ac4f58a3f91787b38f66c7/Kolowrotek-QUICK-2-2000-FD-5-1BB-V2-GRATIS",
+        "name": "Kołowrotek ABC-4444",
+        "soldUnits": 20,
+        "turnover": 500.91,
+        "viewsCount": 100
+      },
+      {
+        "id": 5,
+        "img": "https://a.allegroimg.com/s128/116d2f/03acd68e4bb9a7a71d9866cc5d9e/Wedka-Daiwa-Procaster-Allround-3-60m-10-40g",
+        "name": "Wędka JS-99",
+        "soldUnits": 1000,
+        "turnover": 100002.94,
+        "viewsCount": 5000
+      }
+    ],
+    "buyerReviews": [
+      {
+        "id": "1",
+        "username": "user1",
+        "type": "positive",
+        "comment": "Komentarz1 Pozytywny abc"
+      },
+      {
+        "id": "2",
+        "username": "user2",
+        "type": "positive",
+        "comment": "Komentarz2 Pozytywny abc"
+      },
+      {
+        "id": "3",
+        "username": "user3user",
+        "type": "negative",
+        "comment": "Komentarz3 negative abc"
+      },
+      {
+        "id": "5",
+        "username": "user4",
+        "type": "negative",
+        "comment": "Komentarz4 negative abc"
+      },
+      {
+        "id": "4",
+        "username": "user4",
+        "type": "negative",
+        "comment": "Komentarz4a negative abc"
+      },
+      {
+        "id": "6",
+        "username": "user4",
+        "type": "negative"
+      },
+      {
+        "id": "7",
+        "username": "user5",
+        "type": "positive",
+        "comment": "Komentarz5 Pozytywny abc"
+      },
+      {
+        "id": "8",
+        "username": "user6",
+        "type": "positive",
+        "comment": "Komentarz6a Pozytywny abc"
+      },
+      {
+        "id": "9",
+        "username": "user6",
+        "type": "positive"
+      }
+    ],
+    "salesData": [
+      {
+        "day": 0,
+        "hour": 0,
+        "turnover": 6146.28,
+        "soldUnits": 104
+      },
+      {
+        "day": 0,
+        "hour": 1,
+        "turnover": 9204.4,
+        "soldUnits": 189
+      },
+      {
+        "day": 0,
+        "hour": 2,
+        "turnover": 7531.92,
+        "soldUnits": 85
+      },
+      {
+        "day": 0,
+        "hour": 3,
+        "turnover": 7348.36,
+        "soldUnits": 88
+      },
+      {
+        "day": 0,
+        "hour": 4,
+        "turnover": 6811.3,
+        "soldUnits": 65
+      },
+      {
+        "day": 0,
+        "hour": 5,
+        "turnover": 4829.78,
+        "soldUnits": 19
+      },
+      {
+        "day": 0,
+        "hour": 6,
+        "turnover": 2567.82,
+        "soldUnits": 194
+      },
+      {
+        "day": 0,
+        "hour": 7,
+        "turnover": 1441.39,
+        "soldUnits": 102
+      },
+      {
+        "day": 0,
+        "hour": 8,
+        "turnover": 7996.98,
+        "soldUnits": 131
+      },
+      {
+        "day": 0,
+        "hour": 9,
+        "turnover": 2335.15,
+        "soldUnits": 42
+      },
+      {
+        "day": 0,
+        "hour": 10,
+        "turnover": 2663.63,
+        "soldUnits": 177
+      },
+      {
+        "day": 0,
+        "hour": 11,
+        "turnover": 6700.51,
+        "soldUnits": 199
+      },
+      {
+        "day": 0,
+        "hour": 12,
+        "turnover": 9427.48,
+        "soldUnits": 47
+      },
+      {
+        "day": 0,
+        "hour": 13,
+        "turnover": 8897.28,
+        "soldUnits": 180
+      },
+      {
+        "day": 0,
+        "hour": 14,
+        "turnover": 9525.47,
+        "soldUnits": 148
+      },
+      {
+        "day": 0,
+        "hour": 15,
+        "turnover": 1005.99,
+        "soldUnits": 162
+      },
+      {
+        "day": 0,
+        "hour": 16,
+        "turnover": 3008.14,
+        "soldUnits": 192
+      },
+      {
+        "day": 0,
+        "hour": 17,
+        "turnover": 5880.05,
+        "soldUnits": 190
+      },
+      {
+        "day": 0,
+        "hour": 18,
+        "turnover": 1481.33,
+        "soldUnits": 118
+      },
+      {
+        "day": 0,
+        "hour": 19,
+        "turnover": 3551.3,
+        "soldUnits": 141
+      },
+      {
+        "day": 0,
+        "hour": 20,
+        "turnover": 9381.17,
+        "soldUnits": 48
+      },
+      {
+        "day": 0,
+        "hour": 21,
+        "turnover": 2469.13,
+        "soldUnits": 65
+      },
+      {
+        "day": 0,
+        "hour": 22,
+        "turnover": 1214.74,
+        "soldUnits": 30
+      },
+      {
+        "day": 0,
+        "hour": 23,
+        "turnover": 9254.54,
+        "soldUnits": 159
+      },
+      {
+        "day": 1,
+        "hour": 0,
+        "turnover": 6785.43,
+        "soldUnits": 198
+      },
+      {
+        "day": 1,
+        "hour": 1,
+        "turnover": 4320.76,
+        "soldUnits": 70
+      },
+      {
+        "day": 1,
+        "hour": 2,
+        "turnover": 8610.05,
+        "soldUnits": 119
+      },
+      {
+        "day": 1,
+        "hour": 3,
+        "turnover": 4812.7,
+        "soldUnits": 150
+      },
+      {
+        "day": 1,
+        "hour": 4,
+        "turnover": 1623.79,
+        "soldUnits": 25
+      },
+      {
+        "day": 1,
+        "hour": 5,
+        "turnover": 2900.21,
+        "soldUnits": 200
+      },
+      {
+        "day": 1,
+        "hour": 6,
+        "turnover": 5134.06,
+        "soldUnits": 198
+      },
+      {
+        "day": 1,
+        "hour": 7,
+        "turnover": 5091.2,
+        "soldUnits": 172
+      },
+      {
+        "day": 1,
+        "hour": 8,
+        "turnover": 3702.65,
+        "soldUnits": 28
+      },
+      {
+        "day": 1,
+        "hour": 9,
+        "turnover": 4949.14,
+        "soldUnits": 176
+      },
+      {
+        "day": 1,
+        "hour": 10,
+        "turnover": 5806.67,
+        "soldUnits": 95
+      },
+      {
+        "day": 1,
+        "hour": 11,
+        "turnover": 5974.66,
+        "soldUnits": 82
+      },
+      {
+        "day": 1,
+        "hour": 12,
+        "turnover": 1453.52,
+        "soldUnits": 188
+      },
+      {
+        "day": 1,
+        "hour": 13,
+        "turnover": 4758.43,
+        "soldUnits": 152
+      },
+      {
+        "day": 1,
+        "hour": 14,
+        "turnover": 7228.17,
+        "soldUnits": 48
+      },
+      {
+        "day": 1,
+        "hour": 15,
+        "turnover": 3828.39,
+        "soldUnits": 50
+      },
+      {
+        "day": 1,
+        "hour": 16,
+        "turnover": 5924.42,
+        "soldUnits": 194
+      },
+      {
+        "day": 1,
+        "hour": 17,
+        "turnover": 8648.6,
+        "soldUnits": 157
+      },
+      {
+        "day": 1,
+        "hour": 18,
+        "turnover": 4880.7,
+        "soldUnits": 73
+      },
+      {
+        "day": 1,
+        "hour": 19,
+        "turnover": 5170.51,
+        "soldUnits": 36
+      },
+      {
+        "day": 1,
+        "hour": 20,
+        "turnover": 5510.66,
+        "soldUnits": 31
+      },
+      {
+        "day": 1,
+        "hour": 21,
+        "turnover": 2629.48,
+        "soldUnits": 65
+      },
+      {
+        "day": 1,
+        "hour": 22,
+        "turnover": 6625.96,
+        "soldUnits": 144
+      },
+      {
+        "day": 1,
+        "hour": 23,
+        "turnover": 2288.8,
+        "soldUnits": 33
+      },
+      {
+        "day": 2,
+        "hour": 0,
+        "turnover": 3672.77,
+        "soldUnits": 43
+      },
+      {
+        "day": 2,
+        "hour": 1,
+        "turnover": 3215.74,
+        "soldUnits": 139
+      },
+      {
+        "day": 2,
+        "hour": 2,
+        "turnover": 6159.23,
+        "soldUnits": 106
+      },
+      {
+        "day": 2,
+        "hour": 3,
+        "turnover": 7743.98,
+        "soldUnits": 123
+      },
+      {
+        "day": 2,
+        "hour": 4,
+        "turnover": 7376.16,
+        "soldUnits": 72
+      },
+      {
+        "day": 2,
+        "hour": 5,
+        "turnover": 9083.74,
+        "soldUnits": 51
+      },
+      {
+        "day": 2,
+        "hour": 6,
+        "turnover": 7247.12,
+        "soldUnits": 194
+      },
+      {
+        "day": 2,
+        "hour": 7,
+        "turnover": 3385.66,
+        "soldUnits": 36
+      },
+      {
+        "day": 2,
+        "hour": 8,
+        "turnover": 3094.29,
+        "soldUnits": 26
+      },
+      {
+        "day": 2,
+        "hour": 9,
+        "turnover": 1709.41,
+        "soldUnits": 135
+      },
+      {
+        "day": 2,
+        "hour": 10,
+        "turnover": 5509.43,
+        "soldUnits": 175
+      },
+      {
+        "day": 2,
+        "hour": 11,
+        "turnover": 4959.83,
+        "soldUnits": 110
+      },
+      {
+        "day": 2,
+        "hour": 12,
+        "turnover": 5690.1,
+        "soldUnits": 40
+      },
+      {
+        "day": 2,
+        "hour": 13,
+        "turnover": 3050.28,
+        "soldUnits": 198
+      },
+      {
+        "day": 2,
+        "hour": 14,
+        "turnover": 1858.78,
+        "soldUnits": 47
+      },
+      {
+        "day": 2,
+        "hour": 15,
+        "turnover": 6307.17,
+        "soldUnits": 141
+      },
+      {
+        "day": 2,
+        "hour": 16,
+        "turnover": 5765.39,
+        "soldUnits": 99
+      },
+      {
+        "day": 2,
+        "hour": 17,
+        "turnover": 3147.12,
+        "soldUnits": 152
+      },
+      {
+        "day": 2,
+        "hour": 18,
+        "turnover": 7329.58,
+        "soldUnits": 106
+      },
+      {
+        "day": 2,
+        "hour": 19,
+        "turnover": 1618.22,
+        "soldUnits": 55
+      },
+      {
+        "day": 2,
+        "hour": 20,
+        "turnover": 4882.77,
+        "soldUnits": 183
+      },
+      {
+        "day": 2,
+        "hour": 21,
+        "turnover": 5333.93,
+        "soldUnits": 123
+      },
+      {
+        "day": 2,
+        "hour": 22,
+        "turnover": 7611.04,
+        "soldUnits": 123
+      },
+      {
+        "day": 2,
+        "hour": 23,
+        "turnover": 1863.21,
+        "soldUnits": 15
+      },
+      {
+        "day": 3,
+        "hour": 0,
+        "turnover": 9230.3,
+        "soldUnits": 138
+      },
+      {
+        "day": 3,
+        "hour": 1,
+        "turnover": 2361.64,
+        "soldUnits": 138
+      },
+      {
+        "day": 3,
+        "hour": 2,
+        "turnover": 9578.33,
+        "soldUnits": 24
+      },
+      {
+        "day": 3,
+        "hour": 3,
+        "turnover": 9103.76,
+        "soldUnits": 18
+      },
+      {
+        "day": 3,
+        "hour": 4,
+        "turnover": 7071.08,
+        "soldUnits": 21
+      },
+      {
+        "day": 3,
+        "hour": 5,
+        "turnover": 6461.94,
+        "soldUnits": 19
+      },
+      {
+        "day": 3,
+        "hour": 6,
+        "turnover": 3056.64,
+        "soldUnits": 171
+      },
+      {
+        "day": 3,
+        "hour": 7,
+        "turnover": 3860.44,
+        "soldUnits": 96
+      },
+      {
+        "day": 3,
+        "hour": 8,
+        "turnover": 5529.56,
+        "soldUnits": 100
+      },
+      {
+        "day": 3,
+        "hour": 9,
+        "turnover": 6421.36,
+        "soldUnits": 29
+      },
+      {
+        "day": 3,
+        "hour": 10,
+        "turnover": 6988.11,
+        "soldUnits": 75
+      },
+      {
+        "day": 3,
+        "hour": 11,
+        "turnover": 7016.77,
+        "soldUnits": 90
+      },
+      {
+        "day": 3,
+        "hour": 12,
+        "turnover": 3581.35,
+        "soldUnits": 44
+      },
+      {
+        "day": 3,
+        "hour": 13,
+        "turnover": 4903.54,
+        "soldUnits": 168
+      },
+      {
+        "day": 3,
+        "hour": 14,
+        "turnover": 4585.87,
+        "soldUnits": 191
+      },
+      {
+        "day": 3,
+        "hour": 15,
+        "turnover": 7168.72,
+        "soldUnits": 160
+      },
+      {
+        "day": 3,
+        "hour": 16,
+        "turnover": 9336.84,
+        "soldUnits": 72
+      },
+      {
+        "day": 3,
+        "hour": 17,
+        "turnover": 6813.72,
+        "soldUnits": 127
+      },
+      {
+        "day": 3,
+        "hour": 18,
+        "turnover": 5041.31,
+        "soldUnits": 78
+      },
+      {
+        "day": 3,
+        "hour": 19,
+        "turnover": 3271.98,
+        "soldUnits": 168
+      },
+      {
+        "day": 3,
+        "hour": 20,
+        "turnover": 4978.9,
+        "soldUnits": 37
+      },
+      {
+        "day": 3,
+        "hour": 21,
+        "turnover": 7903.47,
+        "soldUnits": 69
+      },
+      {
+        "day": 3,
+        "hour": 22,
+        "turnover": 7083.22,
+        "soldUnits": 144
+      },
+      {
+        "day": 3,
+        "hour": 23,
+        "turnover": 7929.55,
+        "soldUnits": 15
+      },
+      {
+        "day": 4,
+        "hour": 0,
+        "turnover": 8834.21,
+        "soldUnits": 72
+      },
+      {
+        "day": 4,
+        "hour": 1,
+        "turnover": 6344.92,
+        "soldUnits": 22
+      },
+      {
+        "day": 4,
+        "hour": 2,
+        "turnover": 5024.28,
+        "soldUnits": 65
+      },
+      {
+        "day": 4,
+        "hour": 3,
+        "turnover": 1372.36,
+        "soldUnits": 67
+      },
+      {
+        "day": 4,
+        "hour": 4,
+        "turnover": 1341.68,
+        "soldUnits": 47
+      },
+      {
+        "day": 4,
+        "hour": 5,
+        "turnover": 6175.24,
+        "soldUnits": 34
+      },
+      {
+        "day": 4,
+        "hour": 6,
+        "turnover": 4954.47,
+        "soldUnits": 115
+      },
+      {
+        "day": 4,
+        "hour": 7,
+        "turnover": 6140.98,
+        "soldUnits": 129
+      },
+      {
+        "day": 4,
+        "hour": 8,
+        "turnover": 2359.4,
+        "soldUnits": 26
+      },
+      {
+        "day": 4,
+        "hour": 9,
+        "turnover": 7212.17,
+        "soldUnits": 60
+      },
+      {
+        "day": 4,
+        "hour": 10,
+        "turnover": 8228.35,
+        "soldUnits": 45
+      },
+      {
+        "day": 4,
+        "hour": 11,
+        "turnover": 5210.8,
+        "soldUnits": 18
+      },
+      {
+        "day": 4,
+        "hour": 12,
+        "turnover": 2479.62,
+        "soldUnits": 87
+      },
+      {
+        "day": 4,
+        "hour": 13,
+        "turnover": 6043.28,
+        "soldUnits": 152
+      },
+      {
+        "day": 4,
+        "hour": 14,
+        "turnover": 9773.88,
+        "soldUnits": 62
+      },
+      {
+        "day": 4,
+        "hour": 15,
+        "turnover": 1733.7,
+        "soldUnits": 116
+      },
+      {
+        "day": 4,
+        "hour": 16,
+        "turnover": 6300.5,
+        "soldUnits": 52
+      },
+      {
+        "day": 4,
+        "hour": 17,
+        "turnover": 4840.29,
+        "soldUnits": 74
+      },
+      {
+        "day": 4,
+        "hour": 18,
+        "turnover": 1702.51,
+        "soldUnits": 159
+      },
+      {
+        "day": 4,
+        "hour": 19,
+        "turnover": 5831.42,
+        "soldUnits": 160
+      },
+      {
+        "day": 4,
+        "hour": 20,
+        "turnover": 9338.4,
+        "soldUnits": 142
+      },
+      {
+        "day": 4,
+        "hour": 21,
+        "turnover": 5340.55,
+        "soldUnits": 94
+      },
+      {
+        "day": 4,
+        "hour": 22,
+        "turnover": 3289.48,
+        "soldUnits": 89
+      },
+      {
+        "day": 4,
+        "hour": 23,
+        "turnover": 6028.65,
+        "soldUnits": 91
+      },
+      {
+        "day": 5,
+        "hour": 0,
+        "turnover": 1457.07,
+        "soldUnits": 121
+      },
+      {
+        "day": 5,
+        "hour": 1,
+        "turnover": 7894.27,
+        "soldUnits": 100
+      },
+      {
+        "day": 5,
+        "hour": 2,
+        "turnover": 8170.21,
+        "soldUnits": 199
+      },
+      {
+        "day": 5,
+        "hour": 3,
+        "turnover": 1027.65,
+        "soldUnits": 197
+      },
+      {
+        "day": 5,
+        "hour": 4,
+        "turnover": 8973.4,
+        "soldUnits": 31
+      },
+      {
+        "day": 5,
+        "hour": 5,
+        "turnover": 1669.87,
+        "soldUnits": 188
+      },
+      {
+        "day": 5,
+        "hour": 6,
+        "turnover": 4811.06,
+        "soldUnits": 171
+      },
+      {
+        "day": 5,
+        "hour": 7,
+        "turnover": 6389.55,
+        "soldUnits": 127
+      },
+      {
+        "day": 5,
+        "hour": 8,
+        "turnover": 9496.28,
+        "soldUnits": 77
+      },
+      {
+        "day": 5,
+        "hour": 9,
+        "turnover": 4612.45,
+        "soldUnits": 148
+      },
+      {
+        "day": 5,
+        "hour": 10,
+        "turnover": 8960.52,
+        "soldUnits": 102
+      },
+      {
+        "day": 5,
+        "hour": 11,
+        "turnover": 7214.85,
+        "soldUnits": 85
+      },
+      {
+        "day": 5,
+        "hour": 12,
+        "turnover": 8635.66,
+        "soldUnits": 47
+      },
+      {
+        "day": 5,
+        "hour": 13,
+        "turnover": 9945.2,
+        "soldUnits": 34
+      },
+      {
+        "day": 5,
+        "hour": 14,
+        "turnover": 3113.58,
+        "soldUnits": 124
+      },
+      {
+        "day": 5,
+        "hour": 15,
+        "turnover": 9608.88,
+        "soldUnits": 165
+      },
+      {
+        "day": 5,
+        "hour": 16,
+        "turnover": 9441.33,
+        "soldUnits": 75
+      },
+      {
+        "day": 5,
+        "hour": 17,
+        "turnover": 8459.01,
+        "soldUnits": 135
+      },
+      {
+        "day": 5,
+        "hour": 18,
+        "turnover": 6900.7,
+        "soldUnits": 37
+      },
+      {
+        "day": 5,
+        "hour": 19,
+        "turnover": 7730.29,
+        "soldUnits": 116
+      },
+      {
+        "day": 5,
+        "hour": 20,
+        "turnover": 9219.89,
+        "soldUnits": 187
+      },
+      {
+        "day": 5,
+        "hour": 21,
+        "turnover": 5100.65,
+        "soldUnits": 187
+      },
+      {
+        "day": 5,
+        "hour": 22,
+        "turnover": 8456.22,
+        "soldUnits": 117
+      },
+      {
+        "day": 5,
+        "hour": 23,
+        "turnover": 6637.72,
+        "soldUnits": 75
+      },
+      {
+        "day": 6,
+        "hour": 0,
+        "turnover": 8533.33,
+        "soldUnits": 114
+      },
+      {
+        "day": 6,
+        "hour": 1,
+        "turnover": 5316.68,
+        "soldUnits": 150
+      },
+      {
+        "day": 6,
+        "hour": 2,
+        "turnover": 7290.41,
+        "soldUnits": 163
+      },
+      {
+        "day": 6,
+        "hour": 3,
+        "turnover": 1890.99,
+        "soldUnits": 40
+      },
+      {
+        "day": 6,
+        "hour": 4,
+        "turnover": 1967.25,
+        "soldUnits": 124
+      },
+      {
+        "day": 6,
+        "hour": 5,
+        "turnover": 6554.04,
+        "soldUnits": 155
+      },
+      {
+        "day": 6,
+        "hour": 6,
+        "turnover": 6074.7,
+        "soldUnits": 37
+      },
+      {
+        "day": 6,
+        "hour": 7,
+        "turnover": 1593.82,
+        "soldUnits": 53
+      },
+      {
+        "day": 6,
+        "hour": 8,
+        "turnover": 2576.75,
+        "soldUnits": 43
+      },
+      {
+        "day": 6,
+        "hour": 9,
+        "turnover": 5789.69,
+        "soldUnits": 192
+      },
+      {
+        "day": 6,
+        "hour": 10,
+        "turnover": 1952.33,
+        "soldUnits": 144
+      },
+      {
+        "day": 6,
+        "hour": 11,
+        "turnover": 2285.47,
+        "soldUnits": 164
+      },
+      {
+        "day": 6,
+        "hour": 12,
+        "turnover": 1504.07,
+        "soldUnits": 129
+      },
+      {
+        "day": 6,
+        "hour": 13,
+        "turnover": 2478.71,
+        "soldUnits": 30
+      },
+      {
+        "day": 6,
+        "hour": 14,
+        "turnover": 9007.69,
+        "soldUnits": 96
+      },
+      {
+        "day": 6,
+        "hour": 15,
+        "turnover": 9608.0,
+        "soldUnits": 132
+      },
+      {
+        "day": 6,
+        "hour": 16,
+        "turnover": 7994.51,
+        "soldUnits": 87
+      },
+      {
+        "day": 6,
+        "hour": 17,
+        "turnover": 3384.31,
+        "soldUnits": 71
+      },
+      {
+        "day": 6,
+        "hour": 18,
+        "turnover": 8552.87,
+        "soldUnits": 181
+      },
+      {
+        "day": 6,
+        "hour": 19,
+        "turnover": 7612.6,
+        "soldUnits": 74
+      },
+      {
+        "day": 6,
+        "hour": 20,
+        "turnover": 3239.24,
+        "soldUnits": 69
+      },
+      {
+        "day": 6,
+        "hour": 21,
+        "turnover": 1348.23,
+        "soldUnits": 195
+      },
+      {
+        "day": 6,
+        "hour": 22,
+        "turnover": 8725.83,
+        "soldUnits": 77
+      },
+      {
+        "day": 6,
+        "hour": 23,
+        "turnover": 9977.56,
+        "soldUnits": 29
+      },
+      {
+        "day": 7,
+        "hour": 0,
+        "turnover": 5110.37,
+        "soldUnits": 148
+      },
+      {
+        "day": 7,
+        "hour": 1,
+        "turnover": 5716.98,
+        "soldUnits": 128
+      },
+      {
+        "day": 7,
+        "hour": 2,
+        "turnover": 6114.32,
+        "soldUnits": 78
+      },
+      {
+        "day": 7,
+        "hour": 3,
+        "turnover": 1463.6,
+        "soldUnits": 186
+      },
+      {
+        "day": 7,
+        "hour": 4,
+        "turnover": 9212.64,
+        "soldUnits": 168
+      },
+      {
+        "day": 7,
+        "hour": 5,
+        "turnover": 8136.73,
+        "soldUnits": 132
+      },
+      {
+        "day": 7,
+        "hour": 6,
+        "turnover": 1027.71,
+        "soldUnits": 158
+      },
+      {
+        "day": 7,
+        "hour": 7,
+        "turnover": 6353.62,
+        "soldUnits": 58
+      },
+      {
+        "day": 7,
+        "hour": 8,
+        "turnover": 5229.99,
+        "soldUnits": 136
+      },
+      {
+        "day": 7,
+        "hour": 9,
+        "turnover": 4940.29,
+        "soldUnits": 164
+      },
+      {
+        "day": 7,
+        "hour": 10,
+        "turnover": 2193.07,
+        "soldUnits": 146
+      },
+      {
+        "day": 7,
+        "hour": 11,
+        "turnover": 1538.38,
+        "soldUnits": 103
+      },
+      {
+        "day": 7,
+        "hour": 12,
+        "turnover": 6462.0,
+        "soldUnits": 169
+      },
+      {
+        "day": 7,
+        "hour": 13,
+        "turnover": 9185.35,
+        "soldUnits": 72
+      },
+      {
+        "day": 7,
+        "hour": 14,
+        "turnover": 1339.66,
+        "soldUnits": 78
+      },
+      {
+        "day": 7,
+        "hour": 15,
+        "turnover": 9535.87,
+        "soldUnits": 169
+      },
+      {
+        "day": 7,
+        "hour": 16,
+        "turnover": 3170.3,
+        "soldUnits": 130
+      },
+      {
+        "day": 7,
+        "hour": 17,
+        "turnover": 9185.94,
+        "soldUnits": 65
+      },
+      {
+        "day": 7,
+        "hour": 18,
+        "turnover": 7820.75,
+        "soldUnits": 101
+      },
+      {
+        "day": 7,
+        "hour": 19,
+        "turnover": 2575.56,
+        "soldUnits": 151
+      },
+      {
+        "day": 7,
+        "hour": 20,
+        "turnover": 7977.19,
+        "soldUnits": 49
+      },
+      {
+        "day": 7,
+        "hour": 21,
+        "turnover": 3655.83,
+        "soldUnits": 76
+      },
+      {
+        "day": 7,
+        "hour": 22,
+        "turnover": 5187.08,
+        "soldUnits": 96
+      },
+      {
+        "day": 7,
+        "hour": 23,
+        "turnover": 2535.28,
+        "soldUnits": 200
+      },
+      {
+        "day": 8,
+        "hour": 0,
+        "turnover": 6322.48,
+        "soldUnits": 142
+      },
+      {
+        "day": 8,
+        "hour": 1,
+        "turnover": 1136.35,
+        "soldUnits": 174
+      },
+      {
+        "day": 8,
+        "hour": 2,
+        "turnover": 5447.73,
+        "soldUnits": 173
+      },
+      {
+        "day": 8,
+        "hour": 3,
+        "turnover": 4390.51,
+        "soldUnits": 191
+      },
+      {
+        "day": 8,
+        "hour": 4,
+        "turnover": 6598.41,
+        "soldUnits": 29
+      },
+      {
+        "day": 8,
+        "hour": 5,
+        "turnover": 3962.89,
+        "soldUnits": 105
+      },
+      {
+        "day": 8,
+        "hour": 6,
+        "turnover": 5505.18,
+        "soldUnits": 182
+      },
+      {
+        "day": 8,
+        "hour": 7,
+        "turnover": 8147.7,
+        "soldUnits": 62
+      },
+      {
+        "day": 8,
+        "hour": 8,
+        "turnover": 3984.49,
+        "soldUnits": 59
+      },
+      {
+        "day": 8,
+        "hour": 9,
+        "turnover": 7277.21,
+        "soldUnits": 194
+      },
+      {
+        "day": 8,
+        "hour": 10,
+        "turnover": 8929.8,
+        "soldUnits": 50
+      },
+      {
+        "day": 8,
+        "hour": 11,
+        "turnover": 7606.34,
+        "soldUnits": 77
+      },
+      {
+        "day": 8,
+        "hour": 12,
+        "turnover": 4179.21,
+        "soldUnits": 51
+      },
+      {
+        "day": 8,
+        "hour": 13,
+        "turnover": 7213.4,
+        "soldUnits": 43
+      },
+      {
+        "day": 8,
+        "hour": 14,
+        "turnover": 3764.71,
+        "soldUnits": 190
+      },
+      {
+        "day": 8,
+        "hour": 15,
+        "turnover": 2970.56,
+        "soldUnits": 196
+      },
+      {
+        "day": 8,
+        "hour": 16,
+        "turnover": 2801.6,
+        "soldUnits": 168
+      },
+      {
+        "day": 8,
+        "hour": 17,
+        "turnover": 2608.13,
+        "soldUnits": 56
+      },
+      {
+        "day": 8,
+        "hour": 18,
+        "turnover": 5175.97,
+        "soldUnits": 141
+      },
+      {
+        "day": 8,
+        "hour": 19,
+        "turnover": 7106.86,
+        "soldUnits": 168
+      },
+      {
+        "day": 8,
+        "hour": 20,
+        "turnover": 3266.56,
+        "soldUnits": 178
+      },
+      {
+        "day": 8,
+        "hour": 21,
+        "turnover": 2557.86,
+        "soldUnits": 101
+      },
+      {
+        "day": 8,
+        "hour": 22,
+        "turnover": 9317.3,
+        "soldUnits": 123
+      },
+      {
+        "day": 8,
+        "hour": 23,
+        "turnover": 8924.17,
+        "soldUnits": 193
+      },
+      {
+        "day": 9,
+        "hour": 0,
+        "turnover": 6184.07,
+        "soldUnits": 179
+      },
+      {
+        "day": 9,
+        "hour": 1,
+        "turnover": 5074.87,
+        "soldUnits": 144
+      },
+      {
+        "day": 9,
+        "hour": 2,
+        "turnover": 7173.54,
+        "soldUnits": 176
+      },
+      {
+        "day": 9,
+        "hour": 3,
+        "turnover": 9440.02,
+        "soldUnits": 59
+      },
+      {
+        "day": 9,
+        "hour": 4,
+        "turnover": 8820.7,
+        "soldUnits": 38
+      },
+      {
+        "day": 9,
+        "hour": 5,
+        "turnover": 7712.76,
+        "soldUnits": 144
+      },
+      {
+        "day": 9,
+        "hour": 6,
+        "turnover": 7999.85,
+        "soldUnits": 186
+      },
+      {
+        "day": 9,
+        "hour": 7,
+        "turnover": 8975.26,
+        "soldUnits": 137
+      },
+      {
+        "day": 9,
+        "hour": 8,
+        "turnover": 9372.15,
+        "soldUnits": 176
+      },
+      {
+        "day": 9,
+        "hour": 9,
+        "turnover": 8673.61,
+        "soldUnits": 83
+      },
+      {
+        "day": 9,
+        "hour": 10,
+        "turnover": 6096.03,
+        "soldUnits": 32
+      },
+      {
+        "day": 9,
+        "hour": 11,
+        "turnover": 3303.8,
+        "soldUnits": 94
+      },
+      {
+        "day": 9,
+        "hour": 12,
+        "turnover": 1550.09,
+        "soldUnits": 184
+      },
+      {
+        "day": 9,
+        "hour": 13,
+        "turnover": 2632.21,
+        "soldUnits": 113
+      },
+      {
+        "day": 9,
+        "hour": 14,
+        "turnover": 3932.0,
+        "soldUnits": 23
+      },
+      {
+        "day": 9,
+        "hour": 15,
+        "turnover": 8065.35,
+        "soldUnits": 113
+      },
+      {
+        "day": 9,
+        "hour": 16,
+        "turnover": 7483.28,
+        "soldUnits": 142
+      },
+      {
+        "day": 9,
+        "hour": 17,
+        "turnover": 8359.99,
+        "soldUnits": 18
+      },
+      {
+        "day": 9,
+        "hour": 18,
+        "turnover": 2488.39,
+        "soldUnits": 145
+      },
+      {
+        "day": 9,
+        "hour": 19,
+        "turnover": 7873.96,
+        "soldUnits": 52
+      },
+      {
+        "day": 9,
+        "hour": 20,
+        "turnover": 8322.1,
+        "soldUnits": 100
+      },
+      {
+        "day": 9,
+        "hour": 21,
+        "turnover": 3755.84,
+        "soldUnits": 108
+      },
+      {
+        "day": 9,
+        "hour": 22,
+        "turnover": 5176.64,
+        "soldUnits": 110
+      },
+      {
+        "day": 9,
+        "hour": 23,
+        "turnover": 6177.38,
+        "soldUnits": 83
+      },
+      {
+        "day": 10,
+        "hour": 0,
+        "turnover": 1457.26,
+        "soldUnits": 177
+      },
+      {
+        "day": 10,
+        "hour": 1,
+        "turnover": 7638.44,
+        "soldUnits": 147
+      },
+      {
+        "day": 10,
+        "hour": 2,
+        "turnover": 2815.06,
+        "soldUnits": 72
+      },
+      {
+        "day": 10,
+        "hour": 3,
+        "turnover": 5659.11,
+        "soldUnits": 190
+      },
+      {
+        "day": 10,
+        "hour": 4,
+        "turnover": 2513.7,
+        "soldUnits": 57
+      },
+      {
+        "day": 10,
+        "hour": 5,
+        "turnover": 4033.9,
+        "soldUnits": 51
+      },
+      {
+        "day": 10,
+        "hour": 6,
+        "turnover": 2250.82,
+        "soldUnits": 158
+      },
+      {
+        "day": 10,
+        "hour": 7,
+        "turnover": 1577.26,
+        "soldUnits": 164
+      },
+      {
+        "day": 10,
+        "hour": 8,
+        "turnover": 8309.52,
+        "soldUnits": 78
+      },
+      {
+        "day": 10,
+        "hour": 9,
+        "turnover": 7034.83,
+        "soldUnits": 126
+      },
+      {
+        "day": 10,
+        "hour": 10,
+        "turnover": 4933.14,
+        "soldUnits": 68
+      },
+      {
+        "day": 10,
+        "hour": 11,
+        "turnover": 7034.31,
+        "soldUnits": 44
+      },
+      {
+        "day": 10,
+        "hour": 12,
+        "turnover": 6499.73,
+        "soldUnits": 156
+      },
+      {
+        "day": 10,
+        "hour": 13,
+        "turnover": 7140.01,
+        "soldUnits": 195
+      },
+      {
+        "day": 10,
+        "hour": 14,
+        "turnover": 1635.63,
+        "soldUnits": 177
+      },
+      {
+        "day": 10,
+        "hour": 15,
+        "turnover": 8669.64,
+        "soldUnits": 20
+      },
+      {
+        "day": 10,
+        "hour": 16,
+        "turnover": 8320.28,
+        "soldUnits": 29
+      },
+      {
+        "day": 10,
+        "hour": 17,
+        "turnover": 8069.09,
+        "soldUnits": 195
+      },
+      {
+        "day": 10,
+        "hour": 18,
+        "turnover": 6156.67,
+        "soldUnits": 33
+      },
+      {
+        "day": 10,
+        "hour": 19,
+        "turnover": 1381.92,
+        "soldUnits": 135
+      },
+      {
+        "day": 10,
+        "hour": 20,
+        "turnover": 2187.15,
+        "soldUnits": 117
+      },
+      {
+        "day": 10,
+        "hour": 21,
+        "turnover": 2456.63,
+        "soldUnits": 108
+      },
+      {
+        "day": 10,
+        "hour": 22,
+        "turnover": 6703.86,
+        "soldUnits": 101
+      },
+      {
+        "day": 10,
+        "hour": 23,
+        "turnover": 9408.74,
+        "soldUnits": 39
+      },
+      {
+        "day": 11,
+        "hour": 0,
+        "turnover": 6102.71,
+        "soldUnits": 65
+      },
+      {
+        "day": 11,
+        "hour": 1,
+        "turnover": 9616.88,
+        "soldUnits": 48
+      },
+      {
+        "day": 11,
+        "hour": 2,
+        "turnover": 2563.13,
+        "soldUnits": 178
+      },
+      {
+        "day": 11,
+        "hour": 3,
+        "turnover": 9732.46,
+        "soldUnits": 114
+      },
+      {
+        "day": 11,
+        "hour": 4,
+        "turnover": 6865.7,
+        "soldUnits": 49
+      },
+      {
+        "day": 11,
+        "hour": 5,
+        "turnover": 6859.68,
+        "soldUnits": 29
+      },
+      {
+        "day": 11,
+        "hour": 6,
+        "turnover": 9528.06,
+        "soldUnits": 44
+      },
+      {
+        "day": 11,
+        "hour": 7,
+        "turnover": 7961.92,
+        "soldUnits": 127
+      },
+      {
+        "day": 11,
+        "hour": 8,
+        "turnover": 7505.87,
+        "soldUnits": 87
+      },
+      {
+        "day": 11,
+        "hour": 9,
+        "turnover": 6225.96,
+        "soldUnits": 192
+      },
+      {
+        "day": 11,
+        "hour": 10,
+        "turnover": 2211.44,
+        "soldUnits": 85
+      },
+      {
+        "day": 11,
+        "hour": 11,
+        "turnover": 1741.28,
+        "soldUnits": 61
+      },
+      {
+        "day": 11,
+        "hour": 12,
+        "turnover": 2812.61,
+        "soldUnits": 142
+      },
+      {
+        "day": 11,
+        "hour": 13,
+        "turnover": 6983.77,
+        "soldUnits": 127
+      },
+      {
+        "day": 11,
+        "hour": 14,
+        "turnover": 1656.39,
+        "soldUnits": 116
+      },
+      {
+        "day": 11,
+        "hour": 15,
+        "turnover": 3189.28,
+        "soldUnits": 94
+      },
+      {
+        "day": 11,
+        "hour": 16,
+        "turnover": 7277.1,
+        "soldUnits": 142
+      },
+      {
+        "day": 11,
+        "hour": 17,
+        "turnover": 5746.4,
+        "soldUnits": 157
+      },
+      {
+        "day": 11,
+        "hour": 18,
+        "turnover": 5809.4,
+        "soldUnits": 93
+      },
+      {
+        "day": 11,
+        "hour": 19,
+        "turnover": 6240.48,
+        "soldUnits": 71
+      },
+      {
+        "day": 11,
+        "hour": 20,
+        "turnover": 4366.89,
+        "soldUnits": 66
+      },
+      {
+        "day": 11,
+        "hour": 21,
+        "turnover": 7789.05,
+        "soldUnits": 192
+      },
+      {
+        "day": 11,
+        "hour": 22,
+        "turnover": 1317.81,
+        "soldUnits": 93
+      },
+      {
+        "day": 11,
+        "hour": 23,
+        "turnover": 6198.2,
+        "soldUnits": 84
+      },
+      {
+        "day": 12,
+        "hour": 0,
+        "turnover": 8753.6,
+        "soldUnits": 151
+      },
+      {
+        "day": 12,
+        "hour": 1,
+        "turnover": 3185.88,
+        "soldUnits": 167
+      },
+      {
+        "day": 12,
+        "hour": 2,
+        "turnover": 6580.57,
+        "soldUnits": 96
+      },
+      {
+        "day": 12,
+        "hour": 3,
+        "turnover": 8477.23,
+        "soldUnits": 195
+      },
+      {
+        "day": 12,
+        "hour": 4,
+        "turnover": 6406.22,
+        "soldUnits": 101
+      },
+      {
+        "day": 12,
+        "hour": 5,
+        "turnover": 3128.35,
+        "soldUnits": 30
+      },
+      {
+        "day": 12,
+        "hour": 6,
+        "turnover": 7405.2,
+        "soldUnits": 123
+      },
+      {
+        "day": 12,
+        "hour": 7,
+        "turnover": 5557.69,
+        "soldUnits": 51
+      },
+      {
+        "day": 12,
+        "hour": 8,
+        "turnover": 7078.38,
+        "soldUnits": 85
+      },
+      {
+        "day": 12,
+        "hour": 9,
+        "turnover": 3951.76,
+        "soldUnits": 146
+      },
+      {
+        "day": 12,
+        "hour": 10,
+        "turnover": 4967.9,
+        "soldUnits": 162
+      },
+      {
+        "day": 12,
+        "hour": 11,
+        "turnover": 2278.23,
+        "soldUnits": 87
+      },
+      {
+        "day": 12,
+        "hour": 12,
+        "turnover": 6117.18,
+        "soldUnits": 135
+      },
+      {
+        "day": 12,
+        "hour": 13,
+        "turnover": 9034.78,
+        "soldUnits": 66
+      },
+      {
+        "day": 12,
+        "hour": 14,
+        "turnover": 5918.09,
+        "soldUnits": 104
+      },
+      {
+        "day": 12,
+        "hour": 15,
+        "turnover": 5311.5,
+        "soldUnits": 190
+      },
+      {
+        "day": 12,
+        "hour": 16,
+        "turnover": 6423.12,
+        "soldUnits": 79
+      },
+      {
+        "day": 12,
+        "hour": 17,
+        "turnover": 5779.81,
+        "soldUnits": 49
+      },
+      {
+        "day": 12,
+        "hour": 18,
+        "turnover": 7437.16,
+        "soldUnits": 86
+      },
+      {
+        "day": 12,
+        "hour": 19,
+        "turnover": 1613.49,
+        "soldUnits": 79
+      },
+      {
+        "day": 12,
+        "hour": 20,
+        "turnover": 3869.12,
+        "soldUnits": 120
+      },
+      {
+        "day": 12,
+        "hour": 21,
+        "turnover": 3599.7,
+        "soldUnits": 39
+      },
+      {
+        "day": 12,
+        "hour": 22,
+        "turnover": 7487.59,
+        "soldUnits": 19
+      },
+      {
+        "day": 12,
+        "hour": 23,
+        "turnover": 5116.08,
+        "soldUnits": 59
+      },
+      {
+        "day": 13,
+        "hour": 0,
+        "turnover": 5864.41,
+        "soldUnits": 29
+      },
+      {
+        "day": 13,
+        "hour": 1,
+        "turnover": 4709.95,
+        "soldUnits": 21
+      },
+      {
+        "day": 13,
+        "hour": 2,
+        "turnover": 6700.59,
+        "soldUnits": 47
+      },
+      {
+        "day": 13,
+        "hour": 3,
+        "turnover": 8931.13,
+        "soldUnits": 173
+      },
+      {
+        "day": 13,
+        "hour": 4,
+        "turnover": 5724.76,
+        "soldUnits": 174
+      },
+      {
+        "day": 13,
+        "hour": 5,
+        "turnover": 7387.94,
+        "soldUnits": 92
+      },
+      {
+        "day": 13,
+        "hour": 6,
+        "turnover": 8439.7,
+        "soldUnits": 182
+      },
+      {
+        "day": 13,
+        "hour": 7,
+        "turnover": 1386.01,
+        "soldUnits": 41
+      },
+      {
+        "day": 13,
+        "hour": 8,
+        "turnover": 1310.12,
+        "soldUnits": 17
+      },
+      {
+        "day": 13,
+        "hour": 9,
+        "turnover": 3829.31,
+        "soldUnits": 18
+      },
+      {
+        "day": 13,
+        "hour": 10,
+        "turnover": 5730.47,
+        "soldUnits": 67
+      },
+      {
+        "day": 13,
+        "hour": 11,
+        "turnover": 1928.44,
+        "soldUnits": 164
+      },
+      {
+        "day": 13,
+        "hour": 12,
+        "turnover": 9309.13,
+        "soldUnits": 157
+      },
+      {
+        "day": 13,
+        "hour": 13,
+        "turnover": 9131.3,
+        "soldUnits": 64
+      },
+      {
+        "day": 13,
+        "hour": 14,
+        "turnover": 5868.53,
+        "soldUnits": 197
+      },
+      {
+        "day": 13,
+        "hour": 15,
+        "turnover": 3399.21,
+        "soldUnits": 177
+      },
+      {
+        "day": 13,
+        "hour": 16,
+        "turnover": 2171.06,
+        "soldUnits": 122
+      },
+      {
+        "day": 13,
+        "hour": 17,
+        "turnover": 4135.73,
+        "soldUnits": 184
+      },
+      {
+        "day": 13,
+        "hour": 18,
+        "turnover": 6988.3,
+        "soldUnits": 30
+      },
+      {
+        "day": 13,
+        "hour": 19,
+        "turnover": 1959.21,
+        "soldUnits": 62
+      },
+      {
+        "day": 13,
+        "hour": 20,
+        "turnover": 2665.84,
+        "soldUnits": 24
+      },
+      {
+        "day": 13,
+        "hour": 21,
+        "turnover": 6026.33,
+        "soldUnits": 19
+      },
+      {
+        "day": 13,
+        "hour": 22,
+        "turnover": 7437.75,
+        "soldUnits": 127
+      },
+      {
+        "day": 13,
+        "hour": 23,
+        "turnover": 5695.36,
+        "soldUnits": 110
+      },
+      {
+        "day": 14,
+        "hour": 0,
+        "turnover": 2334.95,
+        "soldUnits": 47
+      },
+      {
+        "day": 14,
+        "hour": 1,
+        "turnover": 3832.53,
+        "soldUnits": 177
+      },
+      {
+        "day": 14,
+        "hour": 2,
+        "turnover": 1585.44,
+        "soldUnits": 164
+      },
+      {
+        "day": 14,
+        "hour": 3,
+        "turnover": 8822.62,
+        "soldUnits": 100
+      },
+      {
+        "day": 14,
+        "hour": 4,
+        "turnover": 2286.13,
+        "soldUnits": 52
+      },
+      {
+        "day": 14,
+        "hour": 5,
+        "turnover": 8629.26,
+        "soldUnits": 148
+      },
+      {
+        "day": 14,
+        "hour": 6,
+        "turnover": 7787.98,
+        "soldUnits": 98
+      },
+      {
+        "day": 14,
+        "hour": 7,
+        "turnover": 2830.88,
+        "soldUnits": 109
+      },
+      {
+        "day": 14,
+        "hour": 8,
+        "turnover": 8883.89,
+        "soldUnits": 99
+      },
+      {
+        "day": 14,
+        "hour": 9,
+        "turnover": 3892.06,
+        "soldUnits": 156
+      },
+      {
+        "day": 14,
+        "hour": 10,
+        "turnover": 6027.03,
+        "soldUnits": 161
+      },
+      {
+        "day": 14,
+        "hour": 11,
+        "turnover": 4478.47,
+        "soldUnits": 88
+      },
+      {
+        "day": 14,
+        "hour": 12,
+        "turnover": 4156.13,
+        "soldUnits": 183
+      },
+      {
+        "day": 14,
+        "hour": 13,
+        "turnover": 4344.77,
+        "soldUnits": 76
+      },
+      {
+        "day": 14,
+        "hour": 14,
+        "turnover": 7479.63,
+        "soldUnits": 158
+      },
+      {
+        "day": 14,
+        "hour": 15,
+        "turnover": 5334.58,
+        "soldUnits": 61
+      },
+      {
+        "day": 14,
+        "hour": 16,
+        "turnover": 7784.69,
+        "soldUnits": 106
+      },
+      {
+        "day": 14,
+        "hour": 17,
+        "turnover": 4862.64,
+        "soldUnits": 99
+      },
+      {
+        "day": 14,
+        "hour": 18,
+        "turnover": 6576.42,
+        "soldUnits": 131
+      },
+      {
+        "day": 14,
+        "hour": 19,
+        "turnover": 7296.4,
+        "soldUnits": 162
+      },
+      {
+        "day": 14,
+        "hour": 20,
+        "turnover": 6090.67,
+        "soldUnits": 29
+      },
+      {
+        "day": 14,
+        "hour": 21,
+        "turnover": 8406.89,
+        "soldUnits": 126
+      },
+      {
+        "day": 14,
+        "hour": 22,
+        "turnover": 5729.35,
+        "soldUnits": 36
+      },
+      {
+        "day": 14,
+        "hour": 23,
+        "turnover": 7578.43,
+        "soldUnits": 65
+      },
+      {
+        "day": 15,
+        "hour": 0,
+        "turnover": 6808.7,
+        "soldUnits": 78
+      },
+      {
+        "day": 15,
+        "hour": 1,
+        "turnover": 9551.98,
+        "soldUnits": 194
+      },
+      {
+        "day": 15,
+        "hour": 2,
+        "turnover": 1040.51,
+        "soldUnits": 52
+      },
+      {
+        "day": 15,
+        "hour": 3,
+        "turnover": 3855.75,
+        "soldUnits": 180
+      },
+      {
+        "day": 15,
+        "hour": 4,
+        "turnover": 6664.45,
+        "soldUnits": 101
+      },
+      {
+        "day": 15,
+        "hour": 5,
+        "turnover": 3059.43,
+        "soldUnits": 196
+      },
+      {
+        "day": 15,
+        "hour": 6,
+        "turnover": 5679.23,
+        "soldUnits": 111
+      },
+      {
+        "day": 15,
+        "hour": 7,
+        "turnover": 7499.42,
+        "soldUnits": 186
+      },
+      {
+        "day": 15,
+        "hour": 8,
+        "turnover": 4368.04,
+        "soldUnits": 171
+      },
+      {
+        "day": 15,
+        "hour": 9,
+        "turnover": 8133.6,
+        "soldUnits": 105
+      },
+      {
+        "day": 15,
+        "hour": 10,
+        "turnover": 4364.82,
+        "soldUnits": 15
+      },
+      {
+        "day": 15,
+        "hour": 11,
+        "turnover": 1683.23,
+        "soldUnits": 142
+      },
+      {
+        "day": 15,
+        "hour": 12,
+        "turnover": 7108.66,
+        "soldUnits": 35
+      },
+      {
+        "day": 15,
+        "hour": 13,
+        "turnover": 3464.23,
+        "soldUnits": 184
+      },
+      {
+        "day": 15,
+        "hour": 14,
+        "turnover": 1366.95,
+        "soldUnits": 164
+      },
+      {
+        "day": 15,
+        "hour": 15,
+        "turnover": 6718.57,
+        "soldUnits": 67
+      },
+      {
+        "day": 15,
+        "hour": 16,
+        "turnover": 1686.45,
+        "soldUnits": 81
+      },
+      {
+        "day": 15,
+        "hour": 17,
+        "turnover": 4292.54,
+        "soldUnits": 116
+      },
+      {
+        "day": 15,
+        "hour": 18,
+        "turnover": 7702.17,
+        "soldUnits": 125
+      },
+      {
+        "day": 15,
+        "hour": 19,
+        "turnover": 1398.68,
+        "soldUnits": 182
+      },
+      {
+        "day": 15,
+        "hour": 20,
+        "turnover": 4650.54,
+        "soldUnits": 198
+      },
+      {
+        "day": 15,
+        "hour": 21,
+        "turnover": 4505.28,
+        "soldUnits": 129
+      },
+      {
+        "day": 15,
+        "hour": 22,
+        "turnover": 5860.32,
+        "soldUnits": 148
+      },
+      {
+        "day": 15,
+        "hour": 23,
+        "turnover": 9236.41,
+        "soldUnits": 120
+      },
+      {
+        "day": 16,
+        "hour": 0,
+        "turnover": 6697.56,
+        "soldUnits": 81
+      },
+      {
+        "day": 16,
+        "hour": 1,
+        "turnover": 9545.48,
+        "soldUnits": 185
+      },
+      {
+        "day": 16,
+        "hour": 2,
+        "turnover": 3579.65,
+        "soldUnits": 58
+      },
+      {
+        "day": 16,
+        "hour": 3,
+        "turnover": 8783.31,
+        "soldUnits": 155
+      },
+      {
+        "day": 16,
+        "hour": 4,
+        "turnover": 3616.73,
+        "soldUnits": 135
+      },
+      {
+        "day": 16,
+        "hour": 5,
+        "turnover": 6099.84,
+        "soldUnits": 173
+      },
+      {
+        "day": 16,
+        "hour": 6,
+        "turnover": 7721.0,
+        "soldUnits": 174
+      },
+      {
+        "day": 16,
+        "hour": 7,
+        "turnover": 4917.66,
+        "soldUnits": 137
+      },
+      {
+        "day": 16,
+        "hour": 8,
+        "turnover": 8658.81,
+        "soldUnits": 181
+      },
+      {
+        "day": 16,
+        "hour": 9,
+        "turnover": 3380.95,
+        "soldUnits": 115
+      },
+      {
+        "day": 16,
+        "hour": 10,
+        "turnover": 6298.08,
+        "soldUnits": 67
+      },
+      {
+        "day": 16,
+        "hour": 11,
+        "turnover": 4417.68,
+        "soldUnits": 69
+      },
+      {
+        "day": 16,
+        "hour": 12,
+        "turnover": 4745.26,
+        "soldUnits": 115
+      },
+      {
+        "day": 16,
+        "hour": 13,
+        "turnover": 8026.73,
+        "soldUnits": 195
+      },
+      {
+        "day": 16,
+        "hour": 14,
+        "turnover": 4004.46,
+        "soldUnits": 165
+      },
+      {
+        "day": 16,
+        "hour": 15,
+        "turnover": 3867.34,
+        "soldUnits": 113
+      },
+      {
+        "day": 16,
+        "hour": 16,
+        "turnover": 1858.24,
+        "soldUnits": 167
+      },
+      {
+        "day": 16,
+        "hour": 17,
+        "turnover": 5398.97,
+        "soldUnits": 90
+      },
+      {
+        "day": 16,
+        "hour": 18,
+        "turnover": 8353.27,
+        "soldUnits": 60
+      },
+      {
+        "day": 16,
+        "hour": 19,
+        "turnover": 4290.65,
+        "soldUnits": 151
+      },
+      {
+        "day": 16,
+        "hour": 20,
+        "turnover": 8333.37,
+        "soldUnits": 99
+      },
+      {
+        "day": 16,
+        "hour": 21,
+        "turnover": 6455.77,
+        "soldUnits": 146
+      },
+      {
+        "day": 16,
+        "hour": 22,
+        "turnover": 9886.72,
+        "soldUnits": 185
+      },
+      {
+        "day": 16,
+        "hour": 23,
+        "turnover": 1434.92,
+        "soldUnits": 174
+      },
+      {
+        "day": 17,
+        "hour": 0,
+        "turnover": 4093.43,
+        "soldUnits": 32
+      },
+      {
+        "day": 17,
+        "hour": 1,
+        "turnover": 6712.82,
+        "soldUnits": 194
+      },
+      {
+        "day": 17,
+        "hour": 2,
+        "turnover": 3375.02,
+        "soldUnits": 105
+      },
+      {
+        "day": 17,
+        "hour": 3,
+        "turnover": 3411.72,
+        "soldUnits": 114
+      },
+      {
+        "day": 17,
+        "hour": 4,
+        "turnover": 9857.22,
+        "soldUnits": 146
+      },
+      {
+        "day": 17,
+        "hour": 5,
+        "turnover": 8048.24,
+        "soldUnits": 175
+      },
+      {
+        "day": 17,
+        "hour": 6,
+        "turnover": 1563.36,
+        "soldUnits": 78
+      },
+      {
+        "day": 17,
+        "hour": 7,
+        "turnover": 3319.5,
+        "soldUnits": 23
+      },
+      {
+        "day": 17,
+        "hour": 8,
+        "turnover": 4268.99,
+        "soldUnits": 79
+      },
+      {
+        "day": 17,
+        "hour": 9,
+        "turnover": 9607.35,
+        "soldUnits": 123
+      },
+      {
+        "day": 17,
+        "hour": 10,
+        "turnover": 7811.52,
+        "soldUnits": 118
+      },
+      {
+        "day": 17,
+        "hour": 11,
+        "turnover": 7393.46,
+        "soldUnits": 26
+      },
+      {
+        "day": 17,
+        "hour": 12,
+        "turnover": 5001.48,
+        "soldUnits": 117
+      },
+      {
+        "day": 17,
+        "hour": 13,
+        "turnover": 4228.37,
+        "soldUnits": 138
+      },
+      {
+        "day": 17,
+        "hour": 14,
+        "turnover": 3728.34,
+        "soldUnits": 193
+      },
+      {
+        "day": 17,
+        "hour": 15,
+        "turnover": 5691.72,
+        "soldUnits": 198
+      },
+      {
+        "day": 17,
+        "hour": 16,
+        "turnover": 1296.23,
+        "soldUnits": 33
+      },
+      {
+        "day": 17,
+        "hour": 17,
+        "turnover": 5522.6,
+        "soldUnits": 27
+      },
+      {
+        "day": 17,
+        "hour": 18,
+        "turnover": 6161.62,
+        "soldUnits": 119
+      },
+      {
+        "day": 17,
+        "hour": 19,
+        "turnover": 8340.46,
+        "soldUnits": 22
+      },
+      {
+        "day": 17,
+        "hour": 20,
+        "turnover": 4249.93,
+        "soldUnits": 18
+      },
+      {
+        "day": 17,
+        "hour": 21,
+        "turnover": 3579.94,
+        "soldUnits": 150
+      },
+      {
+        "day": 17,
+        "hour": 22,
+        "turnover": 4873.75,
+        "soldUnits": 22
+      },
+      {
+        "day": 17,
+        "hour": 23,
+        "turnover": 3467.46,
+        "soldUnits": 163
+      },
+      {
+        "day": 18,
+        "hour": 0,
+        "turnover": 7724.81,
+        "soldUnits": 200
+      },
+      {
+        "day": 18,
+        "hour": 1,
+        "turnover": 3815.44,
+        "soldUnits": 30
+      },
+      {
+        "day": 18,
+        "hour": 2,
+        "turnover": 7401.05,
+        "soldUnits": 88
+      },
+      {
+        "day": 18,
+        "hour": 3,
+        "turnover": 1589.56,
+        "soldUnits": 199
+      },
+      {
+        "day": 18,
+        "hour": 4,
+        "turnover": 6331.83,
+        "soldUnits": 148
+      },
+      {
+        "day": 18,
+        "hour": 5,
+        "turnover": 8695.17,
+        "soldUnits": 156
+      },
+      {
+        "day": 18,
+        "hour": 6,
+        "turnover": 4672.02,
+        "soldUnits": 48
+      },
+      {
+        "day": 18,
+        "hour": 7,
+        "turnover": 9617.41,
+        "soldUnits": 174
+      },
+      {
+        "day": 18,
+        "hour": 8,
+        "turnover": 4334.48,
+        "soldUnits": 133
+      },
+      {
+        "day": 18,
+        "hour": 9,
+        "turnover": 7632.36,
+        "soldUnits": 124
+      },
+      {
+        "day": 18,
+        "hour": 10,
+        "turnover": 2008.41,
+        "soldUnits": 124
+      },
+      {
+        "day": 18,
+        "hour": 11,
+        "turnover": 7380.74,
+        "soldUnits": 47
+      },
+      {
+        "day": 18,
+        "hour": 12,
+        "turnover": 7149.07,
+        "soldUnits": 161
+      },
+      {
+        "day": 18,
+        "hour": 13,
+        "turnover": 5233.27,
+        "soldUnits": 85
+      },
+      {
+        "day": 18,
+        "hour": 14,
+        "turnover": 4867.1,
+        "soldUnits": 196
+      },
+      {
+        "day": 18,
+        "hour": 15,
+        "turnover": 7445.37,
+        "soldUnits": 183
+      },
+      {
+        "day": 18,
+        "hour": 16,
+        "turnover": 3727.5,
+        "soldUnits": 54
+      },
+      {
+        "day": 18,
+        "hour": 17,
+        "turnover": 6728.07,
+        "soldUnits": 177
+      },
+      {
+        "day": 18,
+        "hour": 18,
+        "turnover": 5914.39,
+        "soldUnits": 189
+      },
+      {
+        "day": 18,
+        "hour": 19,
+        "turnover": 5921.39,
+        "soldUnits": 143
+      },
+      {
+        "day": 18,
+        "hour": 20,
+        "turnover": 1482.74,
+        "soldUnits": 112
+      },
+      {
+        "day": 18,
+        "hour": 21,
+        "turnover": 8436.67,
+        "soldUnits": 130
+      },
+      {
+        "day": 18,
+        "hour": 22,
+        "turnover": 9344.57,
+        "soldUnits": 158
+      },
+      {
+        "day": 18,
+        "hour": 23,
+        "turnover": 3687.82,
+        "soldUnits": 169
+      },
+      {
+        "day": 19,
+        "hour": 0,
+        "turnover": 6339.85,
+        "soldUnits": 90
+      },
+      {
+        "day": 19,
+        "hour": 1,
+        "turnover": 1381.7,
+        "soldUnits": 44
+      },
+      {
+        "day": 19,
+        "hour": 2,
+        "turnover": 5897.34,
+        "soldUnits": 56
+      },
+      {
+        "day": 19,
+        "hour": 3,
+        "turnover": 2304.13,
+        "soldUnits": 63
+      },
+      {
+        "day": 19,
+        "hour": 4,
+        "turnover": 4205.66,
+        "soldUnits": 165
+      },
+      {
+        "day": 19,
+        "hour": 5,
+        "turnover": 1710.67,
+        "soldUnits": 93
+      },
+      {
+        "day": 19,
+        "hour": 6,
+        "turnover": 4646.87,
+        "soldUnits": 164
+      },
+      {
+        "day": 19,
+        "hour": 7,
+        "turnover": 6217.09,
+        "soldUnits": 119
+      },
+      {
+        "day": 19,
+        "hour": 8,
+        "turnover": 6945.07,
+        "soldUnits": 120
+      },
+      {
+        "day": 19,
+        "hour": 9,
+        "turnover": 1537.42,
+        "soldUnits": 19
+      },
+      {
+        "day": 19,
+        "hour": 10,
+        "turnover": 3589.24,
+        "soldUnits": 144
+      },
+      {
+        "day": 19,
+        "hour": 11,
+        "turnover": 6306.3,
+        "soldUnits": 76
+      },
+      {
+        "day": 19,
+        "hour": 12,
+        "turnover": 8790.34,
+        "soldUnits": 197
+      },
+      {
+        "day": 19,
+        "hour": 13,
+        "turnover": 5612.39,
+        "soldUnits": 158
+      },
+      {
+        "day": 19,
+        "hour": 14,
+        "turnover": 8057.85,
+        "soldUnits": 130
+      },
+      {
+        "day": 19,
+        "hour": 15,
+        "turnover": 6910.33,
+        "soldUnits": 170
+      },
+      {
+        "day": 19,
+        "hour": 16,
+        "turnover": 4018.6,
+        "soldUnits": 57
+      },
+      {
+        "day": 19,
+        "hour": 17,
+        "turnover": 4164.6,
+        "soldUnits": 78
+      },
+      {
+        "day": 19,
+        "hour": 18,
+        "turnover": 2149.46,
+        "soldUnits": 18
+      },
+      {
+        "day": 19,
+        "hour": 19,
+        "turnover": 7276.73,
+        "soldUnits": 102
+      },
+      {
+        "day": 19,
+        "hour": 20,
+        "turnover": 8877.8,
+        "soldUnits": 42
+      },
+      {
+        "day": 19,
+        "hour": 21,
+        "turnover": 9745.8,
+        "soldUnits": 101
+      },
+      {
+        "day": 19,
+        "hour": 22,
+        "turnover": 2072.58,
+        "soldUnits": 129
+      },
+      {
+        "day": 19,
+        "hour": 23,
+        "turnover": 2857.05,
+        "soldUnits": 97
+      },
+      {
+        "day": 20,
+        "hour": 0,
+        "turnover": 6226.11,
+        "soldUnits": 150
+      },
+      {
+        "day": 20,
+        "hour": 1,
+        "turnover": 9892.24,
+        "soldUnits": 52
+      },
+      {
+        "day": 20,
+        "hour": 2,
+        "turnover": 8995.97,
+        "soldUnits": 146
+      },
+      {
+        "day": 20,
+        "hour": 3,
+        "turnover": 9318.71,
+        "soldUnits": 129
+      },
+      {
+        "day": 20,
+        "hour": 4,
+        "turnover": 8811.8,
+        "soldUnits": 123
+      },
+      {
+        "day": 20,
+        "hour": 5,
+        "turnover": 2764.94,
+        "soldUnits": 71
+      },
+      {
+        "day": 20,
+        "hour": 6,
+        "turnover": 5460.52,
+        "soldUnits": 38
+      },
+      {
+        "day": 20,
+        "hour": 7,
+        "turnover": 7498.17,
+        "soldUnits": 196
+      },
+      {
+        "day": 20,
+        "hour": 8,
+        "turnover": 6473.65,
+        "soldUnits": 71
+      },
+      {
+        "day": 20,
+        "hour": 9,
+        "turnover": 1743.23,
+        "soldUnits": 34
+      },
+      {
+        "day": 20,
+        "hour": 10,
+        "turnover": 4379.68,
+        "soldUnits": 98
+      },
+      {
+        "day": 20,
+        "hour": 11,
+        "turnover": 4629.32,
+        "soldUnits": 57
+      },
+      {
+        "day": 20,
+        "hour": 12,
+        "turnover": 4101.67,
+        "soldUnits": 164
+      },
+      {
+        "day": 20,
+        "hour": 13,
+        "turnover": 8475.23,
+        "soldUnits": 193
+      },
+      {
+        "day": 20,
+        "hour": 14,
+        "turnover": 1705.12,
+        "soldUnits": 186
+      },
+      {
+        "day": 20,
+        "hour": 15,
+        "turnover": 2477.62,
+        "soldUnits": 40
+      },
+      {
+        "day": 20,
+        "hour": 16,
+        "turnover": 3186.5,
+        "soldUnits": 95
+      },
+      {
+        "day": 20,
+        "hour": 17,
+        "turnover": 8474.11,
+        "soldUnits": 100
+      },
+      {
+        "day": 20,
+        "hour": 18,
+        "turnover": 7191.22,
+        "soldUnits": 181
+      },
+      {
+        "day": 20,
+        "hour": 19,
+        "turnover": 2669.32,
+        "soldUnits": 156
+      },
+      {
+        "day": 20,
+        "hour": 20,
+        "turnover": 6780.33,
+        "soldUnits": 143
+      },
+      {
+        "day": 20,
+        "hour": 21,
+        "turnover": 8593.33,
+        "soldUnits": 151
+      },
+      {
+        "day": 20,
+        "hour": 22,
+        "turnover": 6798.05,
+        "soldUnits": 164
+      },
+      {
+        "day": 20,
+        "hour": 23,
+        "turnover": 9857.21,
+        "soldUnits": 43
+      },
+      {
+        "day": 21,
+        "hour": 0,
+        "turnover": 5237.54,
+        "soldUnits": 199
+      },
+      {
+        "day": 21,
+        "hour": 1,
+        "turnover": 3357.2,
+        "soldUnits": 144
+      },
+      {
+        "day": 21,
+        "hour": 2,
+        "turnover": 8523.86,
+        "soldUnits": 83
+      },
+      {
+        "day": 21,
+        "hour": 3,
+        "turnover": 1645.08,
+        "soldUnits": 125
+      },
+      {
+        "day": 21,
+        "hour": 4,
+        "turnover": 4798.02,
+        "soldUnits": 26
+      },
+      {
+        "day": 21,
+        "hour": 5,
+        "turnover": 5556.26,
+        "soldUnits": 56
+      },
+      {
+        "day": 21,
+        "hour": 6,
+        "turnover": 7330.7,
+        "soldUnits": 137
+      },
+      {
+        "day": 21,
+        "hour": 7,
+        "turnover": 4102.28,
+        "soldUnits": 152
+      },
+      {
+        "day": 21,
+        "hour": 8,
+        "turnover": 6696.98,
+        "soldUnits": 38
+      },
+      {
+        "day": 21,
+        "hour": 9,
+        "turnover": 6980.05,
+        "soldUnits": 27
+      },
+      {
+        "day": 21,
+        "hour": 10,
+        "turnover": 6317.56,
+        "soldUnits": 71
+      },
+      {
+        "day": 21,
+        "hour": 11,
+        "turnover": 4589.65,
+        "soldUnits": 17
+      },
+      {
+        "day": 21,
+        "hour": 12,
+        "turnover": 8623.22,
+        "soldUnits": 82
+      },
+      {
+        "day": 21,
+        "hour": 13,
+        "turnover": 4059.0,
+        "soldUnits": 170
+      },
+      {
+        "day": 21,
+        "hour": 14,
+        "turnover": 2887.88,
+        "soldUnits": 95
+      },
+      {
+        "day": 21,
+        "hour": 15,
+        "turnover": 3548.91,
+        "soldUnits": 22
+      },
+      {
+        "day": 21,
+        "hour": 16,
+        "turnover": 2160.07,
+        "soldUnits": 30
+      },
+      {
+        "day": 21,
+        "hour": 17,
+        "turnover": 3453.44,
+        "soldUnits": 93
+      },
+      {
+        "day": 21,
+        "hour": 18,
+        "turnover": 7201.11,
+        "soldUnits": 31
+      },
+      {
+        "day": 21,
+        "hour": 19,
+        "turnover": 1540.96,
+        "soldUnits": 123
+      },
+      {
+        "day": 21,
+        "hour": 20,
+        "turnover": 2165.5,
+        "soldUnits": 55
+      },
+      {
+        "day": 21,
+        "hour": 21,
+        "turnover": 2832.29,
+        "soldUnits": 93
+      },
+      {
+        "day": 21,
+        "hour": 22,
+        "turnover": 7121.1,
+        "soldUnits": 110
+      },
+      {
+        "day": 21,
+        "hour": 23,
+        "turnover": 2365.43,
+        "soldUnits": 129
+      },
+      {
+        "day": 22,
+        "hour": 0,
+        "turnover": 8410.08,
+        "soldUnits": 113
+      },
+      {
+        "day": 22,
+        "hour": 1,
+        "turnover": 1184.69,
+        "soldUnits": 90
+      },
+      {
+        "day": 22,
+        "hour": 2,
+        "turnover": 4826.67,
+        "soldUnits": 162
+      },
+      {
+        "day": 22,
+        "hour": 3,
+        "turnover": 2480.44,
+        "soldUnits": 89
+      },
+      {
+        "day": 22,
+        "hour": 4,
+        "turnover": 2652.43,
+        "soldUnits": 183
+      },
+      {
+        "day": 22,
+        "hour": 5,
+        "turnover": 4552.53,
+        "soldUnits": 174
+      },
+      {
+        "day": 22,
+        "hour": 6,
+        "turnover": 3100.36,
+        "soldUnits": 45
+      },
+      {
+        "day": 22,
+        "hour": 7,
+        "turnover": 6754.04,
+        "soldUnits": 33
+      },
+      {
+        "day": 22,
+        "hour": 8,
+        "turnover": 8680.54,
+        "soldUnits": 84
+      },
+      {
+        "day": 22,
+        "hour": 9,
+        "turnover": 4234.87,
+        "soldUnits": 35
+      },
+      {
+        "day": 22,
+        "hour": 10,
+        "turnover": 7758.43,
+        "soldUnits": 22
+      },
+      {
+        "day": 22,
+        "hour": 11,
+        "turnover": 4879.56,
+        "soldUnits": 188
+      },
+      {
+        "day": 22,
+        "hour": 12,
+        "turnover": 9202.36,
+        "soldUnits": 110
+      },
+      {
+        "day": 22,
+        "hour": 13,
+        "turnover": 1253.41,
+        "soldUnits": 124
+      },
+      {
+        "day": 22,
+        "hour": 14,
+        "turnover": 2470.12,
+        "soldUnits": 158
+      },
+      {
+        "day": 22,
+        "hour": 15,
+        "turnover": 8185.33,
+        "soldUnits": 156
+      },
+      {
+        "day": 22,
+        "hour": 16,
+        "turnover": 8590.25,
+        "soldUnits": 171
+      },
+      {
+        "day": 22,
+        "hour": 17,
+        "turnover": 6018.01,
+        "soldUnits": 144
+      },
+      {
+        "day": 22,
+        "hour": 18,
+        "turnover": 6833.66,
+        "soldUnits": 117
+      },
+      {
+        "day": 22,
+        "hour": 19,
+        "turnover": 3621.83,
+        "soldUnits": 190
+      },
+      {
+        "day": 22,
+        "hour": 20,
+        "turnover": 4184.07,
+        "soldUnits": 176
+      },
+      {
+        "day": 22,
+        "hour": 21,
+        "turnover": 3228.7,
+        "soldUnits": 106
+      },
+      {
+        "day": 22,
+        "hour": 22,
+        "turnover": 5184.51,
+        "soldUnits": 67
+      },
+      {
+        "day": 22,
+        "hour": 23,
+        "turnover": 1642.83,
+        "soldUnits": 133
+      },
+      {
+        "day": 23,
+        "hour": 0,
+        "turnover": 1717.15,
+        "soldUnits": 163
+      },
+      {
+        "day": 23,
+        "hour": 1,
+        "turnover": 9431.5,
+        "soldUnits": 199
+      },
+      {
+        "day": 23,
+        "hour": 2,
+        "turnover": 3868.59,
+        "soldUnits": 92
+      },
+      {
+        "day": 23,
+        "hour": 3,
+        "turnover": 1089.47,
+        "soldUnits": 36
+      },
+      {
+        "day": 23,
+        "hour": 4,
+        "turnover": 5843.93,
+        "soldUnits": 70
+      },
+      {
+        "day": 23,
+        "hour": 5,
+        "turnover": 3387.85,
+        "soldUnits": 164
+      },
+      {
+        "day": 23,
+        "hour": 6,
+        "turnover": 4726.56,
+        "soldUnits": 39
+      },
+      {
+        "day": 23,
+        "hour": 7,
+        "turnover": 1862.2,
+        "soldUnits": 32
+      },
+      {
+        "day": 23,
+        "hour": 8,
+        "turnover": 8341.81,
+        "soldUnits": 49
+      },
+      {
+        "day": 23,
+        "hour": 9,
+        "turnover": 6506.07,
+        "soldUnits": 111
+      },
+      {
+        "day": 23,
+        "hour": 10,
+        "turnover": 7801.48,
+        "soldUnits": 121
+      },
+      {
+        "day": 23,
+        "hour": 11,
+        "turnover": 4394.41,
+        "soldUnits": 48
+      },
+      {
+        "day": 23,
+        "hour": 12,
+        "turnover": 8177.97,
+        "soldUnits": 90
+      },
+      {
+        "day": 23,
+        "hour": 13,
+        "turnover": 4793.98,
+        "soldUnits": 51
+      },
+      {
+        "day": 23,
+        "hour": 14,
+        "turnover": 2132.7,
+        "soldUnits": 26
+      },
+      {
+        "day": 23,
+        "hour": 15,
+        "turnover": 8966.18,
+        "soldUnits": 87
+      },
+      {
+        "day": 23,
+        "hour": 16,
+        "turnover": 4028.21,
+        "soldUnits": 54
+      },
+      {
+        "day": 23,
+        "hour": 17,
+        "turnover": 7083.75,
+        "soldUnits": 157
+      },
+      {
+        "day": 23,
+        "hour": 18,
+        "turnover": 2141.71,
+        "soldUnits": 91
+      },
+      {
+        "day": 23,
+        "hour": 19,
+        "turnover": 5215.2,
+        "soldUnits": 146
+      },
+      {
+        "day": 23,
+        "hour": 20,
+        "turnover": 4297.03,
+        "soldUnits": 160
+      },
+      {
+        "day": 23,
+        "hour": 21,
+        "turnover": 5203.85,
+        "soldUnits": 161
+      },
+      {
+        "day": 23,
+        "hour": 22,
+        "turnover": 7542.58,
+        "soldUnits": 133
+      },
+      {
+        "day": 23,
+        "hour": 23,
+        "turnover": 1484.23,
+        "soldUnits": 197
+      },
+      {
+        "day": 24,
+        "hour": 0,
+        "turnover": 6473.82,
+        "soldUnits": 94
+      },
+      {
+        "day": 24,
+        "hour": 1,
+        "turnover": 9127.4,
+        "soldUnits": 166
+      },
+      {
+        "day": 24,
+        "hour": 2,
+        "turnover": 6909.23,
+        "soldUnits": 174
+      },
+      {
+        "day": 24,
+        "hour": 3,
+        "turnover": 5982.13,
+        "soldUnits": 200
+      },
+      {
+        "day": 24,
+        "hour": 4,
+        "turnover": 2933.11,
+        "soldUnits": 41
+      },
+      {
+        "day": 24,
+        "hour": 5,
+        "turnover": 1956.95,
+        "soldUnits": 161
+      },
+      {
+        "day": 24,
+        "hour": 6,
+        "turnover": 1913.75,
+        "soldUnits": 32
+      },
+      {
+        "day": 24,
+        "hour": 7,
+        "turnover": 5874.19,
+        "soldUnits": 28
+      },
+      {
+        "day": 24,
+        "hour": 8,
+        "turnover": 9158.63,
+        "soldUnits": 145
+      },
+      {
+        "day": 24,
+        "hour": 9,
+        "turnover": 1443.22,
+        "soldUnits": 68
+      },
+      {
+        "day": 24,
+        "hour": 10,
+        "turnover": 4359.6,
+        "soldUnits": 115
+      },
+      {
+        "day": 24,
+        "hour": 11,
+        "turnover": 7099.47,
+        "soldUnits": 48
+      },
+      {
+        "day": 24,
+        "hour": 12,
+        "turnover": 9486.99,
+        "soldUnits": 39
+      },
+      {
+        "day": 24,
+        "hour": 13,
+        "turnover": 9998.57,
+        "soldUnits": 23
+      },
+      {
+        "day": 24,
+        "hour": 14,
+        "turnover": 3546.15,
+        "soldUnits": 177
+      },
+      {
+        "day": 24,
+        "hour": 15,
+        "turnover": 4701.04,
+        "soldUnits": 146
+      },
+      {
+        "day": 24,
+        "hour": 16,
+        "turnover": 5055.36,
+        "soldUnits": 97
+      },
+      {
+        "day": 24,
+        "hour": 17,
+        "turnover": 8137.66,
+        "soldUnits": 186
+      },
+      {
+        "day": 24,
+        "hour": 18,
+        "turnover": 1432.15,
+        "soldUnits": 185
+      },
+      {
+        "day": 24,
+        "hour": 19,
+        "turnover": 2542.82,
+        "soldUnits": 154
+      },
+      {
+        "day": 24,
+        "hour": 20,
+        "turnover": 5150.38,
+        "soldUnits": 160
+      },
+      {
+        "day": 24,
+        "hour": 21,
+        "turnover": 2600.29,
+        "soldUnits": 146
+      },
+      {
+        "day": 24,
+        "hour": 22,
+        "turnover": 2807.46,
+        "soldUnits": 105
+      },
+      {
+        "day": 24,
+        "hour": 23,
+        "turnover": 5904.37,
+        "soldUnits": 130
+      },
+      {
+        "day": 25,
+        "hour": 0,
+        "turnover": 7693.72,
+        "soldUnits": 18
+      },
+      {
+        "day": 25,
+        "hour": 1,
+        "turnover": 9951.59,
+        "soldUnits": 135
+      },
+      {
+        "day": 25,
+        "hour": 2,
+        "turnover": 4482.61,
+        "soldUnits": 120
+      },
+      {
+        "day": 25,
+        "hour": 3,
+        "turnover": 7998.92,
+        "soldUnits": 20
+      },
+      {
+        "day": 25,
+        "hour": 4,
+        "turnover": 5435.63,
+        "soldUnits": 124
+      },
+      {
+        "day": 25,
+        "hour": 5,
+        "turnover": 1241.91,
+        "soldUnits": 45
+      },
+      {
+        "day": 25,
+        "hour": 6,
+        "turnover": 5353.17,
+        "soldUnits": 73
+      },
+      {
+        "day": 25,
+        "hour": 7,
+        "turnover": 8917.44,
+        "soldUnits": 165
+      },
+      {
+        "day": 25,
+        "hour": 8,
+        "turnover": 2400.74,
+        "soldUnits": 137
+      },
+      {
+        "day": 25,
+        "hour": 9,
+        "turnover": 4259.37,
+        "soldUnits": 68
+      },
+      {
+        "day": 25,
+        "hour": 10,
+        "turnover": 3260.81,
+        "soldUnits": 41
+      },
+      {
+        "day": 25,
+        "hour": 11,
+        "turnover": 4367.71,
+        "soldUnits": 21
+      },
+      {
+        "day": 25,
+        "hour": 12,
+        "turnover": 2048.35,
+        "soldUnits": 93
+      },
+      {
+        "day": 25,
+        "hour": 13,
+        "turnover": 2653.4,
+        "soldUnits": 134
+      },
+      {
+        "day": 25,
+        "hour": 14,
+        "turnover": 2791.17,
+        "soldUnits": 181
+      },
+      {
+        "day": 25,
+        "hour": 15,
+        "turnover": 8866.58,
+        "soldUnits": 61
+      },
+      {
+        "day": 25,
+        "hour": 16,
+        "turnover": 4971.25,
+        "soldUnits": 56
+      },
+      {
+        "day": 25,
+        "hour": 17,
+        "turnover": 4728.68,
+        "soldUnits": 132
+      },
+      {
+        "day": 25,
+        "hour": 18,
+        "turnover": 4441.13,
+        "soldUnits": 37
+      },
+      {
+        "day": 25,
+        "hour": 19,
+        "turnover": 3998.77,
+        "soldUnits": 61
+      },
+      {
+        "day": 25,
+        "hour": 20,
+        "turnover": 9706.47,
+        "soldUnits": 38
+      },
+      {
+        "day": 25,
+        "hour": 21,
+        "turnover": 7756.5,
+        "soldUnits": 80
+      },
+      {
+        "day": 25,
+        "hour": 22,
+        "turnover": 3826.83,
+        "soldUnits": 73
+      },
+      {
+        "day": 25,
+        "hour": 23,
+        "turnover": 5529.7,
+        "soldUnits": 165
+      },
+      {
+        "day": 26,
+        "hour": 0,
+        "turnover": 1887.82,
+        "soldUnits": 110
+      },
+      {
+        "day": 26,
+        "hour": 1,
+        "turnover": 5795.52,
+        "soldUnits": 118
+      },
+      {
+        "day": 26,
+        "hour": 2,
+        "turnover": 2125.77,
+        "soldUnits": 141
+      },
+      {
+        "day": 26,
+        "hour": 3,
+        "turnover": 6054.74,
+        "soldUnits": 48
+      },
+      {
+        "day": 26,
+        "hour": 4,
+        "turnover": 9374.74,
+        "soldUnits": 60
+      },
+      {
+        "day": 26,
+        "hour": 5,
+        "turnover": 7674.69,
+        "soldUnits": 179
+      },
+      {
+        "day": 26,
+        "hour": 6,
+        "turnover": 1162.56,
+        "soldUnits": 67
+      },
+      {
+        "day": 26,
+        "hour": 7,
+        "turnover": 8485.51,
+        "soldUnits": 81
+      },
+      {
+        "day": 26,
+        "hour": 8,
+        "turnover": 9453.85,
+        "soldUnits": 61
+      },
+      {
+        "day": 26,
+        "hour": 9,
+        "turnover": 6425.03,
+        "soldUnits": 57
+      },
+      {
+        "day": 26,
+        "hour": 10,
+        "turnover": 5196.29,
+        "soldUnits": 82
+      },
+      {
+        "day": 26,
+        "hour": 11,
+        "turnover": 1442.43,
+        "soldUnits": 171
+      },
+      {
+        "day": 26,
+        "hour": 12,
+        "turnover": 7802.45,
+        "soldUnits": 74
+      },
+      {
+        "day": 26,
+        "hour": 13,
+        "turnover": 4033.38,
+        "soldUnits": 40
+      },
+      {
+        "day": 26,
+        "hour": 14,
+        "turnover": 1076.63,
+        "soldUnits": 72
+      },
+      {
+        "day": 26,
+        "hour": 15,
+        "turnover": 9834.73,
+        "soldUnits": 41
+      },
+      {
+        "day": 26,
+        "hour": 16,
+        "turnover": 5668.67,
+        "soldUnits": 117
+      },
+      {
+        "day": 26,
+        "hour": 17,
+        "turnover": 9473.56,
+        "soldUnits": 90
+      },
+      {
+        "day": 26,
+        "hour": 18,
+        "turnover": 7687.71,
+        "soldUnits": 190
+      },
+      {
+        "day": 26,
+        "hour": 19,
+        "turnover": 9992.75,
+        "soldUnits": 37
+      },
+      {
+        "day": 26,
+        "hour": 20,
+        "turnover": 4633.43,
+        "soldUnits": 138
+      },
+      {
+        "day": 26,
+        "hour": 21,
+        "turnover": 6772.29,
+        "soldUnits": 163
+      },
+      {
+        "day": 26,
+        "hour": 22,
+        "turnover": 5465.7,
+        "soldUnits": 128
+      },
+      {
+        "day": 26,
+        "hour": 23,
+        "turnover": 8440.29,
+        "soldUnits": 63
+      },
+      {
+        "day": 27,
+        "hour": 0,
+        "turnover": 1239.16,
+        "soldUnits": 153
+      },
+      {
+        "day": 27,
+        "hour": 1,
+        "turnover": 8880.02,
+        "soldUnits": 181
+      },
+      {
+        "day": 27,
+        "hour": 2,
+        "turnover": 3624.71,
+        "soldUnits": 190
+      },
+      {
+        "day": 27,
+        "hour": 3,
+        "turnover": 4431.04,
+        "soldUnits": 88
+      },
+      {
+        "day": 27,
+        "hour": 4,
+        "turnover": 5015.39,
+        "soldUnits": 42
+      },
+      {
+        "day": 27,
+        "hour": 5,
+        "turnover": 9129.87,
+        "soldUnits": 29
+      },
+      {
+        "day": 27,
+        "hour": 6,
+        "turnover": 6526.8,
+        "soldUnits": 95
+      },
+      {
+        "day": 27,
+        "hour": 7,
+        "turnover": 1654.84,
+        "soldUnits": 60
+      },
+      {
+        "day": 27,
+        "hour": 8,
+        "turnover": 5809.86,
+        "soldUnits": 124
+      },
+      {
+        "day": 27,
+        "hour": 9,
+        "turnover": 9289.05,
+        "soldUnits": 50
+      },
+      {
+        "day": 27,
+        "hour": 10,
+        "turnover": 2912.56,
+        "soldUnits": 47
+      },
+      {
+        "day": 27,
+        "hour": 11,
+        "turnover": 6602.91,
+        "soldUnits": 123
+      },
+      {
+        "day": 27,
+        "hour": 12,
+        "turnover": 6268.38,
+        "soldUnits": 123
+      },
+      {
+        "day": 27,
+        "hour": 13,
+        "turnover": 3558.55,
+        "soldUnits": 34
+      },
+      {
+        "day": 27,
+        "hour": 14,
+        "turnover": 5525.83,
+        "soldUnits": 23
+      },
+      {
+        "day": 27,
+        "hour": 15,
+        "turnover": 2939.26,
+        "soldUnits": 173
+      },
+      {
+        "day": 27,
+        "hour": 16,
+        "turnover": 3234.93,
+        "soldUnits": 182
+      },
+      {
+        "day": 27,
+        "hour": 17,
+        "turnover": 9530.66,
+        "soldUnits": 98
+      },
+      {
+        "day": 27,
+        "hour": 18,
+        "turnover": 9258.31,
+        "soldUnits": 47
+      },
+      {
+        "day": 27,
+        "hour": 19,
+        "turnover": 4432.58,
+        "soldUnits": 185
+      },
+      {
+        "day": 27,
+        "hour": 20,
+        "turnover": 7771.27,
+        "soldUnits": 76
+      },
+      {
+        "day": 27,
+        "hour": 21,
+        "turnover": 2288.81,
+        "soldUnits": 106
+      },
+      {
+        "day": 27,
+        "hour": 22,
+        "turnover": 8890.94,
+        "soldUnits": 99
+      },
+      {
+        "day": 27,
+        "hour": 23,
+        "turnover": 5709.93,
+        "soldUnits": 41
+      },
+      {
+        "day": 28,
+        "hour": 0,
+        "turnover": 4362.38,
+        "soldUnits": 83
+      },
+      {
+        "day": 28,
+        "hour": 1,
+        "turnover": 2994.61,
+        "soldUnits": 91
+      },
+      {
+        "day": 28,
+        "hour": 2,
+        "turnover": 1614.7,
+        "soldUnits": 88
+      },
+      {
+        "day": 28,
+        "hour": 3,
+        "turnover": 4937.91,
+        "soldUnits": 40
+      },
+      {
+        "day": 28,
+        "hour": 4,
+        "turnover": 5469.84,
+        "soldUnits": 155
+      },
+      {
+        "day": 28,
+        "hour": 5,
+        "turnover": 1084.36,
+        "soldUnits": 18
+      },
+      {
+        "day": 28,
+        "hour": 6,
+        "turnover": 3736.9,
+        "soldUnits": 28
+      },
+      {
+        "day": 28,
+        "hour": 7,
+        "turnover": 1448.26,
+        "soldUnits": 59
+      },
+      {
+        "day": 28,
+        "hour": 8,
+        "turnover": 7427.4,
+        "soldUnits": 59
+      },
+      {
+        "day": 28,
+        "hour": 9,
+        "turnover": 5559.48,
+        "soldUnits": 187
+      },
+      {
+        "day": 28,
+        "hour": 10,
+        "turnover": 8141.71,
+        "soldUnits": 175
+      },
+      {
+        "day": 28,
+        "hour": 11,
+        "turnover": 8335.15,
+        "soldUnits": 112
+      },
+      {
+        "day": 28,
+        "hour": 12,
+        "turnover": 8618.81,
+        "soldUnits": 44
+      },
+      {
+        "day": 28,
+        "hour": 13,
+        "turnover": 6387.46,
+        "soldUnits": 107
+      },
+      {
+        "day": 28,
+        "hour": 14,
+        "turnover": 9438.91,
+        "soldUnits": 169
+      },
+      {
+        "day": 28,
+        "hour": 15,
+        "turnover": 4664.24,
+        "soldUnits": 184
+      },
+      {
+        "day": 28,
+        "hour": 16,
+        "turnover": 1628.62,
+        "soldUnits": 83
+      },
+      {
+        "day": 28,
+        "hour": 17,
+        "turnover": 7322.5,
+        "soldUnits": 22
+      },
+      {
+        "day": 28,
+        "hour": 18,
+        "turnover": 3046.17,
+        "soldUnits": 176
+      },
+      {
+        "day": 28,
+        "hour": 19,
+        "turnover": 6627.07,
+        "soldUnits": 72
+      },
+      {
+        "day": 28,
+        "hour": 20,
+        "turnover": 6819.72,
+        "soldUnits": 198
+      },
+      {
+        "day": 28,
+        "hour": 21,
+        "turnover": 9581.47,
+        "soldUnits": 18
+      },
+      {
+        "day": 28,
+        "hour": 22,
+        "turnover": 1285.52,
+        "soldUnits": 82
+      },
+      {
+        "day": 28,
+        "hour": 23,
+        "turnover": 5756.46,
+        "soldUnits": 86
+      },
+      {
+        "day": 29,
+        "hour": 0,
+        "turnover": 2090.43,
+        "soldUnits": 18
+      },
+      {
+        "day": 29,
+        "hour": 1,
+        "turnover": 3860.87,
+        "soldUnits": 54
+      },
+      {
+        "day": 29,
+        "hour": 2,
+        "turnover": 6202.98,
+        "soldUnits": 45
+      },
+      {
+        "day": 29,
+        "hour": 3,
+        "turnover": 1091.51,
+        "soldUnits": 124
+      },
+      {
+        "day": 29,
+        "hour": 4,
+        "turnover": 9931.34,
+        "soldUnits": 157
+      },
+      {
+        "day": 29,
+        "hour": 5,
+        "turnover": 8839.32,
+        "soldUnits": 86
+      },
+      {
+        "day": 29,
+        "hour": 6,
+        "turnover": 7130.85,
+        "soldUnits": 59
+      },
+      {
+        "day": 29,
+        "hour": 7,
+        "turnover": 4830.61,
+        "soldUnits": 138
+      },
+      {
+        "day": 29,
+        "hour": 8,
+        "turnover": 6681.9,
+        "soldUnits": 46
+      },
+      {
+        "day": 29,
+        "hour": 9,
+        "turnover": 9005.15,
+        "soldUnits": 27
+      },
+      {
+        "day": 29,
+        "hour": 10,
+        "turnover": 5440.21,
+        "soldUnits": 111
+      },
+      {
+        "day": 29,
+        "hour": 11,
+        "turnover": 6650.02,
+        "soldUnits": 200
+      },
+      {
+        "day": 29,
+        "hour": 12,
+        "turnover": 3159.33,
+        "soldUnits": 87
+      },
+      {
+        "day": 29,
+        "hour": 13,
+        "turnover": 5521.33,
+        "soldUnits": 67
+      },
+      {
+        "day": 29,
+        "hour": 14,
+        "turnover": 5734.32,
+        "soldUnits": 157
+      },
+      {
+        "day": 29,
+        "hour": 15,
+        "turnover": 9988.74,
+        "soldUnits": 68
+      },
+      {
+        "day": 29,
+        "hour": 16,
+        "turnover": 2666.59,
+        "soldUnits": 86
+      },
+      {
+        "day": 29,
+        "hour": 17,
+        "turnover": 4878.87,
+        "soldUnits": 162
+      },
+      {
+        "day": 29,
+        "hour": 18,
+        "turnover": 1719.94,
+        "soldUnits": 45
+      },
+      {
+        "day": 29,
+        "hour": 19,
+        "turnover": 9617.08,
+        "soldUnits": 131
+      },
+      {
+        "day": 29,
+        "hour": 20,
+        "turnover": 1970.4,
+        "soldUnits": 41
+      },
+      {
+        "day": 29,
+        "hour": 21,
+        "turnover": 4908.67,
+        "soldUnits": 90
+      },
+      {
+        "day": 29,
+        "hour": 22,
+        "turnover": 7678.74,
+        "soldUnits": 35
+      },
+      {
+        "day": 29,
+        "hour": 23,
+        "turnover": 5982.48,
+        "soldUnits": 104
+      }
+    ]
+  },
+  {
+    "profileId": 2,
+    "profileName": "Drugi sklep Andrzeja",
+    "ordersData": {
+      "returned": 50,
+      "notsent": 23,
+      "unpaid": 5
+    },
+    "salesQualityData": {
+      "percentLevel": 0.89,
+      "category": "Złoty Sprzedawca",
+      "worstAspects": [
+        {
+          "name": "Wysyłka",
+          "level": 0.75
+        },
+        {
+          "name": "Zadowolenie kupującego",
+          "level": 0.9
+        },
+        {
+          "name": "Zgodność z opisem",
+          "level": 0.95
+        }
+      ]
+    },
+    "offerRankingData": [
+      {
+        "id": 1,
+        "img": "https://a.allegroimg.com/s128/11f57f/8b4917ac4f58a3f91787b38f66c7/Kolowrotek-QUICK-2-2000-FD-5-1BB-V2-GRATIS",
+        "name": "Kołowrotek ABC-111",
+        "soldUnits": 100,
+        "turnover": 5243.92,
+        "viewsCount": 1000
+      },
+      {
+        "id": 2,
+        "img": "https://a.allegroimg.com/s128/11f57f/8b4917ac4f58a3f91787b38f66c7/Kolowrotek-QUICK-2-2000-FD-5-1BB-V2-GRATIS",
+        "name": "Kołowrotek ABC-222",
+        "soldUnits": 20,
+        "turnover": 1000.0,
+        "viewsCount": 50
+      },
+      {
+        "id": 3,
+        "img": "https://a.allegroimg.com/s128/11f57f/8b4917ac4f58a3f91787b38f66c7/Kolowrotek-QUICK-2-2000-FD-5-1BB-V2-GRATIS",
+        "name": "Kołowrotek ABC-3333",
+        "soldUnits": 1,
+        "turnover": 80.24,
+        "viewsCount": 80
+      },
+      {
+        "id": 4,
+        "img": "https://a.allegroimg.com/s128/11f57f/8b4917ac4f58a3f91787b38f66c7/Kolowrotek-QUICK-2-2000-FD-5-1BB-V2-GRATIS",
+        "name": "Kołowrotek ABC-4444",
+        "soldUnits": 20,
+        "turnover": 500.91,
+        "viewsCount": 100
+      },
+      {
+        "id": 5,
+        "img": "https://a.allegroimg.com/s128/116d2f/03acd68e4bb9a7a71d9866cc5d9e/Wedka-Daiwa-Procaster-Allround-3-60m-10-40g",
+        "name": "Wędka JS-99",
+        "soldUnits": 1000,
+        "turnover": 100002.94,
+        "viewsCount": 5000
+      }
+    ],
+    "buyerReviews": [
+      {
+        "id": "1",
+        "username": "user1",
+        "type": "positive",
+        "comment": "Komentarz1 Pozytywny abc"
+      },
+      {
+        "id": "2",
+        "username": "user2",
+        "type": "positive",
+        "comment": "Komentarz2 Pozytywny abc"
+      },
+      {
+        "id": "3",
+        "username": "user3user",
+        "type": "negative",
+        "comment": "Komentarz3 negative abc"
+      },
+      {
+        "id": "5",
+        "username": "user4",
+        "type": "negative",
+        "comment": "Komentarz4 negative abc"
+      },
+      {
+        "id": "4",
+        "username": "user4",
+        "type": "negative",
+        "comment": "Komentarz4a negative abc"
+      },
+      {
+        "id": "6",
+        "username": "user4",
+        "type": "negative"
+      },
+      {
+        "id": "7",
+        "username": "user5",
+        "type": "positive",
+        "comment": "Komentarz5 Pozytywny abc"
+      },
+      {
+        "id": "8",
+        "username": "user6",
+        "type": "positive",
+        "comment": "Komentarz6a Pozytywny abc"
+      },
+      {
+        "id": "9",
+        "username": "user6",
+        "type": "positive"
+      }
+    ],
+    "salesData": [
+      {
+        "day": 0,
+        "hour": 0,
+        "turnover": 6146.28,
+        "soldUnits": 104
+      },
+      {
+        "day": 0,
+        "hour": 1,
+        "turnover": 9204.4,
+        "soldUnits": 189
+      },
+      {
+        "day": 0,
+        "hour": 2,
+        "turnover": 7531.92,
+        "soldUnits": 85
+      },
+      {
+        "day": 0,
+        "hour": 3,
+        "turnover": 7348.36,
+        "soldUnits": 88
+      },
+      {
+        "day": 0,
+        "hour": 4,
+        "turnover": 6811.3,
+        "soldUnits": 65
+      },
+      {
+        "day": 0,
+        "hour": 5,
+        "turnover": 4829.78,
+        "soldUnits": 19
+      },
+      {
+        "day": 0,
+        "hour": 6,
+        "turnover": 2567.82,
+        "soldUnits": 194
+      },
+      {
+        "day": 0,
+        "hour": 7,
+        "turnover": 1441.39,
+        "soldUnits": 102
+      },
+      {
+        "day": 0,
+        "hour": 8,
+        "turnover": 7996.98,
+        "soldUnits": 131
+      },
+      {
+        "day": 0,
+        "hour": 9,
+        "turnover": 2335.15,
+        "soldUnits": 42
+      },
+      {
+        "day": 0,
+        "hour": 10,
+        "turnover": 2663.63,
+        "soldUnits": 177
+      },
+      {
+        "day": 0,
+        "hour": 11,
+        "turnover": 6700.51,
+        "soldUnits": 199
+      },
+      {
+        "day": 0,
+        "hour": 12,
+        "turnover": 9427.48,
+        "soldUnits": 47
+      },
+      {
+        "day": 0,
+        "hour": 13,
+        "turnover": 8897.28,
+        "soldUnits": 180
+      },
+      {
+        "day": 0,
+        "hour": 14,
+        "turnover": 9525.47,
+        "soldUnits": 148
+      },
+      {
+        "day": 0,
+        "hour": 15,
+        "turnover": 1005.99,
+        "soldUnits": 162
+      },
+      {
+        "day": 0,
+        "hour": 16,
+        "turnover": 3008.14,
+        "soldUnits": 192
+      },
+      {
+        "day": 0,
+        "hour": 17,
+        "turnover": 5880.05,
+        "soldUnits": 190
+      },
+      {
+        "day": 0,
+        "hour": 18,
+        "turnover": 1481.33,
+        "soldUnits": 118
+      },
+      {
+        "day": 0,
+        "hour": 19,
+        "turnover": 3551.3,
+        "soldUnits": 141
+      },
+      {
+        "day": 0,
+        "hour": 20,
+        "turnover": 9381.17,
+        "soldUnits": 48
+      },
+      {
+        "day": 0,
+        "hour": 21,
+        "turnover": 2469.13,
+        "soldUnits": 65
+      },
+      {
+        "day": 0,
+        "hour": 22,
+        "turnover": 1214.74,
+        "soldUnits": 30
+      },
+      {
+        "day": 0,
+        "hour": 23,
+        "turnover": 9254.54,
+        "soldUnits": 159
+      },
+      {
+        "day": 1,
+        "hour": 0,
+        "turnover": 6785.43,
+        "soldUnits": 198
+      },
+      {
+        "day": 1,
+        "hour": 1,
+        "turnover": 4320.76,
+        "soldUnits": 70
+      },
+      {
+        "day": 1,
+        "hour": 2,
+        "turnover": 8610.05,
+        "soldUnits": 119
+      },
+      {
+        "day": 1,
+        "hour": 3,
+        "turnover": 4812.7,
+        "soldUnits": 150
+      },
+      {
+        "day": 1,
+        "hour": 4,
+        "turnover": 1623.79,
+        "soldUnits": 25
+      },
+      {
+        "day": 1,
+        "hour": 5,
+        "turnover": 2900.21,
+        "soldUnits": 200
+      },
+      {
+        "day": 1,
+        "hour": 6,
+        "turnover": 5134.06,
+        "soldUnits": 198
+      },
+      {
+        "day": 1,
+        "hour": 7,
+        "turnover": 5091.2,
+        "soldUnits": 172
+      },
+      {
+        "day": 1,
+        "hour": 8,
+        "turnover": 3702.65,
+        "soldUnits": 28
+      },
+      {
+        "day": 1,
+        "hour": 9,
+        "turnover": 4949.14,
+        "soldUnits": 176
+      },
+      {
+        "day": 1,
+        "hour": 10,
+        "turnover": 5806.67,
+        "soldUnits": 95
+      },
+      {
+        "day": 1,
+        "hour": 11,
+        "turnover": 5974.66,
+        "soldUnits": 82
+      },
+      {
+        "day": 1,
+        "hour": 12,
+        "turnover": 1453.52,
+        "soldUnits": 188
+      },
+      {
+        "day": 1,
+        "hour": 13,
+        "turnover": 4758.43,
+        "soldUnits": 152
+      },
+      {
+        "day": 1,
+        "hour": 14,
+        "turnover": 7228.17,
+        "soldUnits": 48
+      },
+      {
+        "day": 1,
+        "hour": 15,
+        "turnover": 3828.39,
+        "soldUnits": 50
+      },
+      {
+        "day": 1,
+        "hour": 16,
+        "turnover": 5924.42,
+        "soldUnits": 194
+      },
+      {
+        "day": 1,
+        "hour": 17,
+        "turnover": 8648.6,
+        "soldUnits": 157
+      },
+      {
+        "day": 1,
+        "hour": 18,
+        "turnover": 4880.7,
+        "soldUnits": 73
+      },
+      {
+        "day": 1,
+        "hour": 19,
+        "turnover": 5170.51,
+        "soldUnits": 36
+      },
+      {
+        "day": 1,
+        "hour": 20,
+        "turnover": 5510.66,
+        "soldUnits": 31
+      },
+      {
+        "day": 1,
+        "hour": 21,
+        "turnover": 2629.48,
+        "soldUnits": 65
+      },
+      {
+        "day": 1,
+        "hour": 22,
+        "turnover": 6625.96,
+        "soldUnits": 144
+      },
+      {
+        "day": 1,
+        "hour": 23,
+        "turnover": 2288.8,
+        "soldUnits": 33
+      },
+      {
+        "day": 2,
+        "hour": 0,
+        "turnover": 3672.77,
+        "soldUnits": 43
+      },
+      {
+        "day": 2,
+        "hour": 1,
+        "turnover": 3215.74,
+        "soldUnits": 139
+      },
+      {
+        "day": 2,
+        "hour": 2,
+        "turnover": 6159.23,
+        "soldUnits": 106
+      },
+      {
+        "day": 2,
+        "hour": 3,
+        "turnover": 7743.98,
+        "soldUnits": 123
+      },
+      {
+        "day": 2,
+        "hour": 4,
+        "turnover": 7376.16,
+        "soldUnits": 72
+      },
+      {
+        "day": 2,
+        "hour": 5,
+        "turnover": 9083.74,
+        "soldUnits": 51
+      },
+      {
+        "day": 2,
+        "hour": 6,
+        "turnover": 7247.12,
+        "soldUnits": 194
+      },
+      {
+        "day": 2,
+        "hour": 7,
+        "turnover": 3385.66,
+        "soldUnits": 36
+      },
+      {
+        "day": 2,
+        "hour": 8,
+        "turnover": 3094.29,
+        "soldUnits": 26
+      },
+      {
+        "day": 2,
+        "hour": 9,
+        "turnover": 1709.41,
+        "soldUnits": 135
+      },
+      {
+        "day": 2,
+        "hour": 10,
+        "turnover": 5509.43,
+        "soldUnits": 175
+      },
+      {
+        "day": 2,
+        "hour": 11,
+        "turnover": 4959.83,
+        "soldUnits": 110
+      },
+      {
+        "day": 2,
+        "hour": 12,
+        "turnover": 5690.1,
+        "soldUnits": 40
+      },
+      {
+        "day": 2,
+        "hour": 13,
+        "turnover": 3050.28,
+        "soldUnits": 198
+      },
+      {
+        "day": 2,
+        "hour": 14,
+        "turnover": 1858.78,
+        "soldUnits": 47
+      },
+      {
+        "day": 2,
+        "hour": 15,
+        "turnover": 6307.17,
+        "soldUnits": 141
+      },
+      {
+        "day": 2,
+        "hour": 16,
+        "turnover": 5765.39,
+        "soldUnits": 99
+      },
+      {
+        "day": 2,
+        "hour": 17,
+        "turnover": 3147.12,
+        "soldUnits": 152
+      },
+      {
+        "day": 2,
+        "hour": 18,
+        "turnover": 7329.58,
+        "soldUnits": 106
+      },
+      {
+        "day": 2,
+        "hour": 19,
+        "turnover": 1618.22,
+        "soldUnits": 55
+      },
+      {
+        "day": 2,
+        "hour": 20,
+        "turnover": 4882.77,
+        "soldUnits": 183
+      },
+      {
+        "day": 2,
+        "hour": 21,
+        "turnover": 5333.93,
+        "soldUnits": 123
+      },
+      {
+        "day": 2,
+        "hour": 22,
+        "turnover": 7611.04,
+        "soldUnits": 123
+      },
+      {
+        "day": 2,
+        "hour": 23,
+        "turnover": 1863.21,
+        "soldUnits": 15
+      },
+      {
+        "day": 3,
+        "hour": 0,
+        "turnover": 9230.3,
+        "soldUnits": 138
+      },
+      {
+        "day": 3,
+        "hour": 1,
+        "turnover": 2361.64,
+        "soldUnits": 138
+      },
+      {
+        "day": 3,
+        "hour": 2,
+        "turnover": 9578.33,
+        "soldUnits": 24
+      },
+      {
+        "day": 3,
+        "hour": 3,
+        "turnover": 9103.76,
+        "soldUnits": 18
+      },
+      {
+        "day": 3,
+        "hour": 4,
+        "turnover": 7071.08,
+        "soldUnits": 21
+      },
+      {
+        "day": 3,
+        "hour": 5,
+        "turnover": 6461.94,
+        "soldUnits": 19
+      },
+      {
+        "day": 3,
+        "hour": 6,
+        "turnover": 3056.64,
+        "soldUnits": 171
+      },
+      {
+        "day": 3,
+        "hour": 7,
+        "turnover": 3860.44,
+        "soldUnits": 96
+      },
+      {
+        "day": 3,
+        "hour": 8,
+        "turnover": 5529.56,
+        "soldUnits": 100
+      },
+      {
+        "day": 3,
+        "hour": 9,
+        "turnover": 6421.36,
+        "soldUnits": 29
+      },
+      {
+        "day": 3,
+        "hour": 10,
+        "turnover": 6988.11,
+        "soldUnits": 75
+      },
+      {
+        "day": 3,
+        "hour": 11,
+        "turnover": 7016.77,
+        "soldUnits": 90
+      },
+      {
+        "day": 3,
+        "hour": 12,
+        "turnover": 3581.35,
+        "soldUnits": 44
+      },
+      {
+        "day": 3,
+        "hour": 13,
+        "turnover": 4903.54,
+        "soldUnits": 168
+      },
+      {
+        "day": 3,
+        "hour": 14,
+        "turnover": 4585.87,
+        "soldUnits": 191
+      },
+      {
+        "day": 3,
+        "hour": 15,
+        "turnover": 7168.72,
+        "soldUnits": 160
+      },
+      {
+        "day": 3,
+        "hour": 16,
+        "turnover": 9336.84,
+        "soldUnits": 72
+      },
+      {
+        "day": 3,
+        "hour": 17,
+        "turnover": 6813.72,
+        "soldUnits": 127
+      },
+      {
+        "day": 3,
+        "hour": 18,
+        "turnover": 5041.31,
+        "soldUnits": 78
+      },
+      {
+        "day": 3,
+        "hour": 19,
+        "turnover": 3271.98,
+        "soldUnits": 168
+      },
+      {
+        "day": 3,
+        "hour": 20,
+        "turnover": 4978.9,
+        "soldUnits": 37
+      },
+      {
+        "day": 3,
+        "hour": 21,
+        "turnover": 7903.47,
+        "soldUnits": 69
+      },
+      {
+        "day": 3,
+        "hour": 22,
+        "turnover": 7083.22,
+        "soldUnits": 144
+      },
+      {
+        "day": 3,
+        "hour": 23,
+        "turnover": 7929.55,
+        "soldUnits": 15
+      },
+      {
+        "day": 4,
+        "hour": 0,
+        "turnover": 8834.21,
+        "soldUnits": 72
+      },
+      {
+        "day": 4,
+        "hour": 1,
+        "turnover": 6344.92,
+        "soldUnits": 22
+      },
+      {
+        "day": 4,
+        "hour": 2,
+        "turnover": 5024.28,
+        "soldUnits": 65
+      },
+      {
+        "day": 4,
+        "hour": 3,
+        "turnover": 1372.36,
+        "soldUnits": 67
+      },
+      {
+        "day": 4,
+        "hour": 4,
+        "turnover": 1341.68,
+        "soldUnits": 47
+      },
+      {
+        "day": 4,
+        "hour": 5,
+        "turnover": 6175.24,
+        "soldUnits": 34
+      },
+      {
+        "day": 4,
+        "hour": 6,
+        "turnover": 4954.47,
+        "soldUnits": 115
+      },
+      {
+        "day": 4,
+        "hour": 7,
+        "turnover": 6140.98,
+        "soldUnits": 129
+      },
+      {
+        "day": 4,
+        "hour": 8,
+        "turnover": 2359.4,
+        "soldUnits": 26
+      },
+      {
+        "day": 4,
+        "hour": 9,
+        "turnover": 7212.17,
+        "soldUnits": 60
+      },
+      {
+        "day": 4,
+        "hour": 10,
+        "turnover": 8228.35,
+        "soldUnits": 45
+      },
+      {
+        "day": 4,
+        "hour": 11,
+        "turnover": 5210.8,
+        "soldUnits": 18
+      },
+      {
+        "day": 4,
+        "hour": 12,
+        "turnover": 2479.62,
+        "soldUnits": 87
+      },
+      {
+        "day": 4,
+        "hour": 13,
+        "turnover": 6043.28,
+        "soldUnits": 152
+      },
+      {
+        "day": 4,
+        "hour": 14,
+        "turnover": 9773.88,
+        "soldUnits": 62
+      },
+      {
+        "day": 4,
+        "hour": 15,
+        "turnover": 1733.7,
+        "soldUnits": 116
+      },
+      {
+        "day": 4,
+        "hour": 16,
+        "turnover": 6300.5,
+        "soldUnits": 52
+      },
+      {
+        "day": 4,
+        "hour": 17,
+        "turnover": 4840.29,
+        "soldUnits": 74
+      },
+      {
+        "day": 4,
+        "hour": 18,
+        "turnover": 1702.51,
+        "soldUnits": 159
+      },
+      {
+        "day": 4,
+        "hour": 19,
+        "turnover": 5831.42,
+        "soldUnits": 160
+      },
+      {
+        "day": 4,
+        "hour": 20,
+        "turnover": 9338.4,
+        "soldUnits": 142
+      },
+      {
+        "day": 4,
+        "hour": 21,
+        "turnover": 5340.55,
+        "soldUnits": 94
+      },
+      {
+        "day": 4,
+        "hour": 22,
+        "turnover": 3289.48,
+        "soldUnits": 89
+      },
+      {
+        "day": 4,
+        "hour": 23,
+        "turnover": 6028.65,
+        "soldUnits": 91
+      },
+      {
+        "day": 5,
+        "hour": 0,
+        "turnover": 1457.07,
+        "soldUnits": 121
+      },
+      {
+        "day": 5,
+        "hour": 1,
+        "turnover": 7894.27,
+        "soldUnits": 100
+      },
+      {
+        "day": 5,
+        "hour": 2,
+        "turnover": 8170.21,
+        "soldUnits": 199
+      },
+      {
+        "day": 5,
+        "hour": 3,
+        "turnover": 1027.65,
+        "soldUnits": 197
+      },
+      {
+        "day": 5,
+        "hour": 4,
+        "turnover": 8973.4,
+        "soldUnits": 31
+      },
+      {
+        "day": 5,
+        "hour": 5,
+        "turnover": 1669.87,
+        "soldUnits": 188
+      },
+      {
+        "day": 5,
+        "hour": 6,
+        "turnover": 4811.06,
+        "soldUnits": 171
+      },
+      {
+        "day": 5,
+        "hour": 7,
+        "turnover": 6389.55,
+        "soldUnits": 127
+      },
+      {
+        "day": 5,
+        "hour": 8,
+        "turnover": 9496.28,
+        "soldUnits": 77
+      },
+      {
+        "day": 5,
+        "hour": 9,
+        "turnover": 4612.45,
+        "soldUnits": 148
+      },
+      {
+        "day": 5,
+        "hour": 10,
+        "turnover": 8960.52,
+        "soldUnits": 102
+      },
+      {
+        "day": 5,
+        "hour": 11,
+        "turnover": 7214.85,
+        "soldUnits": 85
+      },
+      {
+        "day": 5,
+        "hour": 12,
+        "turnover": 8635.66,
+        "soldUnits": 47
+      },
+      {
+        "day": 5,
+        "hour": 13,
+        "turnover": 9945.2,
+        "soldUnits": 34
+      },
+      {
+        "day": 5,
+        "hour": 14,
+        "turnover": 3113.58,
+        "soldUnits": 124
+      },
+      {
+        "day": 5,
+        "hour": 15,
+        "turnover": 9608.88,
+        "soldUnits": 165
+      },
+      {
+        "day": 5,
+        "hour": 16,
+        "turnover": 9441.33,
+        "soldUnits": 75
+      },
+      {
+        "day": 5,
+        "hour": 17,
+        "turnover": 8459.01,
+        "soldUnits": 135
+      },
+      {
+        "day": 5,
+        "hour": 18,
+        "turnover": 6900.7,
+        "soldUnits": 37
+      },
+      {
+        "day": 5,
+        "hour": 19,
+        "turnover": 7730.29,
+        "soldUnits": 116
+      },
+      {
+        "day": 5,
+        "hour": 20,
+        "turnover": 9219.89,
+        "soldUnits": 187
+      },
+      {
+        "day": 5,
+        "hour": 21,
+        "turnover": 5100.65,
+        "soldUnits": 187
+      },
+      {
+        "day": 5,
+        "hour": 22,
+        "turnover": 8456.22,
+        "soldUnits": 117
+      },
+      {
+        "day": 5,
+        "hour": 23,
+        "turnover": 6637.72,
+        "soldUnits": 75
+      },
+      {
+        "day": 6,
+        "hour": 0,
+        "turnover": 8533.33,
+        "soldUnits": 114
+      },
+      {
+        "day": 6,
+        "hour": 1,
+        "turnover": 5316.68,
+        "soldUnits": 150
+      },
+      {
+        "day": 6,
+        "hour": 2,
+        "turnover": 7290.41,
+        "soldUnits": 163
+      },
+      {
+        "day": 6,
+        "hour": 3,
+        "turnover": 1890.99,
+        "soldUnits": 40
+      },
+      {
+        "day": 6,
+        "hour": 4,
+        "turnover": 1967.25,
+        "soldUnits": 124
+      },
+      {
+        "day": 6,
+        "hour": 5,
+        "turnover": 6554.04,
+        "soldUnits": 155
+      },
+      {
+        "day": 6,
+        "hour": 6,
+        "turnover": 6074.7,
+        "soldUnits": 37
+      },
+      {
+        "day": 6,
+        "hour": 7,
+        "turnover": 1593.82,
+        "soldUnits": 53
+      },
+      {
+        "day": 6,
+        "hour": 8,
+        "turnover": 2576.75,
+        "soldUnits": 43
+      },
+      {
+        "day": 6,
+        "hour": 9,
+        "turnover": 5789.69,
+        "soldUnits": 192
+      },
+      {
+        "day": 6,
+        "hour": 10,
+        "turnover": 1952.33,
+        "soldUnits": 144
+      },
+      {
+        "day": 6,
+        "hour": 11,
+        "turnover": 2285.47,
+        "soldUnits": 164
+      },
+      {
+        "day": 6,
+        "hour": 12,
+        "turnover": 1504.07,
+        "soldUnits": 129
+      },
+      {
+        "day": 6,
+        "hour": 13,
+        "turnover": 2478.71,
+        "soldUnits": 30
+      },
+      {
+        "day": 6,
+        "hour": 14,
+        "turnover": 9007.69,
+        "soldUnits": 96
+      },
+      {
+        "day": 6,
+        "hour": 15,
+        "turnover": 9608.0,
+        "soldUnits": 132
+      },
+      {
+        "day": 6,
+        "hour": 16,
+        "turnover": 7994.51,
+        "soldUnits": 87
+      },
+      {
+        "day": 6,
+        "hour": 17,
+        "turnover": 3384.31,
+        "soldUnits": 71
+      },
+      {
+        "day": 6,
+        "hour": 18,
+        "turnover": 8552.87,
+        "soldUnits": 181
+      },
+      {
+        "day": 6,
+        "hour": 19,
+        "turnover": 7612.6,
+        "soldUnits": 74
+      },
+      {
+        "day": 6,
+        "hour": 20,
+        "turnover": 3239.24,
+        "soldUnits": 69
+      },
+      {
+        "day": 6,
+        "hour": 21,
+        "turnover": 1348.23,
+        "soldUnits": 195
+      },
+      {
+        "day": 6,
+        "hour": 22,
+        "turnover": 8725.83,
+        "soldUnits": 77
+      },
+      {
+        "day": 6,
+        "hour": 23,
+        "turnover": 9977.56,
+        "soldUnits": 29
+      },
+      {
+        "day": 7,
+        "hour": 0,
+        "turnover": 5110.37,
+        "soldUnits": 148
+      },
+      {
+        "day": 7,
+        "hour": 1,
+        "turnover": 5716.98,
+        "soldUnits": 128
+      },
+      {
+        "day": 7,
+        "hour": 2,
+        "turnover": 6114.32,
+        "soldUnits": 78
+      },
+      {
+        "day": 7,
+        "hour": 3,
+        "turnover": 1463.6,
+        "soldUnits": 186
+      },
+      {
+        "day": 7,
+        "hour": 4,
+        "turnover": 9212.64,
+        "soldUnits": 168
+      },
+      {
+        "day": 7,
+        "hour": 5,
+        "turnover": 8136.73,
+        "soldUnits": 132
+      },
+      {
+        "day": 7,
+        "hour": 6,
+        "turnover": 1027.71,
+        "soldUnits": 158
+      },
+      {
+        "day": 7,
+        "hour": 7,
+        "turnover": 6353.62,
+        "soldUnits": 58
+      },
+      {
+        "day": 7,
+        "hour": 8,
+        "turnover": 5229.99,
+        "soldUnits": 136
+      },
+      {
+        "day": 7,
+        "hour": 9,
+        "turnover": 4940.29,
+        "soldUnits": 164
+      },
+      {
+        "day": 7,
+        "hour": 10,
+        "turnover": 2193.07,
+        "soldUnits": 146
+      },
+      {
+        "day": 7,
+        "hour": 11,
+        "turnover": 1538.38,
+        "soldUnits": 103
+      },
+      {
+        "day": 7,
+        "hour": 12,
+        "turnover": 6462.0,
+        "soldUnits": 169
+      },
+      {
+        "day": 7,
+        "hour": 13,
+        "turnover": 9185.35,
+        "soldUnits": 72
+      },
+      {
+        "day": 7,
+        "hour": 14,
+        "turnover": 1339.66,
+        "soldUnits": 78
+      },
+      {
+        "day": 7,
+        "hour": 15,
+        "turnover": 9535.87,
+        "soldUnits": 169
+      },
+      {
+        "day": 7,
+        "hour": 16,
+        "turnover": 3170.3,
+        "soldUnits": 130
+      },
+      {
+        "day": 7,
+        "hour": 17,
+        "turnover": 9185.94,
+        "soldUnits": 65
+      },
+      {
+        "day": 7,
+        "hour": 18,
+        "turnover": 7820.75,
+        "soldUnits": 101
+      },
+      {
+        "day": 7,
+        "hour": 19,
+        "turnover": 2575.56,
+        "soldUnits": 151
+      },
+      {
+        "day": 7,
+        "hour": 20,
+        "turnover": 7977.19,
+        "soldUnits": 49
+      },
+      {
+        "day": 7,
+        "hour": 21,
+        "turnover": 3655.83,
+        "soldUnits": 76
+      },
+      {
+        "day": 7,
+        "hour": 22,
+        "turnover": 5187.08,
+        "soldUnits": 96
+      },
+      {
+        "day": 7,
+        "hour": 23,
+        "turnover": 2535.28,
+        "soldUnits": 200
+      },
+      {
+        "day": 8,
+        "hour": 0,
+        "turnover": 6322.48,
+        "soldUnits": 142
+      },
+      {
+        "day": 8,
+        "hour": 1,
+        "turnover": 1136.35,
+        "soldUnits": 174
+      },
+      {
+        "day": 8,
+        "hour": 2,
+        "turnover": 5447.73,
+        "soldUnits": 173
+      },
+      {
+        "day": 8,
+        "hour": 3,
+        "turnover": 4390.51,
+        "soldUnits": 191
+      },
+      {
+        "day": 8,
+        "hour": 4,
+        "turnover": 6598.41,
+        "soldUnits": 29
+      },
+      {
+        "day": 8,
+        "hour": 5,
+        "turnover": 3962.89,
+        "soldUnits": 105
+      },
+      {
+        "day": 8,
+        "hour": 6,
+        "turnover": 5505.18,
+        "soldUnits": 182
+      },
+      {
+        "day": 8,
+        "hour": 7,
+        "turnover": 8147.7,
+        "soldUnits": 62
+      },
+      {
+        "day": 8,
+        "hour": 8,
+        "turnover": 3984.49,
+        "soldUnits": 59
+      },
+      {
+        "day": 8,
+        "hour": 9,
+        "turnover": 7277.21,
+        "soldUnits": 194
+      },
+      {
+        "day": 8,
+        "hour": 10,
+        "turnover": 8929.8,
+        "soldUnits": 50
+      },
+      {
+        "day": 8,
+        "hour": 11,
+        "turnover": 7606.34,
+        "soldUnits": 77
+      },
+      {
+        "day": 8,
+        "hour": 12,
+        "turnover": 4179.21,
+        "soldUnits": 51
+      },
+      {
+        "day": 8,
+        "hour": 13,
+        "turnover": 7213.4,
+        "soldUnits": 43
+      },
+      {
+        "day": 8,
+        "hour": 14,
+        "turnover": 3764.71,
+        "soldUnits": 190
+      },
+      {
+        "day": 8,
+        "hour": 15,
+        "turnover": 2970.56,
+        "soldUnits": 196
+      },
+      {
+        "day": 8,
+        "hour": 16,
+        "turnover": 2801.6,
+        "soldUnits": 168
+      },
+      {
+        "day": 8,
+        "hour": 17,
+        "turnover": 2608.13,
+        "soldUnits": 56
+      },
+      {
+        "day": 8,
+        "hour": 18,
+        "turnover": 5175.97,
+        "soldUnits": 141
+      },
+      {
+        "day": 8,
+        "hour": 19,
+        "turnover": 7106.86,
+        "soldUnits": 168
+      },
+      {
+        "day": 8,
+        "hour": 20,
+        "turnover": 3266.56,
+        "soldUnits": 178
+      },
+      {
+        "day": 8,
+        "hour": 21,
+        "turnover": 2557.86,
+        "soldUnits": 101
+      },
+      {
+        "day": 8,
+        "hour": 22,
+        "turnover": 9317.3,
+        "soldUnits": 123
+      },
+      {
+        "day": 8,
+        "hour": 23,
+        "turnover": 8924.17,
+        "soldUnits": 193
+      },
+      {
+        "day": 9,
+        "hour": 0,
+        "turnover": 6184.07,
+        "soldUnits": 179
+      },
+      {
+        "day": 9,
+        "hour": 1,
+        "turnover": 5074.87,
+        "soldUnits": 144
+      },
+      {
+        "day": 9,
+        "hour": 2,
+        "turnover": 7173.54,
+        "soldUnits": 176
+      },
+      {
+        "day": 9,
+        "hour": 3,
+        "turnover": 9440.02,
+        "soldUnits": 59
+      },
+      {
+        "day": 9,
+        "hour": 4,
+        "turnover": 8820.7,
+        "soldUnits": 38
+      },
+      {
+        "day": 9,
+        "hour": 5,
+        "turnover": 7712.76,
+        "soldUnits": 144
+      },
+      {
+        "day": 9,
+        "hour": 6,
+        "turnover": 7999.85,
+        "soldUnits": 186
+      },
+      {
+        "day": 9,
+        "hour": 7,
+        "turnover": 8975.26,
+        "soldUnits": 137
+      },
+      {
+        "day": 9,
+        "hour": 8,
+        "turnover": 9372.15,
+        "soldUnits": 176
+      },
+      {
+        "day": 9,
+        "hour": 9,
+        "turnover": 8673.61,
+        "soldUnits": 83
+      },
+      {
+        "day": 9,
+        "hour": 10,
+        "turnover": 6096.03,
+        "soldUnits": 32
+      },
+      {
+        "day": 9,
+        "hour": 11,
+        "turnover": 3303.8,
+        "soldUnits": 94
+      },
+      {
+        "day": 9,
+        "hour": 12,
+        "turnover": 1550.09,
+        "soldUnits": 184
+      },
+      {
+        "day": 9,
+        "hour": 13,
+        "turnover": 2632.21,
+        "soldUnits": 113
+      },
+      {
+        "day": 9,
+        "hour": 14,
+        "turnover": 3932.0,
+        "soldUnits": 23
+      },
+      {
+        "day": 9,
+        "hour": 15,
+        "turnover": 8065.35,
+        "soldUnits": 113
+      },
+      {
+        "day": 9,
+        "hour": 16,
+        "turnover": 7483.28,
+        "soldUnits": 142
+      },
+      {
+        "day": 9,
+        "hour": 17,
+        "turnover": 8359.99,
+        "soldUnits": 18
+      },
+      {
+        "day": 9,
+        "hour": 18,
+        "turnover": 2488.39,
+        "soldUnits": 145
+      },
+      {
+        "day": 9,
+        "hour": 19,
+        "turnover": 7873.96,
+        "soldUnits": 52
+      },
+      {
+        "day": 9,
+        "hour": 20,
+        "turnover": 8322.1,
+        "soldUnits": 100
+      },
+      {
+        "day": 9,
+        "hour": 21,
+        "turnover": 3755.84,
+        "soldUnits": 108
+      },
+      {
+        "day": 9,
+        "hour": 22,
+        "turnover": 5176.64,
+        "soldUnits": 110
+      },
+      {
+        "day": 9,
+        "hour": 23,
+        "turnover": 6177.38,
+        "soldUnits": 83
+      },
+      {
+        "day": 10,
+        "hour": 0,
+        "turnover": 1457.26,
+        "soldUnits": 177
+      },
+      {
+        "day": 10,
+        "hour": 1,
+        "turnover": 7638.44,
+        "soldUnits": 147
+      },
+      {
+        "day": 10,
+        "hour": 2,
+        "turnover": 2815.06,
+        "soldUnits": 72
+      },
+      {
+        "day": 10,
+        "hour": 3,
+        "turnover": 5659.11,
+        "soldUnits": 190
+      },
+      {
+        "day": 10,
+        "hour": 4,
+        "turnover": 2513.7,
+        "soldUnits": 57
+      },
+      {
+        "day": 10,
+        "hour": 5,
+        "turnover": 4033.9,
+        "soldUnits": 51
+      },
+      {
+        "day": 10,
+        "hour": 6,
+        "turnover": 2250.82,
+        "soldUnits": 158
+      },
+      {
+        "day": 10,
+        "hour": 7,
+        "turnover": 1577.26,
+        "soldUnits": 164
+      },
+      {
+        "day": 10,
+        "hour": 8,
+        "turnover": 8309.52,
+        "soldUnits": 78
+      },
+      {
+        "day": 10,
+        "hour": 9,
+        "turnover": 7034.83,
+        "soldUnits": 126
+      },
+      {
+        "day": 10,
+        "hour": 10,
+        "turnover": 4933.14,
+        "soldUnits": 68
+      },
+      {
+        "day": 10,
+        "hour": 11,
+        "turnover": 7034.31,
+        "soldUnits": 44
+      },
+      {
+        "day": 10,
+        "hour": 12,
+        "turnover": 6499.73,
+        "soldUnits": 156
+      },
+      {
+        "day": 10,
+        "hour": 13,
+        "turnover": 7140.01,
+        "soldUnits": 195
+      },
+      {
+        "day": 10,
+        "hour": 14,
+        "turnover": 1635.63,
+        "soldUnits": 177
+      },
+      {
+        "day": 10,
+        "hour": 15,
+        "turnover": 8669.64,
+        "soldUnits": 20
+      },
+      {
+        "day": 10,
+        "hour": 16,
+        "turnover": 8320.28,
+        "soldUnits": 29
+      },
+      {
+        "day": 10,
+        "hour": 17,
+        "turnover": 8069.09,
+        "soldUnits": 195
+      },
+      {
+        "day": 10,
+        "hour": 18,
+        "turnover": 6156.67,
+        "soldUnits": 33
+      },
+      {
+        "day": 10,
+        "hour": 19,
+        "turnover": 1381.92,
+        "soldUnits": 135
+      },
+      {
+        "day": 10,
+        "hour": 20,
+        "turnover": 2187.15,
+        "soldUnits": 117
+      },
+      {
+        "day": 10,
+        "hour": 21,
+        "turnover": 2456.63,
+        "soldUnits": 108
+      },
+      {
+        "day": 10,
+        "hour": 22,
+        "turnover": 6703.86,
+        "soldUnits": 101
+      },
+      {
+        "day": 10,
+        "hour": 23,
+        "turnover": 9408.74,
+        "soldUnits": 39
+      },
+      {
+        "day": 11,
+        "hour": 0,
+        "turnover": 6102.71,
+        "soldUnits": 65
+      },
+      {
+        "day": 11,
+        "hour": 1,
+        "turnover": 9616.88,
+        "soldUnits": 48
+      },
+      {
+        "day": 11,
+        "hour": 2,
+        "turnover": 2563.13,
+        "soldUnits": 178
+      },
+      {
+        "day": 11,
+        "hour": 3,
+        "turnover": 9732.46,
+        "soldUnits": 114
+      },
+      {
+        "day": 11,
+        "hour": 4,
+        "turnover": 6865.7,
+        "soldUnits": 49
+      },
+      {
+        "day": 11,
+        "hour": 5,
+        "turnover": 6859.68,
+        "soldUnits": 29
+      },
+      {
+        "day": 11,
+        "hour": 6,
+        "turnover": 9528.06,
+        "soldUnits": 44
+      },
+      {
+        "day": 11,
+        "hour": 7,
+        "turnover": 7961.92,
+        "soldUnits": 127
+      },
+      {
+        "day": 11,
+        "hour": 8,
+        "turnover": 7505.87,
+        "soldUnits": 87
+      },
+      {
+        "day": 11,
+        "hour": 9,
+        "turnover": 6225.96,
+        "soldUnits": 192
+      },
+      {
+        "day": 11,
+        "hour": 10,
+        "turnover": 2211.44,
+        "soldUnits": 85
+      },
+      {
+        "day": 11,
+        "hour": 11,
+        "turnover": 1741.28,
+        "soldUnits": 61
+      },
+      {
+        "day": 11,
+        "hour": 12,
+        "turnover": 2812.61,
+        "soldUnits": 142
+      },
+      {
+        "day": 11,
+        "hour": 13,
+        "turnover": 6983.77,
+        "soldUnits": 127
+      },
+      {
+        "day": 11,
+        "hour": 14,
+        "turnover": 1656.39,
+        "soldUnits": 116
+      },
+      {
+        "day": 11,
+        "hour": 15,
+        "turnover": 3189.28,
+        "soldUnits": 94
+      },
+      {
+        "day": 11,
+        "hour": 16,
+        "turnover": 7277.1,
+        "soldUnits": 142
+      },
+      {
+        "day": 11,
+        "hour": 17,
+        "turnover": 5746.4,
+        "soldUnits": 157
+      },
+      {
+        "day": 11,
+        "hour": 18,
+        "turnover": 5809.4,
+        "soldUnits": 93
+      },
+      {
+        "day": 11,
+        "hour": 19,
+        "turnover": 6240.48,
+        "soldUnits": 71
+      },
+      {
+        "day": 11,
+        "hour": 20,
+        "turnover": 4366.89,
+        "soldUnits": 66
+      },
+      {
+        "day": 11,
+        "hour": 21,
+        "turnover": 7789.05,
+        "soldUnits": 192
+      },
+      {
+        "day": 11,
+        "hour": 22,
+        "turnover": 1317.81,
+        "soldUnits": 93
+      },
+      {
+        "day": 11,
+        "hour": 23,
+        "turnover": 6198.2,
+        "soldUnits": 84
+      },
+      {
+        "day": 12,
+        "hour": 0,
+        "turnover": 8753.6,
+        "soldUnits": 151
+      },
+      {
+        "day": 12,
+        "hour": 1,
+        "turnover": 3185.88,
+        "soldUnits": 167
+      },
+      {
+        "day": 12,
+        "hour": 2,
+        "turnover": 6580.57,
+        "soldUnits": 96
+      },
+      {
+        "day": 12,
+        "hour": 3,
+        "turnover": 8477.23,
+        "soldUnits": 195
+      },
+      {
+        "day": 12,
+        "hour": 4,
+        "turnover": 6406.22,
+        "soldUnits": 101
+      },
+      {
+        "day": 12,
+        "hour": 5,
+        "turnover": 3128.35,
+        "soldUnits": 30
+      },
+      {
+        "day": 12,
+        "hour": 6,
+        "turnover": 7405.2,
+        "soldUnits": 123
+      },
+      {
+        "day": 12,
+        "hour": 7,
+        "turnover": 5557.69,
+        "soldUnits": 51
+      },
+      {
+        "day": 12,
+        "hour": 8,
+        "turnover": 7078.38,
+        "soldUnits": 85
+      },
+      {
+        "day": 12,
+        "hour": 9,
+        "turnover": 3951.76,
+        "soldUnits": 146
+      },
+      {
+        "day": 12,
+        "hour": 10,
+        "turnover": 4967.9,
+        "soldUnits": 162
+      },
+      {
+        "day": 12,
+        "hour": 11,
+        "turnover": 2278.23,
+        "soldUnits": 87
+      },
+      {
+        "day": 12,
+        "hour": 12,
+        "turnover": 6117.18,
+        "soldUnits": 135
+      },
+      {
+        "day": 12,
+        "hour": 13,
+        "turnover": 9034.78,
+        "soldUnits": 66
+      },
+      {
+        "day": 12,
+        "hour": 14,
+        "turnover": 5918.09,
+        "soldUnits": 104
+      },
+      {
+        "day": 12,
+        "hour": 15,
+        "turnover": 5311.5,
+        "soldUnits": 190
+      },
+      {
+        "day": 12,
+        "hour": 16,
+        "turnover": 6423.12,
+        "soldUnits": 79
+      },
+      {
+        "day": 12,
+        "hour": 17,
+        "turnover": 5779.81,
+        "soldUnits": 49
+      },
+      {
+        "day": 12,
+        "hour": 18,
+        "turnover": 7437.16,
+        "soldUnits": 86
+      },
+      {
+        "day": 12,
+        "hour": 19,
+        "turnover": 1613.49,
+        "soldUnits": 79
+      },
+      {
+        "day": 12,
+        "hour": 20,
+        "turnover": 3869.12,
+        "soldUnits": 120
+      },
+      {
+        "day": 12,
+        "hour": 21,
+        "turnover": 3599.7,
+        "soldUnits": 39
+      },
+      {
+        "day": 12,
+        "hour": 22,
+        "turnover": 7487.59,
+        "soldUnits": 19
+      },
+      {
+        "day": 12,
+        "hour": 23,
+        "turnover": 5116.08,
+        "soldUnits": 59
+      },
+      {
+        "day": 13,
+        "hour": 0,
+        "turnover": 5864.41,
+        "soldUnits": 29
+      },
+      {
+        "day": 13,
+        "hour": 1,
+        "turnover": 4709.95,
+        "soldUnits": 21
+      },
+      {
+        "day": 13,
+        "hour": 2,
+        "turnover": 6700.59,
+        "soldUnits": 47
+      },
+      {
+        "day": 13,
+        "hour": 3,
+        "turnover": 8931.13,
+        "soldUnits": 173
+      },
+      {
+        "day": 13,
+        "hour": 4,
+        "turnover": 5724.76,
+        "soldUnits": 174
+      },
+      {
+        "day": 13,
+        "hour": 5,
+        "turnover": 7387.94,
+        "soldUnits": 92
+      },
+      {
+        "day": 13,
+        "hour": 6,
+        "turnover": 8439.7,
+        "soldUnits": 182
+      },
+      {
+        "day": 13,
+        "hour": 7,
+        "turnover": 1386.01,
+        "soldUnits": 41
+      },
+      {
+        "day": 13,
+        "hour": 8,
+        "turnover": 1310.12,
+        "soldUnits": 17
+      },
+      {
+        "day": 13,
+        "hour": 9,
+        "turnover": 3829.31,
+        "soldUnits": 18
+      },
+      {
+        "day": 13,
+        "hour": 10,
+        "turnover": 5730.47,
+        "soldUnits": 67
+      },
+      {
+        "day": 13,
+        "hour": 11,
+        "turnover": 1928.44,
+        "soldUnits": 164
+      },
+      {
+        "day": 13,
+        "hour": 12,
+        "turnover": 9309.13,
+        "soldUnits": 157
+      },
+      {
+        "day": 13,
+        "hour": 13,
+        "turnover": 9131.3,
+        "soldUnits": 64
+      },
+      {
+        "day": 13,
+        "hour": 14,
+        "turnover": 5868.53,
+        "soldUnits": 197
+      },
+      {
+        "day": 13,
+        "hour": 15,
+        "turnover": 3399.21,
+        "soldUnits": 177
+      },
+      {
+        "day": 13,
+        "hour": 16,
+        "turnover": 2171.06,
+        "soldUnits": 122
+      },
+      {
+        "day": 13,
+        "hour": 17,
+        "turnover": 4135.73,
+        "soldUnits": 184
+      },
+      {
+        "day": 13,
+        "hour": 18,
+        "turnover": 6988.3,
+        "soldUnits": 30
+      },
+      {
+        "day": 13,
+        "hour": 19,
+        "turnover": 1959.21,
+        "soldUnits": 62
+      },
+      {
+        "day": 13,
+        "hour": 20,
+        "turnover": 2665.84,
+        "soldUnits": 24
+      },
+      {
+        "day": 13,
+        "hour": 21,
+        "turnover": 6026.33,
+        "soldUnits": 19
+      },
+      {
+        "day": 13,
+        "hour": 22,
+        "turnover": 7437.75,
+        "soldUnits": 127
+      },
+      {
+        "day": 13,
+        "hour": 23,
+        "turnover": 5695.36,
+        "soldUnits": 110
+      },
+      {
+        "day": 14,
+        "hour": 0,
+        "turnover": 2334.95,
+        "soldUnits": 47
+      },
+      {
+        "day": 14,
+        "hour": 1,
+        "turnover": 3832.53,
+        "soldUnits": 177
+      },
+      {
+        "day": 14,
+        "hour": 2,
+        "turnover": 1585.44,
+        "soldUnits": 164
+      },
+      {
+        "day": 14,
+        "hour": 3,
+        "turnover": 8822.62,
+        "soldUnits": 100
+      },
+      {
+        "day": 14,
+        "hour": 4,
+        "turnover": 2286.13,
+        "soldUnits": 52
+      },
+      {
+        "day": 14,
+        "hour": 5,
+        "turnover": 8629.26,
+        "soldUnits": 148
+      },
+      {
+        "day": 14,
+        "hour": 6,
+        "turnover": 7787.98,
+        "soldUnits": 98
+      },
+      {
+        "day": 14,
+        "hour": 7,
+        "turnover": 2830.88,
+        "soldUnits": 109
+      },
+      {
+        "day": 14,
+        "hour": 8,
+        "turnover": 8883.89,
+        "soldUnits": 99
+      },
+      {
+        "day": 14,
+        "hour": 9,
+        "turnover": 3892.06,
+        "soldUnits": 156
+      },
+      {
+        "day": 14,
+        "hour": 10,
+        "turnover": 6027.03,
+        "soldUnits": 161
+      },
+      {
+        "day": 14,
+        "hour": 11,
+        "turnover": 4478.47,
+        "soldUnits": 88
+      },
+      {
+        "day": 14,
+        "hour": 12,
+        "turnover": 4156.13,
+        "soldUnits": 183
+      },
+      {
+        "day": 14,
+        "hour": 13,
+        "turnover": 4344.77,
+        "soldUnits": 76
+      },
+      {
+        "day": 14,
+        "hour": 14,
+        "turnover": 7479.63,
+        "soldUnits": 158
+      },
+      {
+        "day": 14,
+        "hour": 15,
+        "turnover": 5334.58,
+        "soldUnits": 61
+      },
+      {
+        "day": 14,
+        "hour": 16,
+        "turnover": 7784.69,
+        "soldUnits": 106
+      },
+      {
+        "day": 14,
+        "hour": 17,
+        "turnover": 4862.64,
+        "soldUnits": 99
+      },
+      {
+        "day": 14,
+        "hour": 18,
+        "turnover": 6576.42,
+        "soldUnits": 131
+      },
+      {
+        "day": 14,
+        "hour": 19,
+        "turnover": 7296.4,
+        "soldUnits": 162
+      },
+      {
+        "day": 14,
+        "hour": 20,
+        "turnover": 6090.67,
+        "soldUnits": 29
+      },
+      {
+        "day": 14,
+        "hour": 21,
+        "turnover": 8406.89,
+        "soldUnits": 126
+      },
+      {
+        "day": 14,
+        "hour": 22,
+        "turnover": 5729.35,
+        "soldUnits": 36
+      },
+      {
+        "day": 14,
+        "hour": 23,
+        "turnover": 7578.43,
+        "soldUnits": 65
+      },
+      {
+        "day": 15,
+        "hour": 0,
+        "turnover": 6808.7,
+        "soldUnits": 78
+      },
+      {
+        "day": 15,
+        "hour": 1,
+        "turnover": 9551.98,
+        "soldUnits": 194
+      },
+      {
+        "day": 15,
+        "hour": 2,
+        "turnover": 1040.51,
+        "soldUnits": 52
+      },
+      {
+        "day": 15,
+        "hour": 3,
+        "turnover": 3855.75,
+        "soldUnits": 180
+      },
+      {
+        "day": 15,
+        "hour": 4,
+        "turnover": 6664.45,
+        "soldUnits": 101
+      },
+      {
+        "day": 15,
+        "hour": 5,
+        "turnover": 3059.43,
+        "soldUnits": 196
+      },
+      {
+        "day": 15,
+        "hour": 6,
+        "turnover": 5679.23,
+        "soldUnits": 111
+      },
+      {
+        "day": 15,
+        "hour": 7,
+        "turnover": 7499.42,
+        "soldUnits": 186
+      },
+      {
+        "day": 15,
+        "hour": 8,
+        "turnover": 4368.04,
+        "soldUnits": 171
+      },
+      {
+        "day": 15,
+        "hour": 9,
+        "turnover": 8133.6,
+        "soldUnits": 105
+      },
+      {
+        "day": 15,
+        "hour": 10,
+        "turnover": 4364.82,
+        "soldUnits": 15
+      },
+      {
+        "day": 15,
+        "hour": 11,
+        "turnover": 1683.23,
+        "soldUnits": 142
+      },
+      {
+        "day": 15,
+        "hour": 12,
+        "turnover": 7108.66,
+        "soldUnits": 35
+      },
+      {
+        "day": 15,
+        "hour": 13,
+        "turnover": 3464.23,
+        "soldUnits": 184
+      },
+      {
+        "day": 15,
+        "hour": 14,
+        "turnover": 1366.95,
+        "soldUnits": 164
+      },
+      {
+        "day": 15,
+        "hour": 15,
+        "turnover": 6718.57,
+        "soldUnits": 67
+      },
+      {
+        "day": 15,
+        "hour": 16,
+        "turnover": 1686.45,
+        "soldUnits": 81
+      },
+      {
+        "day": 15,
+        "hour": 17,
+        "turnover": 4292.54,
+        "soldUnits": 116
+      },
+      {
+        "day": 15,
+        "hour": 18,
+        "turnover": 7702.17,
+        "soldUnits": 125
+      },
+      {
+        "day": 15,
+        "hour": 19,
+        "turnover": 1398.68,
+        "soldUnits": 182
+      },
+      {
+        "day": 15,
+        "hour": 20,
+        "turnover": 4650.54,
+        "soldUnits": 198
+      },
+      {
+        "day": 15,
+        "hour": 21,
+        "turnover": 4505.28,
+        "soldUnits": 129
+      },
+      {
+        "day": 15,
+        "hour": 22,
+        "turnover": 5860.32,
+        "soldUnits": 148
+      },
+      {
+        "day": 15,
+        "hour": 23,
+        "turnover": 9236.41,
+        "soldUnits": 120
+      },
+      {
+        "day": 16,
+        "hour": 0,
+        "turnover": 6697.56,
+        "soldUnits": 81
+      },
+      {
+        "day": 16,
+        "hour": 1,
+        "turnover": 9545.48,
+        "soldUnits": 185
+      },
+      {
+        "day": 16,
+        "hour": 2,
+        "turnover": 3579.65,
+        "soldUnits": 58
+      },
+      {
+        "day": 16,
+        "hour": 3,
+        "turnover": 8783.31,
+        "soldUnits": 155
+      },
+      {
+        "day": 16,
+        "hour": 4,
+        "turnover": 3616.73,
+        "soldUnits": 135
+      },
+      {
+        "day": 16,
+        "hour": 5,
+        "turnover": 6099.84,
+        "soldUnits": 173
+      },
+      {
+        "day": 16,
+        "hour": 6,
+        "turnover": 7721.0,
+        "soldUnits": 174
+      },
+      {
+        "day": 16,
+        "hour": 7,
+        "turnover": 4917.66,
+        "soldUnits": 137
+      },
+      {
+        "day": 16,
+        "hour": 8,
+        "turnover": 8658.81,
+        "soldUnits": 181
+      },
+      {
+        "day": 16,
+        "hour": 9,
+        "turnover": 3380.95,
+        "soldUnits": 115
+      },
+      {
+        "day": 16,
+        "hour": 10,
+        "turnover": 6298.08,
+        "soldUnits": 67
+      },
+      {
+        "day": 16,
+        "hour": 11,
+        "turnover": 4417.68,
+        "soldUnits": 69
+      },
+      {
+        "day": 16,
+        "hour": 12,
+        "turnover": 4745.26,
+        "soldUnits": 115
+      },
+      {
+        "day": 16,
+        "hour": 13,
+        "turnover": 8026.73,
+        "soldUnits": 195
+      },
+      {
+        "day": 16,
+        "hour": 14,
+        "turnover": 4004.46,
+        "soldUnits": 165
+      },
+      {
+        "day": 16,
+        "hour": 15,
+        "turnover": 3867.34,
+        "soldUnits": 113
+      },
+      {
+        "day": 16,
+        "hour": 16,
+        "turnover": 1858.24,
+        "soldUnits": 167
+      },
+      {
+        "day": 16,
+        "hour": 17,
+        "turnover": 5398.97,
+        "soldUnits": 90
+      },
+      {
+        "day": 16,
+        "hour": 18,
+        "turnover": 8353.27,
+        "soldUnits": 60
+      },
+      {
+        "day": 16,
+        "hour": 19,
+        "turnover": 4290.65,
+        "soldUnits": 151
+      },
+      {
+        "day": 16,
+        "hour": 20,
+        "turnover": 8333.37,
+        "soldUnits": 99
+      },
+      {
+        "day": 16,
+        "hour": 21,
+        "turnover": 6455.77,
+        "soldUnits": 146
+      },
+      {
+        "day": 16,
+        "hour": 22,
+        "turnover": 9886.72,
+        "soldUnits": 185
+      },
+      {
+        "day": 16,
+        "hour": 23,
+        "turnover": 1434.92,
+        "soldUnits": 174
+      },
+      {
+        "day": 17,
+        "hour": 0,
+        "turnover": 4093.43,
+        "soldUnits": 32
+      },
+      {
+        "day": 17,
+        "hour": 1,
+        "turnover": 6712.82,
+        "soldUnits": 194
+      },
+      {
+        "day": 17,
+        "hour": 2,
+        "turnover": 3375.02,
+        "soldUnits": 105
+      },
+      {
+        "day": 17,
+        "hour": 3,
+        "turnover": 3411.72,
+        "soldUnits": 114
+      },
+      {
+        "day": 17,
+        "hour": 4,
+        "turnover": 9857.22,
+        "soldUnits": 146
+      },
+      {
+        "day": 17,
+        "hour": 5,
+        "turnover": 8048.24,
+        "soldUnits": 175
+      },
+      {
+        "day": 17,
+        "hour": 6,
+        "turnover": 1563.36,
+        "soldUnits": 78
+      },
+      {
+        "day": 17,
+        "hour": 7,
+        "turnover": 3319.5,
+        "soldUnits": 23
+      },
+      {
+        "day": 17,
+        "hour": 8,
+        "turnover": 4268.99,
+        "soldUnits": 79
+      },
+      {
+        "day": 17,
+        "hour": 9,
+        "turnover": 9607.35,
+        "soldUnits": 123
+      },
+      {
+        "day": 17,
+        "hour": 10,
+        "turnover": 7811.52,
+        "soldUnits": 118
+      },
+      {
+        "day": 17,
+        "hour": 11,
+        "turnover": 7393.46,
+        "soldUnits": 26
+      },
+      {
+        "day": 17,
+        "hour": 12,
+        "turnover": 5001.48,
+        "soldUnits": 117
+      },
+      {
+        "day": 17,
+        "hour": 13,
+        "turnover": 4228.37,
+        "soldUnits": 138
+      },
+      {
+        "day": 17,
+        "hour": 14,
+        "turnover": 3728.34,
+        "soldUnits": 193
+      },
+      {
+        "day": 17,
+        "hour": 15,
+        "turnover": 5691.72,
+        "soldUnits": 198
+      },
+      {
+        "day": 17,
+        "hour": 16,
+        "turnover": 1296.23,
+        "soldUnits": 33
+      },
+      {
+        "day": 17,
+        "hour": 17,
+        "turnover": 5522.6,
+        "soldUnits": 27
+      },
+      {
+        "day": 17,
+        "hour": 18,
+        "turnover": 6161.62,
+        "soldUnits": 119
+      },
+      {
+        "day": 17,
+        "hour": 19,
+        "turnover": 8340.46,
+        "soldUnits": 22
+      },
+      {
+        "day": 17,
+        "hour": 20,
+        "turnover": 4249.93,
+        "soldUnits": 18
+      },
+      {
+        "day": 17,
+        "hour": 21,
+        "turnover": 3579.94,
+        "soldUnits": 150
+      },
+      {
+        "day": 17,
+        "hour": 22,
+        "turnover": 4873.75,
+        "soldUnits": 22
+      },
+      {
+        "day": 17,
+        "hour": 23,
+        "turnover": 3467.46,
+        "soldUnits": 163
+      },
+      {
+        "day": 18,
+        "hour": 0,
+        "turnover": 7724.81,
+        "soldUnits": 200
+      },
+      {
+        "day": 18,
+        "hour": 1,
+        "turnover": 3815.44,
+        "soldUnits": 30
+      },
+      {
+        "day": 18,
+        "hour": 2,
+        "turnover": 7401.05,
+        "soldUnits": 88
+      },
+      {
+        "day": 18,
+        "hour": 3,
+        "turnover": 1589.56,
+        "soldUnits": 199
+      },
+      {
+        "day": 18,
+        "hour": 4,
+        "turnover": 6331.83,
+        "soldUnits": 148
+      },
+      {
+        "day": 18,
+        "hour": 5,
+        "turnover": 8695.17,
+        "soldUnits": 156
+      },
+      {
+        "day": 18,
+        "hour": 6,
+        "turnover": 4672.02,
+        "soldUnits": 48
+      },
+      {
+        "day": 18,
+        "hour": 7,
+        "turnover": 9617.41,
+        "soldUnits": 174
+      },
+      {
+        "day": 18,
+        "hour": 8,
+        "turnover": 4334.48,
+        "soldUnits": 133
+      },
+      {
+        "day": 18,
+        "hour": 9,
+        "turnover": 7632.36,
+        "soldUnits": 124
+      },
+      {
+        "day": 18,
+        "hour": 10,
+        "turnover": 2008.41,
+        "soldUnits": 124
+      },
+      {
+        "day": 18,
+        "hour": 11,
+        "turnover": 7380.74,
+        "soldUnits": 47
+      },
+      {
+        "day": 18,
+        "hour": 12,
+        "turnover": 7149.07,
+        "soldUnits": 161
+      },
+      {
+        "day": 18,
+        "hour": 13,
+        "turnover": 5233.27,
+        "soldUnits": 85
+      },
+      {
+        "day": 18,
+        "hour": 14,
+        "turnover": 4867.1,
+        "soldUnits": 196
+      },
+      {
+        "day": 18,
+        "hour": 15,
+        "turnover": 7445.37,
+        "soldUnits": 183
+      },
+      {
+        "day": 18,
+        "hour": 16,
+        "turnover": 3727.5,
+        "soldUnits": 54
+      },
+      {
+        "day": 18,
+        "hour": 17,
+        "turnover": 6728.07,
+        "soldUnits": 177
+      },
+      {
+        "day": 18,
+        "hour": 18,
+        "turnover": 5914.39,
+        "soldUnits": 189
+      },
+      {
+        "day": 18,
+        "hour": 19,
+        "turnover": 5921.39,
+        "soldUnits": 143
+      },
+      {
+        "day": 18,
+        "hour": 20,
+        "turnover": 1482.74,
+        "soldUnits": 112
+      },
+      {
+        "day": 18,
+        "hour": 21,
+        "turnover": 8436.67,
+        "soldUnits": 130
+      },
+      {
+        "day": 18,
+        "hour": 22,
+        "turnover": 9344.57,
+        "soldUnits": 158
+      },
+      {
+        "day": 18,
+        "hour": 23,
+        "turnover": 3687.82,
+        "soldUnits": 169
+      },
+      {
+        "day": 19,
+        "hour": 0,
+        "turnover": 6339.85,
+        "soldUnits": 90
+      },
+      {
+        "day": 19,
+        "hour": 1,
+        "turnover": 1381.7,
+        "soldUnits": 44
+      },
+      {
+        "day": 19,
+        "hour": 2,
+        "turnover": 5897.34,
+        "soldUnits": 56
+      },
+      {
+        "day": 19,
+        "hour": 3,
+        "turnover": 2304.13,
+        "soldUnits": 63
+      },
+      {
+        "day": 19,
+        "hour": 4,
+        "turnover": 4205.66,
+        "soldUnits": 165
+      },
+      {
+        "day": 19,
+        "hour": 5,
+        "turnover": 1710.67,
+        "soldUnits": 93
+      },
+      {
+        "day": 19,
+        "hour": 6,
+        "turnover": 4646.87,
+        "soldUnits": 164
+      },
+      {
+        "day": 19,
+        "hour": 7,
+        "turnover": 6217.09,
+        "soldUnits": 119
+      },
+      {
+        "day": 19,
+        "hour": 8,
+        "turnover": 6945.07,
+        "soldUnits": 120
+      },
+      {
+        "day": 19,
+        "hour": 9,
+        "turnover": 1537.42,
+        "soldUnits": 19
+      },
+      {
+        "day": 19,
+        "hour": 10,
+        "turnover": 3589.24,
+        "soldUnits": 144
+      },
+      {
+        "day": 19,
+        "hour": 11,
+        "turnover": 6306.3,
+        "soldUnits": 76
+      },
+      {
+        "day": 19,
+        "hour": 12,
+        "turnover": 8790.34,
+        "soldUnits": 197
+      },
+      {
+        "day": 19,
+        "hour": 13,
+        "turnover": 5612.39,
+        "soldUnits": 158
+      },
+      {
+        "day": 19,
+        "hour": 14,
+        "turnover": 8057.85,
+        "soldUnits": 130
+      },
+      {
+        "day": 19,
+        "hour": 15,
+        "turnover": 6910.33,
+        "soldUnits": 170
+      },
+      {
+        "day": 19,
+        "hour": 16,
+        "turnover": 4018.6,
+        "soldUnits": 57
+      },
+      {
+        "day": 19,
+        "hour": 17,
+        "turnover": 4164.6,
+        "soldUnits": 78
+      },
+      {
+        "day": 19,
+        "hour": 18,
+        "turnover": 2149.46,
+        "soldUnits": 18
+      },
+      {
+        "day": 19,
+        "hour": 19,
+        "turnover": 7276.73,
+        "soldUnits": 102
+      },
+      {
+        "day": 19,
+        "hour": 20,
+        "turnover": 8877.8,
+        "soldUnits": 42
+      },
+      {
+        "day": 19,
+        "hour": 21,
+        "turnover": 9745.8,
+        "soldUnits": 101
+      },
+      {
+        "day": 19,
+        "hour": 22,
+        "turnover": 2072.58,
+        "soldUnits": 129
+      },
+      {
+        "day": 19,
+        "hour": 23,
+        "turnover": 2857.05,
+        "soldUnits": 97
+      },
+      {
+        "day": 20,
+        "hour": 0,
+        "turnover": 6226.11,
+        "soldUnits": 150
+      },
+      {
+        "day": 20,
+        "hour": 1,
+        "turnover": 9892.24,
+        "soldUnits": 52
+      },
+      {
+        "day": 20,
+        "hour": 2,
+        "turnover": 8995.97,
+        "soldUnits": 146
+      },
+      {
+        "day": 20,
+        "hour": 3,
+        "turnover": 9318.71,
+        "soldUnits": 129
+      },
+      {
+        "day": 20,
+        "hour": 4,
+        "turnover": 8811.8,
+        "soldUnits": 123
+      },
+      {
+        "day": 20,
+        "hour": 5,
+        "turnover": 2764.94,
+        "soldUnits": 71
+      },
+      {
+        "day": 20,
+        "hour": 6,
+        "turnover": 5460.52,
+        "soldUnits": 38
+      },
+      {
+        "day": 20,
+        "hour": 7,
+        "turnover": 7498.17,
+        "soldUnits": 196
+      },
+      {
+        "day": 20,
+        "hour": 8,
+        "turnover": 6473.65,
+        "soldUnits": 71
+      },
+      {
+        "day": 20,
+        "hour": 9,
+        "turnover": 1743.23,
+        "soldUnits": 34
+      },
+      {
+        "day": 20,
+        "hour": 10,
+        "turnover": 4379.68,
+        "soldUnits": 98
+      },
+      {
+        "day": 20,
+        "hour": 11,
+        "turnover": 4629.32,
+        "soldUnits": 57
+      },
+      {
+        "day": 20,
+        "hour": 12,
+        "turnover": 4101.67,
+        "soldUnits": 164
+      },
+      {
+        "day": 20,
+        "hour": 13,
+        "turnover": 8475.23,
+        "soldUnits": 193
+      },
+      {
+        "day": 20,
+        "hour": 14,
+        "turnover": 1705.12,
+        "soldUnits": 186
+      },
+      {
+        "day": 20,
+        "hour": 15,
+        "turnover": 2477.62,
+        "soldUnits": 40
+      },
+      {
+        "day": 20,
+        "hour": 16,
+        "turnover": 3186.5,
+        "soldUnits": 95
+      },
+      {
+        "day": 20,
+        "hour": 17,
+        "turnover": 8474.11,
+        "soldUnits": 100
+      },
+      {
+        "day": 20,
+        "hour": 18,
+        "turnover": 7191.22,
+        "soldUnits": 181
+      },
+      {
+        "day": 20,
+        "hour": 19,
+        "turnover": 2669.32,
+        "soldUnits": 156
+      },
+      {
+        "day": 20,
+        "hour": 20,
+        "turnover": 6780.33,
+        "soldUnits": 143
+      },
+      {
+        "day": 20,
+        "hour": 21,
+        "turnover": 8593.33,
+        "soldUnits": 151
+      },
+      {
+        "day": 20,
+        "hour": 22,
+        "turnover": 6798.05,
+        "soldUnits": 164
+      },
+      {
+        "day": 20,
+        "hour": 23,
+        "turnover": 9857.21,
+        "soldUnits": 43
+      },
+      {
+        "day": 21,
+        "hour": 0,
+        "turnover": 5237.54,
+        "soldUnits": 199
+      },
+      {
+        "day": 21,
+        "hour": 1,
+        "turnover": 3357.2,
+        "soldUnits": 144
+      },
+      {
+        "day": 21,
+        "hour": 2,
+        "turnover": 8523.86,
+        "soldUnits": 83
+      },
+      {
+        "day": 21,
+        "hour": 3,
+        "turnover": 1645.08,
+        "soldUnits": 125
+      },
+      {
+        "day": 21,
+        "hour": 4,
+        "turnover": 4798.02,
+        "soldUnits": 26
+      },
+      {
+        "day": 21,
+        "hour": 5,
+        "turnover": 5556.26,
+        "soldUnits": 56
+      },
+      {
+        "day": 21,
+        "hour": 6,
+        "turnover": 7330.7,
+        "soldUnits": 137
+      },
+      {
+        "day": 21,
+        "hour": 7,
+        "turnover": 4102.28,
+        "soldUnits": 152
+      },
+      {
+        "day": 21,
+        "hour": 8,
+        "turnover": 6696.98,
+        "soldUnits": 38
+      },
+      {
+        "day": 21,
+        "hour": 9,
+        "turnover": 6980.05,
+        "soldUnits": 27
+      },
+      {
+        "day": 21,
+        "hour": 10,
+        "turnover": 6317.56,
+        "soldUnits": 71
+      },
+      {
+        "day": 21,
+        "hour": 11,
+        "turnover": 4589.65,
+        "soldUnits": 17
+      },
+      {
+        "day": 21,
+        "hour": 12,
+        "turnover": 8623.22,
+        "soldUnits": 82
+      },
+      {
+        "day": 21,
+        "hour": 13,
+        "turnover": 4059.0,
+        "soldUnits": 170
+      },
+      {
+        "day": 21,
+        "hour": 14,
+        "turnover": 2887.88,
+        "soldUnits": 95
+      },
+      {
+        "day": 21,
+        "hour": 15,
+        "turnover": 3548.91,
+        "soldUnits": 22
+      },
+      {
+        "day": 21,
+        "hour": 16,
+        "turnover": 2160.07,
+        "soldUnits": 30
+      },
+      {
+        "day": 21,
+        "hour": 17,
+        "turnover": 3453.44,
+        "soldUnits": 93
+      },
+      {
+        "day": 21,
+        "hour": 18,
+        "turnover": 7201.11,
+        "soldUnits": 31
+      },
+      {
+        "day": 21,
+        "hour": 19,
+        "turnover": 1540.96,
+        "soldUnits": 123
+      },
+      {
+        "day": 21,
+        "hour": 20,
+        "turnover": 2165.5,
+        "soldUnits": 55
+      },
+      {
+        "day": 21,
+        "hour": 21,
+        "turnover": 2832.29,
+        "soldUnits": 93
+      },
+      {
+        "day": 21,
+        "hour": 22,
+        "turnover": 7121.1,
+        "soldUnits": 110
+      },
+      {
+        "day": 21,
+        "hour": 23,
+        "turnover": 2365.43,
+        "soldUnits": 129
+      },
+      {
+        "day": 22,
+        "hour": 0,
+        "turnover": 8410.08,
+        "soldUnits": 113
+      },
+      {
+        "day": 22,
+        "hour": 1,
+        "turnover": 1184.69,
+        "soldUnits": 90
+      },
+      {
+        "day": 22,
+        "hour": 2,
+        "turnover": 4826.67,
+        "soldUnits": 162
+      },
+      {
+        "day": 22,
+        "hour": 3,
+        "turnover": 2480.44,
+        "soldUnits": 89
+      },
+      {
+        "day": 22,
+        "hour": 4,
+        "turnover": 2652.43,
+        "soldUnits": 183
+      },
+      {
+        "day": 22,
+        "hour": 5,
+        "turnover": 4552.53,
+        "soldUnits": 174
+      },
+      {
+        "day": 22,
+        "hour": 6,
+        "turnover": 3100.36,
+        "soldUnits": 45
+      },
+      {
+        "day": 22,
+        "hour": 7,
+        "turnover": 6754.04,
+        "soldUnits": 33
+      },
+      {
+        "day": 22,
+        "hour": 8,
+        "turnover": 8680.54,
+        "soldUnits": 84
+      },
+      {
+        "day": 22,
+        "hour": 9,
+        "turnover": 4234.87,
+        "soldUnits": 35
+      },
+      {
+        "day": 22,
+        "hour": 10,
+        "turnover": 7758.43,
+        "soldUnits": 22
+      },
+      {
+        "day": 22,
+        "hour": 11,
+        "turnover": 4879.56,
+        "soldUnits": 188
+      },
+      {
+        "day": 22,
+        "hour": 12,
+        "turnover": 9202.36,
+        "soldUnits": 110
+      },
+      {
+        "day": 22,
+        "hour": 13,
+        "turnover": 1253.41,
+        "soldUnits": 124
+      },
+      {
+        "day": 22,
+        "hour": 14,
+        "turnover": 2470.12,
+        "soldUnits": 158
+      },
+      {
+        "day": 22,
+        "hour": 15,
+        "turnover": 8185.33,
+        "soldUnits": 156
+      },
+      {
+        "day": 22,
+        "hour": 16,
+        "turnover": 8590.25,
+        "soldUnits": 171
+      },
+      {
+        "day": 22,
+        "hour": 17,
+        "turnover": 6018.01,
+        "soldUnits": 144
+      },
+      {
+        "day": 22,
+        "hour": 18,
+        "turnover": 6833.66,
+        "soldUnits": 117
+      },
+      {
+        "day": 22,
+        "hour": 19,
+        "turnover": 3621.83,
+        "soldUnits": 190
+      },
+      {
+        "day": 22,
+        "hour": 20,
+        "turnover": 4184.07,
+        "soldUnits": 176
+      },
+      {
+        "day": 22,
+        "hour": 21,
+        "turnover": 3228.7,
+        "soldUnits": 106
+      },
+      {
+        "day": 22,
+        "hour": 22,
+        "turnover": 5184.51,
+        "soldUnits": 67
+      },
+      {
+        "day": 22,
+        "hour": 23,
+        "turnover": 1642.83,
+        "soldUnits": 133
+      },
+      {
+        "day": 23,
+        "hour": 0,
+        "turnover": 1717.15,
+        "soldUnits": 163
+      },
+      {
+        "day": 23,
+        "hour": 1,
+        "turnover": 9431.5,
+        "soldUnits": 199
+      },
+      {
+        "day": 23,
+        "hour": 2,
+        "turnover": 3868.59,
+        "soldUnits": 92
+      },
+      {
+        "day": 23,
+        "hour": 3,
+        "turnover": 1089.47,
+        "soldUnits": 36
+      },
+      {
+        "day": 23,
+        "hour": 4,
+        "turnover": 5843.93,
+        "soldUnits": 70
+      },
+      {
+        "day": 23,
+        "hour": 5,
+        "turnover": 3387.85,
+        "soldUnits": 164
+      },
+      {
+        "day": 23,
+        "hour": 6,
+        "turnover": 4726.56,
+        "soldUnits": 39
+      },
+      {
+        "day": 23,
+        "hour": 7,
+        "turnover": 1862.2,
+        "soldUnits": 32
+      },
+      {
+        "day": 23,
+        "hour": 8,
+        "turnover": 8341.81,
+        "soldUnits": 49
+      },
+      {
+        "day": 23,
+        "hour": 9,
+        "turnover": 6506.07,
+        "soldUnits": 111
+      },
+      {
+        "day": 23,
+        "hour": 10,
+        "turnover": 7801.48,
+        "soldUnits": 121
+      },
+      {
+        "day": 23,
+        "hour": 11,
+        "turnover": 4394.41,
+        "soldUnits": 48
+      },
+      {
+        "day": 23,
+        "hour": 12,
+        "turnover": 8177.97,
+        "soldUnits": 90
+      },
+      {
+        "day": 23,
+        "hour": 13,
+        "turnover": 4793.98,
+        "soldUnits": 51
+      },
+      {
+        "day": 23,
+        "hour": 14,
+        "turnover": 2132.7,
+        "soldUnits": 26
+      },
+      {
+        "day": 23,
+        "hour": 15,
+        "turnover": 8966.18,
+        "soldUnits": 87
+      },
+      {
+        "day": 23,
+        "hour": 16,
+        "turnover": 4028.21,
+        "soldUnits": 54
+      },
+      {
+        "day": 23,
+        "hour": 17,
+        "turnover": 7083.75,
+        "soldUnits": 157
+      },
+      {
+        "day": 23,
+        "hour": 18,
+        "turnover": 2141.71,
+        "soldUnits": 91
+      },
+      {
+        "day": 23,
+        "hour": 19,
+        "turnover": 5215.2,
+        "soldUnits": 146
+      },
+      {
+        "day": 23,
+        "hour": 20,
+        "turnover": 4297.03,
+        "soldUnits": 160
+      },
+      {
+        "day": 23,
+        "hour": 21,
+        "turnover": 5203.85,
+        "soldUnits": 161
+      },
+      {
+        "day": 23,
+        "hour": 22,
+        "turnover": 7542.58,
+        "soldUnits": 133
+      },
+      {
+        "day": 23,
+        "hour": 23,
+        "turnover": 1484.23,
+        "soldUnits": 197
+      },
+      {
+        "day": 24,
+        "hour": 0,
+        "turnover": 6473.82,
+        "soldUnits": 94
+      },
+      {
+        "day": 24,
+        "hour": 1,
+        "turnover": 9127.4,
+        "soldUnits": 166
+      },
+      {
+        "day": 24,
+        "hour": 2,
+        "turnover": 6909.23,
+        "soldUnits": 174
+      },
+      {
+        "day": 24,
+        "hour": 3,
+        "turnover": 5982.13,
+        "soldUnits": 200
+      },
+      {
+        "day": 24,
+        "hour": 4,
+        "turnover": 2933.11,
+        "soldUnits": 41
+      },
+      {
+        "day": 24,
+        "hour": 5,
+        "turnover": 1956.95,
+        "soldUnits": 161
+      },
+      {
+        "day": 24,
+        "hour": 6,
+        "turnover": 1913.75,
+        "soldUnits": 32
+      },
+      {
+        "day": 24,
+        "hour": 7,
+        "turnover": 5874.19,
+        "soldUnits": 28
+      },
+      {
+        "day": 24,
+        "hour": 8,
+        "turnover": 9158.63,
+        "soldUnits": 145
+      },
+      {
+        "day": 24,
+        "hour": 9,
+        "turnover": 1443.22,
+        "soldUnits": 68
+      },
+      {
+        "day": 24,
+        "hour": 10,
+        "turnover": 4359.6,
+        "soldUnits": 115
+      },
+      {
+        "day": 24,
+        "hour": 11,
+        "turnover": 7099.47,
+        "soldUnits": 48
+      },
+      {
+        "day": 24,
+        "hour": 12,
+        "turnover": 9486.99,
+        "soldUnits": 39
+      },
+      {
+        "day": 24,
+        "hour": 13,
+        "turnover": 9998.57,
+        "soldUnits": 23
+      },
+      {
+        "day": 24,
+        "hour": 14,
+        "turnover": 3546.15,
+        "soldUnits": 177
+      },
+      {
+        "day": 24,
+        "hour": 15,
+        "turnover": 4701.04,
+        "soldUnits": 146
+      },
+      {
+        "day": 24,
+        "hour": 16,
+        "turnover": 5055.36,
+        "soldUnits": 97
+      },
+      {
+        "day": 24,
+        "hour": 17,
+        "turnover": 8137.66,
+        "soldUnits": 186
+      },
+      {
+        "day": 24,
+        "hour": 18,
+        "turnover": 1432.15,
+        "soldUnits": 185
+      },
+      {
+        "day": 24,
+        "hour": 19,
+        "turnover": 2542.82,
+        "soldUnits": 154
+      },
+      {
+        "day": 24,
+        "hour": 20,
+        "turnover": 5150.38,
+        "soldUnits": 160
+      },
+      {
+        "day": 24,
+        "hour": 21,
+        "turnover": 2600.29,
+        "soldUnits": 146
+      },
+      {
+        "day": 24,
+        "hour": 22,
+        "turnover": 2807.46,
+        "soldUnits": 105
+      },
+      {
+        "day": 24,
+        "hour": 23,
+        "turnover": 5904.37,
+        "soldUnits": 130
+      },
+      {
+        "day": 25,
+        "hour": 0,
+        "turnover": 7693.72,
+        "soldUnits": 18
+      },
+      {
+        "day": 25,
+        "hour": 1,
+        "turnover": 9951.59,
+        "soldUnits": 135
+      },
+      {
+        "day": 25,
+        "hour": 2,
+        "turnover": 4482.61,
+        "soldUnits": 120
+      },
+      {
+        "day": 25,
+        "hour": 3,
+        "turnover": 7998.92,
+        "soldUnits": 20
+      },
+      {
+        "day": 25,
+        "hour": 4,
+        "turnover": 5435.63,
+        "soldUnits": 124
+      },
+      {
+        "day": 25,
+        "hour": 5,
+        "turnover": 1241.91,
+        "soldUnits": 45
+      },
+      {
+        "day": 25,
+        "hour": 6,
+        "turnover": 5353.17,
+        "soldUnits": 73
+      },
+      {
+        "day": 25,
+        "hour": 7,
+        "turnover": 8917.44,
+        "soldUnits": 165
+      },
+      {
+        "day": 25,
+        "hour": 8,
+        "turnover": 2400.74,
+        "soldUnits": 137
+      },
+      {
+        "day": 25,
+        "hour": 9,
+        "turnover": 4259.37,
+        "soldUnits": 68
+      },
+      {
+        "day": 25,
+        "hour": 10,
+        "turnover": 3260.81,
+        "soldUnits": 41
+      },
+      {
+        "day": 25,
+        "hour": 11,
+        "turnover": 4367.71,
+        "soldUnits": 21
+      },
+      {
+        "day": 25,
+        "hour": 12,
+        "turnover": 2048.35,
+        "soldUnits": 93
+      },
+      {
+        "day": 25,
+        "hour": 13,
+        "turnover": 2653.4,
+        "soldUnits": 134
+      },
+      {
+        "day": 25,
+        "hour": 14,
+        "turnover": 2791.17,
+        "soldUnits": 181
+      },
+      {
+        "day": 25,
+        "hour": 15,
+        "turnover": 8866.58,
+        "soldUnits": 61
+      },
+      {
+        "day": 25,
+        "hour": 16,
+        "turnover": 4971.25,
+        "soldUnits": 56
+      },
+      {
+        "day": 25,
+        "hour": 17,
+        "turnover": 4728.68,
+        "soldUnits": 132
+      },
+      {
+        "day": 25,
+        "hour": 18,
+        "turnover": 4441.13,
+        "soldUnits": 37
+      },
+      {
+        "day": 25,
+        "hour": 19,
+        "turnover": 3998.77,
+        "soldUnits": 61
+      },
+      {
+        "day": 25,
+        "hour": 20,
+        "turnover": 9706.47,
+        "soldUnits": 38
+      },
+      {
+        "day": 25,
+        "hour": 21,
+        "turnover": 7756.5,
+        "soldUnits": 80
+      },
+      {
+        "day": 25,
+        "hour": 22,
+        "turnover": 3826.83,
+        "soldUnits": 73
+      },
+      {
+        "day": 25,
+        "hour": 23,
+        "turnover": 5529.7,
+        "soldUnits": 165
+      },
+      {
+        "day": 26,
+        "hour": 0,
+        "turnover": 1887.82,
+        "soldUnits": 110
+      },
+      {
+        "day": 26,
+        "hour": 1,
+        "turnover": 5795.52,
+        "soldUnits": 118
+      },
+      {
+        "day": 26,
+        "hour": 2,
+        "turnover": 2125.77,
+        "soldUnits": 141
+      },
+      {
+        "day": 26,
+        "hour": 3,
+        "turnover": 6054.74,
+        "soldUnits": 48
+      },
+      {
+        "day": 26,
+        "hour": 4,
+        "turnover": 9374.74,
+        "soldUnits": 60
+      },
+      {
+        "day": 26,
+        "hour": 5,
+        "turnover": 7674.69,
+        "soldUnits": 179
+      },
+      {
+        "day": 26,
+        "hour": 6,
+        "turnover": 1162.56,
+        "soldUnits": 67
+      },
+      {
+        "day": 26,
+        "hour": 7,
+        "turnover": 8485.51,
+        "soldUnits": 81
+      },
+      {
+        "day": 26,
+        "hour": 8,
+        "turnover": 9453.85,
+        "soldUnits": 61
+      },
+      {
+        "day": 26,
+        "hour": 9,
+        "turnover": 6425.03,
+        "soldUnits": 57
+      },
+      {
+        "day": 26,
+        "hour": 10,
+        "turnover": 5196.29,
+        "soldUnits": 82
+      },
+      {
+        "day": 26,
+        "hour": 11,
+        "turnover": 1442.43,
+        "soldUnits": 171
+      },
+      {
+        "day": 26,
+        "hour": 12,
+        "turnover": 7802.45,
+        "soldUnits": 74
+      },
+      {
+        "day": 26,
+        "hour": 13,
+        "turnover": 4033.38,
+        "soldUnits": 40
+      },
+      {
+        "day": 26,
+        "hour": 14,
+        "turnover": 1076.63,
+        "soldUnits": 72
+      },
+      {
+        "day": 26,
+        "hour": 15,
+        "turnover": 9834.73,
+        "soldUnits": 41
+      },
+      {
+        "day": 26,
+        "hour": 16,
+        "turnover": 5668.67,
+        "soldUnits": 117
+      },
+      {
+        "day": 26,
+        "hour": 17,
+        "turnover": 9473.56,
+        "soldUnits": 90
+      },
+      {
+        "day": 26,
+        "hour": 18,
+        "turnover": 7687.71,
+        "soldUnits": 190
+      },
+      {
+        "day": 26,
+        "hour": 19,
+        "turnover": 9992.75,
+        "soldUnits": 37
+      },
+      {
+        "day": 26,
+        "hour": 20,
+        "turnover": 4633.43,
+        "soldUnits": 138
+      },
+      {
+        "day": 26,
+        "hour": 21,
+        "turnover": 6772.29,
+        "soldUnits": 163
+      },
+      {
+        "day": 26,
+        "hour": 22,
+        "turnover": 5465.7,
+        "soldUnits": 128
+      },
+      {
+        "day": 26,
+        "hour": 23,
+        "turnover": 8440.29,
+        "soldUnits": 63
+      },
+      {
+        "day": 27,
+        "hour": 0,
+        "turnover": 1239.16,
+        "soldUnits": 153
+      },
+      {
+        "day": 27,
+        "hour": 1,
+        "turnover": 8880.02,
+        "soldUnits": 181
+      },
+      {
+        "day": 27,
+        "hour": 2,
+        "turnover": 3624.71,
+        "soldUnits": 190
+      },
+      {
+        "day": 27,
+        "hour": 3,
+        "turnover": 4431.04,
+        "soldUnits": 88
+      },
+      {
+        "day": 27,
+        "hour": 4,
+        "turnover": 5015.39,
+        "soldUnits": 42
+      },
+      {
+        "day": 27,
+        "hour": 5,
+        "turnover": 9129.87,
+        "soldUnits": 29
+      },
+      {
+        "day": 27,
+        "hour": 6,
+        "turnover": 6526.8,
+        "soldUnits": 95
+      },
+      {
+        "day": 27,
+        "hour": 7,
+        "turnover": 1654.84,
+        "soldUnits": 60
+      },
+      {
+        "day": 27,
+        "hour": 8,
+        "turnover": 5809.86,
+        "soldUnits": 124
+      },
+      {
+        "day": 27,
+        "hour": 9,
+        "turnover": 9289.05,
+        "soldUnits": 50
+      },
+      {
+        "day": 27,
+        "hour": 10,
+        "turnover": 2912.56,
+        "soldUnits": 47
+      },
+      {
+        "day": 27,
+        "hour": 11,
+        "turnover": 6602.91,
+        "soldUnits": 123
+      },
+      {
+        "day": 27,
+        "hour": 12,
+        "turnover": 6268.38,
+        "soldUnits": 123
+      },
+      {
+        "day": 27,
+        "hour": 13,
+        "turnover": 3558.55,
+        "soldUnits": 34
+      },
+      {
+        "day": 27,
+        "hour": 14,
+        "turnover": 5525.83,
+        "soldUnits": 23
+      },
+      {
+        "day": 27,
+        "hour": 15,
+        "turnover": 2939.26,
+        "soldUnits": 173
+      },
+      {
+        "day": 27,
+        "hour": 16,
+        "turnover": 3234.93,
+        "soldUnits": 182
+      },
+      {
+        "day": 27,
+        "hour": 17,
+        "turnover": 9530.66,
+        "soldUnits": 98
+      },
+      {
+        "day": 27,
+        "hour": 18,
+        "turnover": 9258.31,
+        "soldUnits": 47
+      },
+      {
+        "day": 27,
+        "hour": 19,
+        "turnover": 4432.58,
+        "soldUnits": 185
+      },
+      {
+        "day": 27,
+        "hour": 20,
+        "turnover": 7771.27,
+        "soldUnits": 76
+      },
+      {
+        "day": 27,
+        "hour": 21,
+        "turnover": 2288.81,
+        "soldUnits": 106
+      },
+      {
+        "day": 27,
+        "hour": 22,
+        "turnover": 8890.94,
+        "soldUnits": 99
+      },
+      {
+        "day": 27,
+        "hour": 23,
+        "turnover": 5709.93,
+        "soldUnits": 41
+      },
+      {
+        "day": 28,
+        "hour": 0,
+        "turnover": 4362.38,
+        "soldUnits": 83
+      },
+      {
+        "day": 28,
+        "hour": 1,
+        "turnover": 2994.61,
+        "soldUnits": 91
+      },
+      {
+        "day": 28,
+        "hour": 2,
+        "turnover": 1614.7,
+        "soldUnits": 88
+      },
+      {
+        "day": 28,
+        "hour": 3,
+        "turnover": 4937.91,
+        "soldUnits": 40
+      },
+      {
+        "day": 28,
+        "hour": 4,
+        "turnover": 5469.84,
+        "soldUnits": 155
+      },
+      {
+        "day": 28,
+        "hour": 5,
+        "turnover": 1084.36,
+        "soldUnits": 18
+      },
+      {
+        "day": 28,
+        "hour": 6,
+        "turnover": 3736.9,
+        "soldUnits": 28
+      },
+      {
+        "day": 28,
+        "hour": 7,
+        "turnover": 1448.26,
+        "soldUnits": 59
+      },
+      {
+        "day": 28,
+        "hour": 8,
+        "turnover": 7427.4,
+        "soldUnits": 59
+      },
+      {
+        "day": 28,
+        "hour": 9,
+        "turnover": 5559.48,
+        "soldUnits": 187
+      },
+      {
+        "day": 28,
+        "hour": 10,
+        "turnover": 8141.71,
+        "soldUnits": 175
+      },
+      {
+        "day": 28,
+        "hour": 11,
+        "turnover": 8335.15,
+        "soldUnits": 112
+      },
+      {
+        "day": 28,
+        "hour": 12,
+        "turnover": 8618.81,
+        "soldUnits": 44
+      },
+      {
+        "day": 28,
+        "hour": 13,
+        "turnover": 6387.46,
+        "soldUnits": 107
+      },
+      {
+        "day": 28,
+        "hour": 14,
+        "turnover": 9438.91,
+        "soldUnits": 169
+      },
+      {
+        "day": 28,
+        "hour": 15,
+        "turnover": 4664.24,
+        "soldUnits": 184
+      },
+      {
+        "day": 28,
+        "hour": 16,
+        "turnover": 1628.62,
+        "soldUnits": 83
+      },
+      {
+        "day": 28,
+        "hour": 17,
+        "turnover": 7322.5,
+        "soldUnits": 22
+      },
+      {
+        "day": 28,
+        "hour": 18,
+        "turnover": 3046.17,
+        "soldUnits": 176
+      },
+      {
+        "day": 28,
+        "hour": 19,
+        "turnover": 6627.07,
+        "soldUnits": 72
+      },
+      {
+        "day": 28,
+        "hour": 20,
+        "turnover": 6819.72,
+        "soldUnits": 198
+      },
+      {
+        "day": 28,
+        "hour": 21,
+        "turnover": 9581.47,
+        "soldUnits": 18
+      },
+      {
+        "day": 28,
+        "hour": 22,
+        "turnover": 1285.52,
+        "soldUnits": 82
+      },
+      {
+        "day": 28,
+        "hour": 23,
+        "turnover": 5756.46,
+        "soldUnits": 86
+      },
+      {
+        "day": 29,
+        "hour": 0,
+        "turnover": 2090.43,
+        "soldUnits": 18
+      },
+      {
+        "day": 29,
+        "hour": 1,
+        "turnover": 3860.87,
+        "soldUnits": 54
+      },
+      {
+        "day": 29,
+        "hour": 2,
+        "turnover": 6202.98,
+        "soldUnits": 45
+      },
+      {
+        "day": 29,
+        "hour": 3,
+        "turnover": 1091.51,
+        "soldUnits": 124
+      },
+      {
+        "day": 29,
+        "hour": 4,
+        "turnover": 9931.34,
+        "soldUnits": 157
+      },
+      {
+        "day": 29,
+        "hour": 5,
+        "turnover": 8839.32,
+        "soldUnits": 86
+      },
+      {
+        "day": 29,
+        "hour": 6,
+        "turnover": 7130.85,
+        "soldUnits": 59
+      },
+      {
+        "day": 29,
+        "hour": 7,
+        "turnover": 4830.61,
+        "soldUnits": 138
+      },
+      {
+        "day": 29,
+        "hour": 8,
+        "turnover": 6681.9,
+        "soldUnits": 46
+      },
+      {
+        "day": 29,
+        "hour": 9,
+        "turnover": 9005.15,
+        "soldUnits": 27
+      },
+      {
+        "day": 29,
+        "hour": 10,
+        "turnover": 5440.21,
+        "soldUnits": 111
+      },
+      {
+        "day": 29,
+        "hour": 11,
+        "turnover": 6650.02,
+        "soldUnits": 200
+      },
+      {
+        "day": 29,
+        "hour": 12,
+        "turnover": 3159.33,
+        "soldUnits": 87
+      },
+      {
+        "day": 29,
+        "hour": 13,
+        "turnover": 5521.33,
+        "soldUnits": 67
+      },
+      {
+        "day": 29,
+        "hour": 14,
+        "turnover": 5734.32,
+        "soldUnits": 157
+      },
+      {
+        "day": 29,
+        "hour": 15,
+        "turnover": 9988.74,
+        "soldUnits": 68
+      },
+      {
+        "day": 29,
+        "hour": 16,
+        "turnover": 2666.59,
+        "soldUnits": 86
+      },
+      {
+        "day": 29,
+        "hour": 17,
+        "turnover": 4878.87,
+        "soldUnits": 162
+      },
+      {
+        "day": 29,
+        "hour": 18,
+        "turnover": 1719.94,
+        "soldUnits": 45
+      },
+      {
+        "day": 29,
+        "hour": 19,
+        "turnover": 9617.08,
+        "soldUnits": 131
+      },
+      {
+        "day": 29,
+        "hour": 20,
+        "turnover": 1970.4,
+        "soldUnits": 41
+      },
+      {
+        "day": 29,
+        "hour": 21,
+        "turnover": 4908.67,
+        "soldUnits": 90
+      },
+      {
+        "day": 29,
+        "hour": 22,
+        "turnover": 7678.74,
+        "soldUnits": 35
+      },
+      {
+        "day": 29,
+        "hour": 23,
+        "turnover": 5982.48,
+        "soldUnits": 104
+      }
+    ]
+  },
+  {
+    "profileId": 3,
+    "profileName": "Nowy sklep Andrzeja",
+    "ordersData": {
+      "returned": 0,
+      "notsent": 0,
+      "unpaid": 0
+    },
+    "salesQualityData": null,
+    "offerRankingData":[],
+    "buyerReviews":[],
+    "salesData": []
+  }
+]

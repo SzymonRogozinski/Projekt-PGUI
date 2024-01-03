@@ -1,0 +1,166 @@
+.App {
+    /* font-family: sans-serif; */
+    text-align: center;
+}
+
+html * {
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 400;
+}
+
+.dark-root .widget {
+    background-color: rgb(99, 99, 99) !important;
+}
+
+div.widget {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(243, 243, 243);
+    filter: drop-shadow(rgba(0, 0, 0, 0.1) 5px 5px 3px);
+    display: flex;
+    flex-direction: column;
+
+    min-width: 500px;
+    max-width: 600px;
+    min-height: 200px;
+}
+
+div.widget-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-self: stretch;
+    margin: 10px 10px 10px;
+}
+
+span.widget-header {
+    font-size: 14px;
+}
+
+span.text-hdg {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+button.primary-button {
+    background-color: #6888e8;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 100px;
+    font-size: 16px;
+    border: none;
+}
+
+button.primary-button:hover {
+    background-color: #5775cf;
+}
+
+button.primary-button:active {
+    background-color: #6888e8;
+}
+
+#salesQualityWidget > div.widget-content {
+    flex-direction: row;
+}
+
+
+.buyer-review-element-wrapper {
+    border: 1px grey solid;
+    color: white;
+    border-radius: 15px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    cursor: pointer;
+}
+
+div.buyer-review-element-wrapper:hover {
+    filter: brightness(110%);
+}
+
+div.buyer-review-element-wrapper:active {
+    filter: brightness(100%);
+}
+
+.comment-negative {
+    background-color: #e35128;
+}
+
+.comment-positive {
+    background-color: #5d83dd;
+}
+
+button.btn-tertiary {
+    border: 0;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+button.btn-tertiary:hover {
+    filter: brightness(150%);
+}
+
+button.btn-tertiary:active {
+    filter: brightness(100%);
+}
+
+button.btn-tertiary.selected {
+    font-weight: 500;
+}
+
+button.b-pos {
+    color: #275ad1;
+}
+
+button.b-neg {
+    color: #e35128;
+}
+
+button.b-all {
+    color: #1a449a;
+}
+
+.dark-root button.b-pos {
+    color: #7396ea;
+}
+
+.dark-root button.b-neg {
+    color: #ff6c6c;
+}
+
+.dark-root button.b-all {
+    color: #7396ea;
+}
+
+div.inactive-widget-content {
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+}
+
+img.comment-icon {
+    max-height: 45px;
+    max-width: 80px;
+}
+
+.offer-ranking-data-col {
+    flex-flow: column;
+    display: flex;
+    align-items: center;
+}
+
+.chart-selectors-wrapper {
+    align-items: center;
+    display: flex;
+}
+
+.chart-buttons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
