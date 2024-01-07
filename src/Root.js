@@ -21,7 +21,7 @@ export default function Root() {
     let dispatch = useDispatch();
 
     if (appState.selectedProfile == null) {
-        dispatch({type: "select_profile", id: 1});
+        dispatch({type: "select_profile"});
     }
     
     return (

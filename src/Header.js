@@ -1,9 +1,12 @@
 import {useDispatch, useSelector} from "react-redux";
 import {Themes} from "./ProjectEnums";
+import {useState} from "react";
 
 export default function Header({Profiles}) {
     let dispatch = useDispatch();
     let appState = useSelector((state) => state.appState);
+    // remove this:
+    let [i, setI] = useState(2);
 
     const LanguageChangeCallback = () => {
     };
@@ -18,7 +21,8 @@ export default function Header({Profiles}) {
       dispatch({type: "toggle-theme"});
     };
     const ProfileChangeCallback = () => {
-        dispatch({type:"select_profile", id: 2});
+        setI(i+1);
+        dispatch({type:"select_profile", id: i});
     };
     return (
         <div>

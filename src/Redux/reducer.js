@@ -13,20 +13,23 @@ export function appReducer(state, action) {
         let appState = state.appState;
         appState.selectedTheme = appState.selectedTheme === Themes.Dark ? Themes.Light : Themes.Dark;
         return {
-            appState: appState,
-            ...state
+            ...state,
+            appState: appState
         }
     }
     if (action?.type === "select_profile") {
-        if (action?.id != null) {
-            let appState = state.appState;
-            appState.selectedProfile = state.appData.userProfiles[(state.appState?.selectedProfile?.id??0)+1];
-            let ns = structuredClone(appState);
-            return {
-                appState: ns,
-                ...state
-            }
+        let appState = state.appState;
+        if (action?.id == null) {
+            appState.selectedProfile = state.appData.userProfiles[0];
+        } else {
+            appState.selectedProfile = state.appData.userProfiles.filter(p => p.id == action?.id)[0];
         }
+        let ns = structuredClone(appState);
+        return {
+            ...state,
+            appState: ns
+        }
+
     }
     return state;
 }
