@@ -58,10 +58,12 @@ function Selector({choices, parameter, actionType}) {
                 setPar(e.target.value);
                 dispatch({type: actionType, value: e.target.value});
             }}
+            disabled={(choices?.length??0) === 0}
         >
-            {choices.map((c, i) => (
-                <option className="Option" key={i} value={c.key}>{c.value}</option>
-            ))}
+            {((choices?.length ?? 0) === 0) ?
+                <option className="Option" value="n/a">n/a</option> : choices.map((c, i) => (
+                    <option className="Option" key={i} value={c.key}>{c.value}</option>
+                ))}
         </select>
     );
 }
