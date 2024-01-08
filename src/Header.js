@@ -1,40 +1,64 @@
 import {useDispatch, useSelector} from "react-redux";
-import {Themes} from "./ProjectEnums";
+import {Themes,Languages} from "./ProjectEnums";
 import {useState} from "react";
+
+class Choice {
+    key;
+    value;
+    constructor(key, value) {
+      this.key = key;
+      this.value = value;
+    }
+  }
 
 export default function Header({Profiles}) {
     let dispatch = useDispatch();
     let appState = useSelector((state) => state.appState);
+    let appData=useSelector((state) => state.appData);
     // remove this:
-    let [i, setI] = useState(2);
-
+    let [lang,setLang] =useState(appState.selectedLanguage);
+    const LanguageChoises = [
+        new Choice(Languages.English, "English 🇬🇧"),
+        new Choice(Languages.Polish, "Język 🇵🇱"),
+      ];
     const LanguageChangeCallback = () => {
     };
-    const toggleThemeCallback = () => {
-        if (appState.selectedTheme === Themes.Dark) {
-            document.getElementById("rootHtml").className = "";
-            document.getElementById("rootHtml").style.colorScheme="light";
-        } else {
-            document.getElementById("rootHtml").classList.add("dark-root");
-            document.getElementById("rootHtml").style.colorScheme="dark";
-        }
-      dispatch({type: "toggle-theme"});
-    };
-    const ProfileChangeCallback = () => {
-        setI(i+1);
-        dispatch({type:"select_profile", id: i});
-    };
+    let [theme, setTheme] = useState(appState.selectedTheme);
+    const ThemeChoises = [
+        new Choice(Themes.Dark, "Ciemny 🌙"),
+        new Choice(Themes.Light, "Motyw 🔆"),
+    ];
+    let [profile, setProfile] = useState(appState.selectedProfile?.id);
+    const ProfileChoises = appData.userProfiles.map((up)=>(new Choice(up.id,up.name)));
     return (
         <div>
             <div className="Buttons">
-                <LanguageChange callback={LanguageChangeCallback}/>
-                <ThemeChange callback={toggleThemeCallback}/>
-                <ProfileChange callback={ProfileChangeCallback}/>
+                <Selector choices={LanguageChoises} parameter={lang} actionType={"toggle language"}/>
+                <Selector choices={ThemeChoises} parameter={theme} actionType={"toggle theme"}/>
+                <Selector choices={ProfileChoises} parameter={profile} actionType={"toggle profile"}/>
             </div>
             <span>{appState?.selectedProfile?.name??"n/a"}</span>
         </div>
     );
 }
+
+function Selector({ choices, parameter, actionType }) {
+    const dispatch = useDispatch();
+    let [par, setPar] = useState(parameter);
+    return (
+      <select
+        value={par}
+        onChange={(e) => {
+          setPar(e.target.value);
+          dispatch({ type: actionType, value: e.target.value });
+        }}
+      >
+        {choices.map((c,i) => (
+          <option key={i} value={c.key}>{c.value}</option>
+        ))}
+      </select>
+    );
+  }
 
 function LanguageChange({callback}) {
     return <button onClick={callback}>Change Language</button>;
