@@ -9,27 +9,30 @@ import OrdersWidget from "./Widgets/Orders/OrdersWidget";
 import SalesDiagramWidget from "./Widgets/SalesDiagramWidget/SalesDiagramWidget";
 import SalesQualityWidget from "./Widgets/SalesQuality/SalesQualityWidget";
 
-export default function MainPage({selectedProfile}) {
-
-    return (
-        <div>
+/*
             <SalesDiagramWidget salesData={selectedProfile?.salesDatas}/>
             <br/>
 
             <BuyerReviewWidget buyerReviewsList={selectedProfile?.buyerReviews??[]}/>
-            <BuyerReviewWidget buyerReviewsList={[]}/>
             <br/>
 
             <OfferRankingWidget offerRankingData={selectedProfile?.offerRankingDatas??[]}/>
-            <OfferRankingWidget offerRankingData={[]}/>
             <br/>
-
             <OrdersWidget ordersData={selectedProfile?.ordersDatas}/>
-            <OrdersWidget ordersData={null}/>
             <br/>
 
             <SalesQualityWidget salesQualityData={selectedProfile?.salesQualityDatas}/>
-            <SalesQualityWidget salesQualityData={null}/>
+*/ 
+
+export default function MainPage({selectedProfile}) {
+
+    return (
+        <div className="MainPage">
+            <BuyerReviewWidget buyerReviewsList={selectedProfile?.buyerReviews??[]}/>
+            <OfferRankingWidget offerRankingData={selectedProfile?.offerRankingDatas??[]}/>
+            <OrdersWidget ordersData={selectedProfile?.ordersDatas}/>
+            <SalesQualityWidget salesQualityData={selectedProfile?.salesQualityDatas}/>
+            <SalesDiagramWidget salesData={selectedProfile?.salesDatas}/>
         </div>
     );
 }

@@ -63,7 +63,7 @@ export default function BuyerReviewWidget({buyerReviewsList}) {
                         </div>
 
                         <button className="btn-tertiary b-pos" style={{marginTop: "10px", alignSelf: "end"}}
-                                onClick={() => nav("/reviews")}>Zobacz wszystkie >
+                                onClick={() => nav("/reviews")}>Zobacz wszystkie
                         </button>
                     </>
                 ) : (

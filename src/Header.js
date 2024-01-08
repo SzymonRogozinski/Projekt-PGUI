@@ -1,6 +1,7 @@
 import {useDispatch, useSelector} from "react-redux";
 import {Themes,Languages} from "./ProjectEnums";
 import {useState} from "react";
+import { Link } from "react-router-dom";
 
 class Choice {
     key;
@@ -31,13 +32,11 @@ export default function Header({Profiles}) {
     let [profile, setProfile] = useState(appState.selectedProfile?.id);
     const ProfileChoises = appData.userProfiles.map((up)=>(new Choice(up.id,up.name)));
     return (
-        <div>
-            <div className="Buttons">
-                <Selector choices={LanguageChoises} parameter={lang} actionType={"toggle language"}/>
-                <Selector choices={ThemeChoises} parameter={theme} actionType={"toggle theme"}/>
-                <Selector choices={ProfileChoises} parameter={profile} actionType={"toggle profile"}/>
-            </div>
-            <span>{appState?.selectedProfile?.name??"n/a"}</span>
+        <div className="Header"> 
+            <Selector choices={LanguageChoises} parameter={lang} actionType={"toggle language"}/>
+            <Selector choices={ThemeChoises} parameter={theme} actionType={"toggle theme"}/>
+            <Selector choices={ProfileChoises} parameter={profile} actionType={"toggle profile"}/>
+            <p>Zaloguj?</p>
         </div>
     );
 }
@@ -47,6 +46,7 @@ function Selector({ choices, parameter, actionType }) {
     let [par, setPar] = useState(parameter);
     return (
       <select
+      className="Selector"
         value={par}
         onChange={(e) => {
           setPar(e.target.value);
@@ -54,7 +54,7 @@ function Selector({ choices, parameter, actionType }) {
         }}
       >
         {choices.map((c,i) => (
-          <option key={i} value={c.key}>{c.value}</option>
+          <option className="Option" key={i} value={c.key}>{c.value}</option>
         ))}
       </select>
     );

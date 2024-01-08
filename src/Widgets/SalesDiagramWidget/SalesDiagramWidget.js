@@ -89,7 +89,7 @@ export default function SalesDiagramWidget({ salesData }) {
     }
   }
   return (
-    <div className="widget">
+    <div className="widget" id="salesDiagramWidget">
       <span className="widget-header">Wykres sprzedaży</span>
       {isActive ? (
         <div className="widget-content">

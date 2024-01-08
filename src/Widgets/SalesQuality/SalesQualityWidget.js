@@ -49,7 +49,7 @@ export default function SalesQualityWidget({ salesQualityData }) {
             style={{ marginTop: "10px" }}
             onClick={() => nav("/salesquality")}
           >
-            Zobacz więcej >
+            Zobacz więcej
           </button>
         </div>
       </div>

@@ -34,7 +34,7 @@ export default function OrdersWidget({ ordersData }) {
           style={{ marginTop: "10px", alignSelf: "end" }}
           onClick={() => nav("/orders")}
         >
-          Zobacz wszystkie >
+          Zobacz wszystkie
         </button>
       </>
     );

@@ -8,6 +8,37 @@ html * {
     font-weight: 400;
 }
 
+.MainPage {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+}
+
+#buyerReviewWidget{
+    grid-area: 1 / 1 / 4 / 4;
+}
+
+#offerRankingWidget{
+    grid-area: 4 / 1 / 7 / 4;
+}
+
+#ordersWidget{
+    grid-area: 1 / 4 / 3 / 7;
+    justify-self: start;
+}
+
+#salesQualityWidget{
+    grid-area: 1 / 7 / 3 / 10;
+    justify-self: start;
+}
+
+#salesDiagramWidget{
+    grid-area: 3 / 4 / 7 / 10;
+    align-content: stretch;
+}
+
 .dark-root .widget {
     background-color: rgb(99, 99, 99) !important;
 }
@@ -22,7 +53,7 @@ div.widget {
     flex-direction: column;
 
     min-width: 500px;
-    max-width: 600px;
+
     min-height: 200px;
 }
 
@@ -111,6 +142,31 @@ button.btn-tertiary:active {
 
 button.btn-tertiary.selected {
     font-weight: 500;
+}
+
+.Header{
+    width:100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+  }
+
+.Selector{
+    background-color: #ffffff;
+    border: 3px solid;
+    border-color: #6888e8;
+    text-align: center;
+    border-radius: 1rem;
+    color: #646464;
+    font-size:large;
+    min-width: 20%;
 }
 
 button.b-pos {
