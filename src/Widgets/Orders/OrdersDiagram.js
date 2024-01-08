@@ -2,10 +2,13 @@ import CanvasJSReact from "@canvasjs/react-charts";
 import { useNavigate } from "react-router-dom";
 import {useSelector} from "react-redux";
 import {Themes} from "../../ProjectEnums";
+import dictionary from "../../Data-Containers/Dictionary.json"
 
 export default function OrdersDiagram({ ordersData }) {
+  let appState = useSelector((state) => state.appState);
+  let lang =appState.selectedLanguage;
   const nav = useNavigate();
-  let selTheme = useSelector((state) => state.appState.selectedTheme);
+  let selTheme = appState.selectedTheme;
   const options = {
     theme: selTheme === Themes.Light ? "light1" : "dark1",
     backgroundColor: null,
@@ -20,21 +23,21 @@ export default function OrdersDiagram({ ordersData }) {
         dataPoints: [
           {
             y: ordersData.notsent,
-            label: "Niewysłane",
+            label: dictionary[lang].Orders.notsent,
             click: () => {
               nav("/orders?type=notsent");
             },
           },
           {
             y: ordersData.unpaid,
-            label: "Nieopłacone",
+            label: dictionary[lang].Orders.unpaid,
             click: () => {
               nav("/orders?type=unpaid");
             },
           },
           {
             y: ordersData.returned,
-            label: "Zwroty",
+            label: dictionary[lang].Orders.returned,
             click: () => {
               nav("/orders?type=returned");
             },

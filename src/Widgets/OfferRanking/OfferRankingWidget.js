@@ -2,8 +2,12 @@ import { useState } from "react";
 import { RankingSorting } from "../../ProjectEnums";
 import OfferRankingElement from "./OfferRankingElement";
 import {useNavigate} from "react-router-dom";
+import {useSelector} from "react-redux";
+import dictionary from "../../Data-Containers/Dictionary.json"
 
 export default function OfferRankingWidget({ offerRankingData }) {
+  let appState = useSelector((state) => state.appState);
+  let lang =appState.selectedLanguage;
   const [rankingFilter, setRankingFilter] = useState(RankingSorting.MostBuyed);
   let ord = offerRankingData;
   const isActive = ord != null && ord.length !== 0;
@@ -18,7 +22,7 @@ export default function OfferRankingWidget({ offerRankingData }) {
   return (
     <div className="widget" id="offerRankingWidget">
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <span className="widget-header">Ranking ofert</span>
+        <span className="widget-header">{dictionary[lang].OfferRanking.offerRank}</span>
         <div>
           <button
             className={
@@ -27,7 +31,7 @@ export default function OfferRankingWidget({ offerRankingData }) {
             }
             onClick={() => setRankingFilter(RankingSorting.LeastBuyed)}
           >
-            najrzadziej
+            {dictionary[lang].OfferRanking.leastBuy}
           </button>
           <button
             className={
@@ -36,7 +40,7 @@ export default function OfferRankingWidget({ offerRankingData }) {
             }
             onClick={() => setRankingFilter(RankingSorting.MostBuyed)}
           >
-            najczęściej
+            {dictionary[lang].OfferRanking.mostBuy}
           </button>
         </div>
       </div>
@@ -54,7 +58,7 @@ export default function OfferRankingWidget({ offerRankingData }) {
             <div className="widget-content inactive-widget-content">
               <span className="text-hdg">Brak ofert w rankingu</span>
               <span>
-              Zmień kategorię filtrów, lub poczekaj na pojawienie się ofert.
+              {dictionary[lang].OfferRanking.comm}
             </span>
           </div>
         )}

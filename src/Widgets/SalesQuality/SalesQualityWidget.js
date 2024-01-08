@@ -1,8 +1,13 @@
 import PercentIndicator from "./PercentIndicator";
 import AspectLabel from "./AspectLabel";
 import { useNavigate } from "react-router-dom";
+import {useSelector} from "react-redux";
+import dictionary from "../../Data-Containers/Dictionary.json"
 
 export default function SalesQualityWidget({ salesQualityData }) {
+  let appState = useSelector((state) => state.appState);
+  let lang =appState.selectedLanguage;
+
   let widgetContent;
   const nav = useNavigate();
 
@@ -34,7 +39,7 @@ export default function SalesQualityWidget({ salesQualityData }) {
             {salesQualityData.category}
           </span>
           <br />
-          <span style={{ marginBottom: 5 }}>Najgorsze aspekty:</span>
+          <span style={{ marginBottom: 5 }}>{dictionary[lang].SalesQuality.worstAsp}</span>
           {salesQualityData.worstAspects.map((asp, i) => {
             return (
               <AspectLabel
@@ -49,7 +54,7 @@ export default function SalesQualityWidget({ salesQualityData }) {
             style={{ marginTop: "10px" }}
             onClick={() => nav("/salesquality")}
           >
-            Zobacz więcej
+            {dictionary[lang].SalesQuality.seeMore}
           </button>
         </div>
       </div>
@@ -57,15 +62,15 @@ export default function SalesQualityWidget({ salesQualityData }) {
   } else {
     widgetContent = (
       <div className="widget-content inactive-widget-content">
-        <span className="text-hdg">Ocena jakości niedostępna</span>
-        <span>Tu pojawi się ocena jakości Twojej sprzedaży</span>
+        <span className="text-hdg">{dictionary[lang].SalesQuality.reviewNot}</span>
+        <span>{dictionary[lang].SalesQuality.comm}</span>
       </div>
     );
   }
 
   return (
     <div className="widget" id="salesQualityWidget">
-      <span className="widget-header">Jakość sprzedaży</span>
+      <span className="widget-header">{dictionary[lang].SalesQuality.sellQ}</span>
       {widgetContent}
     </div>
   );

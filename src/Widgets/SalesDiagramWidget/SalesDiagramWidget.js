@@ -6,8 +6,12 @@ import {
 } from "../../ProjectEnums";
 import Chart from "./Chart";
 import AppState from "../../Data-Containers/AppState/AppState";
+import {useSelector} from "react-redux";
+import dictionary from "../../Data-Containers/Dictionary.json"
 
 export default function SalesDiagramWidget({ salesData }) {
+  let appState = useSelector((state) => state.appState);
+  let lang =appState.selectedLanguage;
   let [chartMeasurementElement, setChartMeasurementElement] = useState(
     MeasurementElement.Turnover
   );
@@ -66,6 +70,7 @@ export default function SalesDiagramWidget({ salesData }) {
           break;
       }
       dp2 = prepareDatapoints(
+        lang,
         sdp2,
         lastActive2,
         chartMeasurementElement,
@@ -76,6 +81,7 @@ export default function SalesDiagramWidget({ salesData }) {
     }
 
     dp = prepareDatapoints(
+      lang,
       sdp,
       lastActive,
       chartMeasurementElement,
@@ -129,8 +135,8 @@ export default function SalesDiagramWidget({ salesData }) {
         </div>
       ) : (
         <div className="widget-content inactive-widget-content">
-          <span className="text-hdg">Brak danych do wykresu</span>
-          <span>Tu wykres pojawi się, po złożeniu zamówień</span>
+          <span className="text-hdg">{dictionary[lang].SalesDiagram.noData}</span>
+          <span>{dictionary[lang].SalesDiagram.thereWillBe}</span>
         </div>
       )}
     </div>
@@ -138,6 +144,8 @@ export default function SalesDiagramWidget({ salesData }) {
 }
 
 function TimeRangeChangeButton({ callback, value }) {
+  let appState = useSelector((state) => state.appState);
+  let lang =appState.selectedLanguage;
   return (
     <div className="chart-selectors-wrapper">
       <span className="material-icons">event_note</span>
@@ -148,7 +156,7 @@ function TimeRangeChangeButton({ callback, value }) {
         }
         onClick={() => callback(ChartTimeType.Today)}
       >
-        dzisiaj
+        {dictionary[lang].SalesDiagram.today}
       </button>
       <button
         className={
@@ -157,7 +165,7 @@ function TimeRangeChangeButton({ callback, value }) {
         }
         onClick={() => callback(ChartTimeType.ThisWeek)}
       >
-        ten tydzień
+        {dictionary[lang].SalesDiagram.thisWeek}
       </button>
       <button
         className={
@@ -166,13 +174,15 @@ function TimeRangeChangeButton({ callback, value }) {
         }
         onClick={() => callback(ChartTimeType.PrevWeek)}
       >
-        poprzedni tydzień
+        {dictionary[lang].SalesDiagram.prevWeek}
       </button>
     </div>
   );
 }
 
 function ChartTypeChangeButton({ callback, value }) {
+  let appState = useSelector((state) => state.appState);
+  let lang =appState.selectedLanguage;
   return (
     <div className="chart-selectors-wrapper">
       <span className="material-icons">bar_chart</span>
@@ -183,7 +193,7 @@ function ChartTypeChangeButton({ callback, value }) {
         }
         onClick={() => callback(ChartType.BarChart)}
       >
-        słupkowy
+        {dictionary[lang].SalesDiagram.barDiag}
       </button>
       <button
         className={
@@ -192,13 +202,15 @@ function ChartTypeChangeButton({ callback, value }) {
         }
         onClick={() => callback(ChartType.LineChart)}
       >
-        liniowy
+        {dictionary[lang].SalesDiagram.lineDiag}
       </button>
     </div>
   );
 }
 
 function SecondSeriesChangeButton({ callback, value }) {
+  let appState = useSelector((state) => state.appState);
+  let lang =appState.selectedLanguage;
   return (
     <div className="chart-selectors-wrapper">
       <span className="material-icons">looks_two</span>
@@ -206,13 +218,15 @@ function SecondSeriesChangeButton({ callback, value }) {
         className={"btn-tertiary b-pos " + (value === true ? "selected" : "")}
         onClick={callback}
       >
-        pokaż poprzedni okres
+        {dictionary[lang].SalesDiagram.prevTime}
       </button>
     </div>
   );
 }
 
 function MeasureTypeChangeButton({ callback, value }) {
+  let appState = useSelector((state) => state.appState);
+  let lang =appState.selectedLanguage;
   return (
     <div className="chart-selectors-wrapper">
       <span className="material-icons">format_list_numbered</span>
@@ -223,7 +237,7 @@ function MeasureTypeChangeButton({ callback, value }) {
         }
         onClick={() => callback(MeasurementElement.Turnover)}
       >
-        obrót
+        {dictionary[lang].SalesDiagram.turnOver}
       </button>
       <button
         className={
@@ -232,7 +246,7 @@ function MeasureTypeChangeButton({ callback, value }) {
         }
         onClick={() => callback(MeasurementElement.SoldUnits)}
       >
-        sprzedane sztuki
+        {dictionary[lang].SalesDiagram.countSold}
       </button>
     </div>
   );
@@ -312,6 +326,7 @@ function genYSoldUnits(sdp) {
 }
 
 function prepareDatapoints(
+  lang,
   sdp,
   lastActive,
   measurementElement,
@@ -329,10 +344,10 @@ function prepareDatapoints(
       : genDayXLabels(sdp);
   let legend =
     measurementElement === MeasurementElement.Turnover
-      ? "Obrót z "
-      : "Sprzedane sztuki z ";
+      ? dictionary[lang].SalesDiagram.turnOverFrom
+      : dictionary[lang].SalesDiagram.soldFrom;
   if (timeRange === ChartTimeType.Today) {
-    legend += isThis2nd ? "wczoraj " : "dziś ";
+    legend += isThis2nd ? dictionary[lang].SalesDiagram.yesterday : dictionary[lang].SalesDiagram.today;
   }
   legend += `${xp[0]} - ${xp[xp.length - 1]}`;
 
@@ -348,7 +363,7 @@ function prepareDatapoints(
     if (dp.length > 1) dp[dp.length - 2].lineDashType = "dash";
     dp[dp.length - 1].color = "#c5ccd6";
     dp[dp.length - 1].toolTipContent =
-      "trwa " + dp[dp.length - 1].toolTipContent;
+    dictionary[lang].SalesDiagram.working + dp[dp.length - 1].toolTipContent;
   }
   return { data: dp, legend: legend };
 }

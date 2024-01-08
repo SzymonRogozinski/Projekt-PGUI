@@ -2,8 +2,12 @@ import {useState} from "react";
 import {ReviewFilterMode} from "../../ProjectEnums";
 import BuyerReviewElement from "./BuyerReviewElement";
 import {useNavigate} from "react-router-dom";
+import {useSelector} from "react-redux";
+import dictionary from "../../Data-Containers/Dictionary.json"
 
 export default function BuyerReviewWidget({buyerReviewsList}) {
+    let appState = useSelector((state) => state.appState);
+    let lang =appState.selectedLanguage;
     const [reviewsFilter, setReviewsFilter] = useState(ReviewFilterMode.All);
     let brl = buyerReviewsList;
     const nav = useNavigate();
@@ -20,7 +24,7 @@ export default function BuyerReviewWidget({buyerReviewsList}) {
     return (
         <div className="widget" id="buyerReviewWidget">
             <div style={{display: "flex", justifyContent: "space-between"}}>
-                <span className="widget-header">Opinie kupujących</span>
+                <span className="widget-header">{dictionary[lang].BuyerReview.buyerOp}</span>
                 <div>
                     <button
                         className={
@@ -29,7 +33,7 @@ export default function BuyerReviewWidget({buyerReviewsList}) {
                         }
                         onClick={() => setReviewsFilter(ReviewFilterMode.Positive)}
                     >
-                        pozytywne
+                        {dictionary[lang].BuyerReview.pos}
                     </button>
                     <button
                         className={
@@ -38,7 +42,7 @@ export default function BuyerReviewWidget({buyerReviewsList}) {
                         }
                         onClick={() => setReviewsFilter(ReviewFilterMode.Negative)}
                     >
-                        negatywne
+                        {dictionary[lang].BuyerReview.neg}
                     </button>
                     <button
                         className={
@@ -47,7 +51,7 @@ export default function BuyerReviewWidget({buyerReviewsList}) {
                         }
                         onClick={() => setReviewsFilter(ReviewFilterMode.All)}
                     >
-                        wszystkie
+                        {dictionary[lang].BuyerReview.all}
                     </button>
                 </div>
             </div>
@@ -63,13 +67,13 @@ export default function BuyerReviewWidget({buyerReviewsList}) {
                         </div>
 
                         <button className="btn-tertiary b-pos" style={{marginTop: "10px", alignSelf: "end"}}
-                                onClick={() => nav("/reviews")}>Zobacz wszystkie
+                                onClick={() => nav("/reviews")}>{dictionary[lang].BuyerReview.seeAll}
                         </button>
                     </>
                 ) : (
                     <div className="widget-content inactive-widget-content">
-                        <span className="text-hdg">Brak opinii kupujących</span>
-                        <span>Tu pojawią się opinie kupujących</span>
+                        <span className="text-hdg">{dictionary[lang].BuyerReview.noOp}</span>
+                        <span>{dictionary[lang].BuyerReview.thereWillBe}</span>
                     </div>
                 )}
             </div>

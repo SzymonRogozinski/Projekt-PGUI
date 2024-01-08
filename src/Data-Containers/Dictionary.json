@@ -1,0 +1,158 @@
+{
+    "pl":
+    {
+        "Header":{
+            "themeLight":"Jasny 🔆",
+            "themeDark":"Ciemny 🌙",
+            "logIn":"Zaloguj się",
+            "logOut":"Wyloguj się"
+        },
+        "OrdersPage":{
+            "title1Line":"To jest strona zamówień",
+            "title2Line":"Wybrano typ: "
+        },
+        "ReviewsPage":{
+            "title1Line":"To jest strona opinii kupujących",
+            "title2Line":"Wybrano opinię o id:"
+        },
+        "SalesQualityPage":{
+            "title":"To jest strona jakości sprzedaży"
+        },
+        "BuyerReview":{
+            "noComm":"(brak komentarza)",
+            "notAva":"n/d",
+            "buyerOp":"Opinie kupujących",
+            "pos":"pozytywne",
+            "neg":"negatywne",
+            "all":"wszystkie",
+            "seeAll":"Zobacz wszystkie",
+            "noOp":"Brak opinii kupujących",
+            "thereWillBe":"Tu pojawią się opinie kupujących"
+
+        },
+        "OfferRanking":{
+            "notAva":"n/d",
+            "soldOut":"Sprzedano:",
+            "turnOver":"Obrót:",
+            "views":"Wyświetlenia:",
+            "offerRank":"Ranking ofert",
+            "leastBuy":"najrzadziej",
+            "mostBuy":"najczęściej",
+            "comm":"Zmień kategorię filtrów, lub poczekaj na pojawienie się ofert."
+        },
+        "Orders":{
+            "notsent":"Niewysłane",
+            "unpaid":"Nieopłacone",
+            "returned":"Zwroty",
+            "noOrders":"Brak zamówień",
+            "seePromo":"Przejrzyj nasze usługi promowania ofert",
+            "seeSer":"Zobacz usługi",
+            "seeAll":"Zobacz wszystkie",
+            "orders":"Zamówienia"
+        },
+        "SalesDiagram":{
+            "count":"szt.",
+            "titleInc":"Obrót [PLN]",
+            "titleCount" : "Sprzedane szt.",
+            "noData":"Brak danych do wykresu",
+            "thereWillBe":"Tu wykres pojawi się, po złożeniu zamówień",
+            "today":"dzisiaj",
+            "yesterday":"wczoraj",
+            "thisWeek":"ten tydzień",
+            "prevWeek":"poprzedni tydzień",
+            "barDiag":"słupkowy",
+            "lineDiag":"liniowy",
+            "prevTime":"pokaż poprzedni okres",
+            "turnOver":"obrót",
+            "countSold":"sprzedane sztuki",
+            "turnOverFrom":"Obrót z ",
+            "soldFrom":"Sprzedane sztuki z ",
+            "working":"trwa "
+        },
+        "SalesQuality":{
+            "worstAsp":"Najgorsze aspekty:",
+            "seeMore":"Zobacz więcej",
+            "reviewNot":"Ocena jakości niedostępna",
+            "comm":"Tu pojawi się ocena jakości Twojej sprzedaży",
+            "sellQ":"Jakość sprzedaży"
+        }
+    },
+    "en":
+    {
+        "Header":{
+            "themeLight":"Light 🔆",
+            "themeDark":"Dark 🌙",
+            "logIn":"Log in",
+            "logOut":"Log out"
+        },
+        "OrdersPage":{
+            "title1Line":"This is order page",
+            "title2Line":"Selected type: "
+        },
+        "ReviewsPage":{
+            "title1Line":"This is buyers opinions page",
+            "title2Line":"Selected opinion with id:"
+        },
+        "SalesQualityPage":{
+            "title":"This is sales quality page"
+        },
+        "BuyerReview":{
+            "noComm":"(no comment)",
+            "notAva":"n/a",
+            "buyerOp":"Buyers opinions",
+            "pos":"positive",
+            "neg":"negative",
+            "all":"all",
+            "seeAll":"See all",
+            "noOp":"No buyers opinions",
+            "thereWillBe":"There will display buyers opinions"
+
+        },
+        "OfferRanking":{
+            "notAva":"n/a",
+            "soldOut":"Sold:",
+            "turnOver":"Turnover:",
+            "views":"Views:",
+            "offerRank":"Oferts ranking",
+            "leastBuy":"least bought",
+            "mostBuy":"most bought",
+            "comm":"Change category filter or wait for offerts display."
+        },
+        "Orders":{
+            "notsent":"Not sent",
+            "unpaid":"Unpaid",
+            "returned":"Returned",
+            "noOrders":"No orders",
+            "seePromo":"Check our offerts promoting service",
+            "seeSer":"See services",
+            "seeAll":"See all",
+            "orders":"Orders"
+        },
+        "SalesDiagram":{
+            "count":"pcs.",
+            "titleInc":"Turnover [PLN]",
+            "titleCount" : "Sold pcs.",
+            "noData":"No data from diagram",
+            "thereWillBe":"There will display, after confirming order",
+            "today":"today",
+            "yesterday":"yesterday",
+            "thisWeek":"this week",
+            "prevWeek":"previous week",
+            "barDiag":"bar",
+            "lineDiag":"line",
+            "prevTime":"see previous",
+            "turnOver":"turnover",
+            "countSold":"Sold items",
+            "turnOverFrom":"Turnover from ",
+            "soldFrom":"Sold items from ",
+            "working":"working "
+        },
+        "SalesQuality":{
+            "worstAsp":"Worst aspects:",
+            "seeMore":"See more",
+            "reviewNot":"Review is not avaible",
+            "comm":"There will display review of your sales",
+            "sellQ":"Sales quallity"
+        }
+    }
+}

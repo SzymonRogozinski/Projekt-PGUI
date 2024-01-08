@@ -1,7 +1,11 @@
 import OrdersDiagram from "./OrdersDiagram";
 import { useNavigate } from "react-router-dom";
+import {useSelector} from "react-redux";
+import dictionary from "../../Data-Containers/Dictionary.json"
 
 export default function OrdersWidget({ ordersData }) {
+  let appState = useSelector((state) => state.appState);
+  let lang =appState.selectedLanguage;
   let widgetContent;
   const nav = useNavigate();
   if (
@@ -18,11 +22,11 @@ export default function OrdersWidget({ ordersData }) {
         }}
       >
         <span className="text-hdg" style={{ flexFlow: "center" }}>
-          Brak zamówień
+        {dictionary[lang].Orders.noOrders}
         </span>
-        <span>Przejrzyj nasze usługi promowania ofert</span>
+        <span>{dictionary[lang].Orders.seePromo}</span>
         <br />
-        <button className="primary-button">Zobacz usługi</button>
+        <button className="primary-button">{dictionary[lang].Orders.seeSer}</button>
       </div>
     );
   } else {
@@ -34,14 +38,14 @@ export default function OrdersWidget({ ordersData }) {
           style={{ marginTop: "10px", alignSelf: "end" }}
           onClick={() => nav("/orders")}
         >
-          Zobacz wszystkie
+          {dictionary[lang].Orders.seeAll}
         </button>
       </>
     );
   }
   return (
     <div className="widget" id="ordersWidget">
-      <span className="widget-header">Zamówienia</span>
+      <span className="widget-header">{dictionary[lang].Orders.orders}</span>
       <div className="widget-content">{widgetContent}</div>
     </div>
   );
