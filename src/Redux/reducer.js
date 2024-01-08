@@ -1,5 +1,5 @@
 import AppState from "../Data-Containers/AppState/AppState";
-import AppData from "../Data-Containers/AppData/AppData";
+import AppData, {loadProfiles} from "../Data-Containers/AppData/AppData";
 import {Themes} from "../ProjectEnums";
 import appStore from "./store";
 
@@ -49,6 +49,24 @@ export function appReducer(state, action) {
             appState: as
         }
 
+    }
+    if (action?.type === "loginuser" && action?.user != null) {
+        let as = structuredClone(state.appState);
+        as.authenticatedUser = action.user;
+        state.appData.userProfiles = loadProfiles(action.user);
+        as.selectedProfile = state.appData.userProfiles[0] ?? null;
+        return {
+            ...state,
+            appState: as
+        }
+    }
+    if (action?.type === "logout") {
+        state.appData = new AppData();
+        state.appState.authenticatedUser = null;
+        state.appState.selectedProfile = null;
+        return {
+            ...state
+        }
     }
     return state;
 }

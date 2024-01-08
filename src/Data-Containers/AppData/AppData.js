@@ -2,16 +2,16 @@ import appDataJson from '../salesdata.json';
 import UserProfile from "./UserProfile";
 
 export default class AppData {
-  userProfiles;
-  constructor() {
-    this.userProfiles = loadProfiles();
-  }
-  
+    userProfiles;
+
+    constructor() {
+        this.userProfiles = [];
+    }
+    
 }
 
-function loadProfiles() {
-  console.log(appDataJson);
-  return appDataJson.map((profile)=>
+export function loadProfiles (user)  {
+    return appDataJson.filter(el=>el.user.toLowerCase() === user.toLowerCase())[0]?.profiles?.map((profile) =>
         new UserProfile(profile)
-      );
+    ) ?? [];
 }

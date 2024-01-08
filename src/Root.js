@@ -1,16 +1,14 @@
 import "./styles.css";
 import {useLayoutEffect, useState} from "react";
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 
 import Header from "./Header";
-import AppData from "./Data-Containers/AppData/AppData";
-import AppState from "./Data-Containers/AppState/AppState";
 import MainPage from "./MainPage";
 import OrdersPage from "./Pages/OrdersPage";
 import ReviewsPage from "./Pages/ReviewsPage";
 import SalesQualityPage from "./Pages/SalesQualityPage";
-import {Themes} from "./ProjectEnums";
 import {useDispatch, useSelector} from "react-redux";
+import LoginPage from "./Pages/LoginPage";
 
 export default function Root() {
     /*
@@ -23,26 +21,28 @@ export default function Root() {
     if (appState.selectedProfile == null) {
         dispatch({type: "select_profile"});
     }
-    
+
+    const ProtectedPath = ({children}) => {
+        return appState.authenticatedUser == null ? <Navigate to="/login"/> : children;
+    }
+
     return (
         <div className="Root">
-            <Header Profiles={appData.userProfiles}/>{" "}
+            <Header Profiles={appData.userProfiles} isAuthenticated={appState.authenticatedUser != null}/>
             <BrowserRouter>
                 <Routes>
                     <Route
                         index
                         path="/"
-                        element={<MainPage selectedProfile={appState.selectedProfile}/>}
+                        element={<ProtectedPath><MainPage selectedProfile={appState.selectedProfile}/></ProtectedPath>}
                     />
-                    <Route path="/orders" element={<OrdersPage/>}/>
-                    <Route path="/reviews" element={<ReviewsPage/>}/>
-                    <Route path="/salesquality" element={<SalesQualityPage/>}/>
+                    <Route path="/orders" element={<ProtectedPath><OrdersPage/></ProtectedPath>}/>
+                    <Route path="/reviews" element={<ProtectedPath><ReviewsPage/></ProtectedPath>}/>
+                    <Route path="/salesquality" element={<ProtectedPath><SalesQualityPage/></ProtectedPath>}/>
+                    <Route path="/login" element={<LoginPage/>}/>
                 </Routes>
             </BrowserRouter>
         </div>
     );
 }
 
-function Layout() {
-    return <div/>;
-}

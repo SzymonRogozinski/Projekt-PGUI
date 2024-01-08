@@ -12,8 +12,8 @@ html * {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 3rem;
-    grid-row-gap: 3rem;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
 }
 
 #buyerReviewWidget{
@@ -26,12 +26,12 @@ html * {
 
 #ordersWidget{
     grid-area: 1 / 4 / 3 / 7;
-    justify-self: start;
+    justify-self: stretch;
 }
 
 #salesQualityWidget{
     grid-area: 1 / 7 / 3 / 10;
-    justify-self: start;
+    justify-self: stretch;
 }
 
 #salesDiagramWidget{
@@ -146,9 +146,10 @@ button.btn-tertiary.selected {
 
 .Header{
     width:100%;
-    height: 2.5rem;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
 }
 
 select {
@@ -161,6 +162,7 @@ select {
 .Selector{
     background-color: #ffffff;
     border: 3px solid;
+    height: 2.3rem;
     border-color: #6888e8;
     text-align: center;
     border-radius: 1rem;
@@ -204,7 +206,7 @@ img.comment-icon {
     max-width: 80px;
 }
 
-.offer-ranking-data-col {
+.center-wrapper-col {
     flex-flow: column;
     display: flex;
     align-items: center;

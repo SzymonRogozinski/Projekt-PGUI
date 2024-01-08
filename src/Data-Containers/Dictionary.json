@@ -5,7 +5,8 @@
             "themeLight":"Jasny 🔆",
             "themeDark":"Ciemny 🌙",
             "logIn":"Zaloguj się",
-            "logOut":"Wyloguj się"
+            "logOut":"Wyloguj się",
+            "loggedInAs": "Zalogowany jako"
         },
         "OrdersPage":{
             "title1Line":"To jest strona zamówień",
@@ -38,7 +39,8 @@
             "offerRank":"Ranking ofert",
             "leastBuy":"najrzadziej",
             "mostBuy":"najczęściej",
-            "comm":"Zmień kategorię filtrów, lub poczekaj na pojawienie się ofert."
+            "comm":"Zmień kategorię filtrów, lub poczekaj na pojawienie się ofert.",
+            "noOffersHdg" : "Brak ofert w rankingu"
         },
         "Orders":{
             "notsent":"Niewysłane",
@@ -67,7 +69,8 @@
             "countSold":"sprzedane sztuki",
             "turnOverFrom":"Obrót z ",
             "soldFrom":"Sprzedane sztuki z ",
-            "working":"trwa "
+            "working":"trwa ",
+            "salesDiagram": "Wykres sprzedaży"
         },
         "SalesQuality":{
             "worstAsp":"Najgorsze aspekty:",
@@ -75,6 +78,12 @@
             "reviewNot":"Ocena jakości niedostępna",
             "comm":"Tu pojawi się ocena jakości Twojej sprzedaży",
             "sellQ":"Jakość sprzedaży"
+        },
+        "LoginPage": {
+            "password": "Hasło",
+            "btnPlaceholder": "Zaloguj się >",
+            "hdg": "Zaloguj się do panelu sprzedawcy",
+            "loginErr": "Nieprawidłowe dane logowania"
         }
     },
     "en":
@@ -83,7 +92,8 @@
             "themeLight":"Light 🔆",
             "themeDark":"Dark 🌙",
             "logIn":"Log in",
-            "logOut":"Log out"
+            "logOut":"Log out",
+            "loggedInAs" : "Logged in as"
         },
         "OrdersPage":{
             "title1Line":"This is order page",
@@ -99,13 +109,13 @@
         "BuyerReview":{
             "noComm":"(no comment)",
             "notAva":"n/a",
-            "buyerOp":"Buyers opinions",
+            "buyerOp":"Buyer reviews",
             "pos":"positive",
             "neg":"negative",
             "all":"all",
             "seeAll":"See all",
-            "noOp":"No buyers opinions",
-            "thereWillBe":"There will display buyers opinions"
+            "noOp":"No buyers' reviews",
+            "thereWillBe":"Buyers' reviews will appear here"
 
         },
         "OfferRanking":{
@@ -113,17 +123,18 @@
             "soldOut":"Sold:",
             "turnOver":"Turnover:",
             "views":"Views:",
-            "offerRank":"Oferts ranking",
+            "offerRank":"Offer ranking",
             "leastBuy":"least bought",
             "mostBuy":"most bought",
-            "comm":"Change category filter or wait for offerts display."
+            "comm":"Change category filter or wait for offers to display",
+            "noOffersHdg" : "Offer ranking is not available"
         },
         "Orders":{
             "notsent":"Not sent",
             "unpaid":"Unpaid",
             "returned":"Returned",
             "noOrders":"No orders",
-            "seePromo":"Check our offerts promoting service",
+            "seePromo":"Check out our offer promoting services",
             "seeSer":"See services",
             "seeAll":"See all",
             "orders":"Orders"
@@ -133,7 +144,7 @@
             "titleInc":"Turnover [PLN]",
             "titleCount" : "Sold pcs.",
             "noData":"No data from diagram",
-            "thereWillBe":"There will display, after confirming order",
+            "thereWillBe":"Diagram will appear when you have more orders",
             "today":"today",
             "yesterday":"yesterday",
             "thisWeek":"this week",
@@ -145,14 +156,21 @@
             "countSold":"Sold items",
             "turnOverFrom":"Turnover from ",
             "soldFrom":"Sold items from ",
-            "working":"working "
+            "working":"goes on ",
+            "salesDiagram": "Sales diagram"
         },
         "SalesQuality":{
             "worstAsp":"Worst aspects:",
             "seeMore":"See more",
-            "reviewNot":"Review is not avaible",
-            "comm":"There will display review of your sales",
-            "sellQ":"Sales quallity"
+            "reviewNot":"Review is not available",
+            "comm":"Review of your sales will appear here",
+            "sellQ":"Sales quality"
+        },
+        "LoginPage": {
+            "password": "Password",
+            "btnPlaceholder": "Log in >",
+            "hdg": "Seller's dashboard login",
+            "loginErr": "Invalid login credentials"
         }
     }
 }

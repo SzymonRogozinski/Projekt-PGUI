@@ -56,7 +56,7 @@ export default function OfferRankingWidget({ offerRankingData }) {
               </div>
         ) : (
             <div className="widget-content inactive-widget-content">
-              <span className="text-hdg">Brak ofert w rankingu</span>
+              <span className="text-hdg">{dictionary[lang].OfferRanking.noOffersHdg}</span>
               <span>
               {dictionary[lang].OfferRanking.comm}
             </span>

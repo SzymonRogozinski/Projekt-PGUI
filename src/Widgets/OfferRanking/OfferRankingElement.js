@@ -15,17 +15,17 @@ export default function OfferRankingElement({ offerData, filterMode }) {
     >
       <img className="comment-icon" src={offerData.img} />
       <span>{offerData.name ?? dictionary[lang].OfferRanking.notAva}</span>
-      <div className="offer-ranking-data-col">
+      <div className="center-wrapper-col">
         <span>{dictionary[lang].OfferRanking.soldOut}</span>
         <span>{offerData.soldUnits ?? dictionary[lang].OfferRanking.notAva} szt.</span>
       </div>
       {filterMode == RankingSorting.MostBuyed ? (
-        <div className="offer-ranking-data-col">
+        <div className="center-wrapper-col">
           <span>{dictionary[lang].OfferRanking.turnOver}</span>
           <span>{offerData.turnover ?? dictionary[lang].OfferRanking.notAva} PLN</span>
         </div>
       ) : (
-        <div className="offer-ranking-data-col">
+        <div className="center-wrapper-col">
           <span>{dictionary[lang].OfferRanking.views}</span>
           <span>{offerData.viewsCount ?? dictionary[lang].OfferRanking.notAva}</span>
         </div>

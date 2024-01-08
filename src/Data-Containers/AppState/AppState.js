@@ -3,6 +3,7 @@ export default class AppState {
   selectedLanguage;
   selectedProfile;
   selectedTheme;
+  authenticatedUser;
   //Default constructor
   constructor() {
     this.selectedLanguage = Languages.Polish;
