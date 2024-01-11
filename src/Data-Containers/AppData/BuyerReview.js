@@ -7,6 +7,6 @@ export default class BuyerReview {
     this.id = id;
     this.username = username;
     this.type = type;
-    this.comment;
+    this.comment = comment;
   }
 }

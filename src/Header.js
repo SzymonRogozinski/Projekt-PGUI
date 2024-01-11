@@ -36,7 +36,7 @@ export default function Header({Profiles, isAuthenticated}) {
             <Selector choices={LanguageChoises} parameter={lang} actionType={"toggle language"}/>
             <Selector choices={ThemeChoises} parameter={theme} actionType={"toggle theme"}/>
             {isAuthenticated ?
-                <Selector choices={ProfileChoises} parameter={profile} actionType={"toggle profile"}/> : null}
+                <Selector choices={ProfileChoises} parameter={profile} actionType={"toggle profile"} naLabel={dictionary[lang].Header.noProfiles}/> : null}
             <div className="center-wrapper-col">
                 {isAuthenticated ? <span
                     style={{marginBottom: "5px"}}>{dictionary[lang].Header.loggedInAs}: {appState.authenticatedUser}</span> : null}
@@ -47,7 +47,7 @@ export default function Header({Profiles, isAuthenticated}) {
     );
 }
 
-function Selector({choices, parameter, actionType}) {
+function Selector({choices, parameter, actionType, naLabel="n/a"}) {
     const dispatch = useDispatch();
     let [par, setPar] = useState(parameter);
     return (
@@ -61,7 +61,7 @@ function Selector({choices, parameter, actionType}) {
             disabled={(choices?.length??0) === 0}
         >
             {((choices?.length ?? 0) === 0) ?
-                <option className="Option" value="n/a">n/a</option> : choices.map((c, i) => (
+                <option className="Option" value="n/a">{naLabel}</option> : choices.map((c, i) => (
                     <option className="Option" key={i} value={c.key}>{c.value}</option>
                 ))}
         </select>

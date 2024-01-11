@@ -6,7 +6,8 @@
             "themeDark":"Ciemny 🌙",
             "logIn":"Zaloguj się",
             "logOut":"Wyloguj się",
-            "loggedInAs": "Zalogowany jako"
+            "loggedInAs": "Zalogowany jako",
+            "noProfiles": "Brak dostępnych profili"
         },
         "OrdersPage":{
             "title1Line":"To jest strona zamówień",
@@ -93,7 +94,8 @@
             "themeDark":"Dark 🌙",
             "logIn":"Log in",
             "logOut":"Log out",
-            "loggedInAs" : "Logged in as"
+            "loggedInAs" : "Logged in as",
+            "noProfiles": "No available profiles"
         },
         "OrdersPage":{
             "title1Line":"This is order page",
