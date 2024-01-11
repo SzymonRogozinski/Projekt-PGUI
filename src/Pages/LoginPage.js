@@ -4,7 +4,7 @@ import dictionary from "../Data-Containers/Dictionary.json"
 import {useState} from "react";
 
 export default function LoginPage() {
-    
+
     let dispatch = useDispatch();
     let nav = useNavigate();
     let lang = useSelector((state) => state.appState.selectedLanguage);
@@ -12,28 +12,27 @@ export default function LoginPage() {
     const onFormSubmit = (e) => {
         e.preventDefault();
         let data = new FormData(e.currentTarget);
-        if (data.get("pass") == "admin" && data.get("login")!=null && data.get("login") != "") {
-            dispatch({type: "loginuser", user:data.get("login")});
+        if (data.get("pass") == "admin" && data.get("login") != null && data.get("login") != "") {
+            dispatch({type: "loginuser", user: data.get("login")});
             nav("/");
         } else {
             setMessage(dictionary[lang].LoginPage.loginErr);
-            setTimeout(()=> setMessage(null), 2000);
+            setTimeout(() => setMessage(null), 2000);
         }
     }
-    
-    return <div>
-        <h1>{dictionary[lang].LoginPage.hdg}</h1>
-        <form onSubmit={onFormSubmit} >
-            <input type="text" placeholder="Login" name="login"/>
+
+    return <form onSubmit={onFormSubmit}>
+        <div className="login-page-wrapper">
+            <h1>{dictionary[lang].LoginPage.hdg}</h1>
             <br/>
+
+            <input type="text" placeholder="Login" name="login"/>
             <br/>
             <input type="password" placeholder={dictionary[lang].LoginPage.password} name="pass"/>
             <br/>
-            <br/>
             <input type="submit" value={dictionary[lang].LoginPage.btnPlaceholder}/>
             <br/>
-            <br/>
-            <span style={{fontWeight: "800"}}>{message??""}</span>
-        </form>
-    </div>
+            <span style={{fontWeight: "800"}}>{message ?? ""}</span>
+        </div>
+    </form>
 }

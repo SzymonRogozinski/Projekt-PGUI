@@ -1,6 +1,6 @@
 import {useDispatch, useSelector} from "react-redux";
 import {Themes, Languages} from "./ProjectEnums";
-import {useState} from "react";
+import {useRef, useState} from "react";
 import {Link, useNavigate} from "react-router-dom";
 import dictionary from "./Data-Containers/Dictionary.json"
 
@@ -50,21 +50,25 @@ export default function Header({Profiles, isAuthenticated}) {
 function Selector({choices, parameter, actionType, naLabel="n/a"}) {
     const dispatch = useDispatch();
     let [par, setPar] = useState(parameter);
-    return (
-        <select
-            className="Selector"
-            value={par}
-            onChange={(e) => {
-                setPar(e.target.value);
-                dispatch({type: actionType, value: e.target.value});
-            }}
-            disabled={(choices?.length??0) === 0}
-        >
-            {((choices?.length ?? 0) === 0) ?
-                <option className="Option" value="n/a">{naLabel}</option> : choices.map((c, i) => (
-                    <option className="Option" key={i} value={c.key}>{c.value}</option>
-                ))}
-        </select>
+    return (<div>
+            <select
+                className="Selector"
+                value={par}
+                onChange={(e) => {
+                    setPar(e.target.value);
+                    dispatch({type: actionType, value: e.target.value});
+                }}
+                disabled={(choices?.length ?? 0) === 0}
+            >
+                {((choices?.length ?? 0) === 0) ?
+                    <option className="Option" value="n/a">{naLabel}</option> : choices.map((c, i) => (
+                        <option className="Option" key={i} value={c.key}>{c.value}</option>
+                    ))}
+            </select>
+            <span className="material-icons" style={{position: "relative", right: 30, top:"5px", pointerEvents: "none"}}>
+keyboard_arrow_down
+</span>
+        </div>
     );
 }
 
