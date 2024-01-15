@@ -160,13 +160,13 @@ select {
   }
 
 .Selector{
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
     border: 3px solid;
     height: 2.3rem;
     border-color: #6888e8;
     text-align: center;
     border-radius: 1rem;
-    color: #646464;
+    /*color: #646464;*/
     font-size:large;
     /*min-width: 15rem;*/
     width: 17rem;
@@ -185,7 +185,7 @@ button.b-all {
 }
 
 .dark-root button.b-pos {
-    color: #7396ea;
+    color: #b9cfff;
 }
 
 .dark-root button.b-neg {
@@ -193,7 +193,7 @@ button.b-all {
 }
 
 .dark-root button.b-all {
-    color: #7396ea;
+    color: #b9cfff;
 }
 
 div.inactive-widget-content {

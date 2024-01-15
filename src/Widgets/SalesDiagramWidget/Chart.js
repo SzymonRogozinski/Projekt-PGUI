@@ -12,6 +12,7 @@ export default function Chart({chartType, dps, measurementElement}) {
     
     const options = {
         theme: selTheme === Themes.Light ? "light1" : "dark1",
+        height: 519,
         backgroundColor: null,
         data: [
             {
